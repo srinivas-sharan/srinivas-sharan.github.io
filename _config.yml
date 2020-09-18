@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Sharan Srinivas"
   avatar           : "profile.png"
-  bio              : "Assitant Professor, University of Missouri"
+  bio              : "Assitant Professor"
   location         : "Missouri, USA"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  employer         : "University of Missouri"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=DrWVHmIAAAAJ&hl=en&oi=ao"
+  email            : "SrinivasSh@missouri.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "srinivas-sharan"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/sharan-srinivas-ph-d-1ba7b156"
+  orcid            : "https://orcid.org/0000-0003-2066-8836"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
