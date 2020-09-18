@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: 
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Sharan Srinivas is an Assistant Professor with a joint appointment in the Department of Industrial & Manufacturing Systems Engineering and the Department of Marketing at the Robert J. Trulaske Sr. College of Business, University of Missouri - Columbia. He is also a visiting faculty at the University of Passau, Germany. Dr. Srinivas received his Ph.D. in industrial engineering and operations research from Pennsylvania State University.
+I am an Assistant Professor with a joint appointment in the [Department of Industrial & Manufacturing Systems Engineering](https://engineering.missouri.edu/academics/imse/) and the [Department of Marketing](https://business.missouri.edu/departments-faculty/marketing-department) at the Robert J. Trulaske Sr. College of Business, University of Missouri (MU). I am also a visiting faculty at the University of Passau, Germany. Besides, I have been an investigator on a range of industry-based research projects.
 
-Dr. Srinivas’ area of specialization is data analytics and operations research with research interests in healthcare operations management, logistics, smart service systems, and supply chain. He has been an investigator on a range of industry-based research projects. He has published over 40 peer-reviewed articles in journals, conferences, and books. Dr. Srinivas has taught undergraduate, graduate, and MBA level courses that include topics pertaining to data analytics, machine learning, simulation, service systems, and supply chain optimization. He is also an active member of INFORMS and IISE professional societies, and has served numerous times as a session chair in their annual conferences. Dr. Srinivas is a certified six sigma black belt and recipient of multiple awards (INFORMS Koopman prize, Winemiller Excellence Award, Richard Wallace Faculty Grant, Penn State Doctoral Fellowship, Service Enterprise Engineering Fellowship).
+My area of specialization is data analytics and operations research with research interests in healthcare operations management, logistics, smart service systems, and supply chain.  I published over 40 peer-reviewed articles in journals, conferences, and books. At MU,  I teach undergraduate, graduate, and MBA level courses that include topics pertaining to data analytics, machine learning, simulation, service systems, and supply chain optimization. I am also an active member of INFORMS and IISE professional societies, and has served numerous times as a chair in their annual conferences. I am a certified six sigma black belt and recipient of multiple awards (INFORMS Koopman prize, Winemiller Excellence Award, Richard Wallace Faculty Grant, Penn State Doctoral Fellowship, Service Enterprise Engineering Fellowship).
 
 A data-driven personal website
 ======
@@ -18,14 +18,13 @@ Like many other Jekyll-based GitHub Pages templates, academicpages makes you sep
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
+Education
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+1. PhD, Industrial Engineering and Operations Research, Pennsylvania State University, USA
+1. MEng., Industrial Engineering and Operations Research, Pennsylvania State University, USA
+1. MS, Industrial and Systems Engineering, Binghamton University, USA
+1. BE, Industrial Engineering, College of Engineering-Guindy, Anna University, India
+
 
 Site-wide configuration
 ------
