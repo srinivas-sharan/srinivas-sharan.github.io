@@ -9,7 +9,7 @@ main:
   #- title: "Talks"
   #  url: /talks/    
 
-- title: "Research"
+  - title: "Research"
     url: /portfolio/
 
   - title: "Teaching"
@@ -18,8 +18,8 @@ main:
   #- title: "Blog Posts"
   #  url: /year-archive/
     
-  #- title: "CV"
-  #  url: /cv/
+  - title: "Service"
+    url: /cv/
     
   #- title: "Guide"
   #  url: /markdown/
