@@ -24,7 +24,7 @@ Education
 
 Recent News
 ======
-* Sep 8, 2020: Paper titled "Air Taxi Service for Urban Mobility: A Critical Review of Recent Developments, Future Challenges, and Opportunities." accepted for publication in Transportation Research Part E: Logistics and Transportation Review.
+* Sep 8, 2020: Paper titled "Air Taxi Service for Urban Mobility: A Critical Review of Recent Developments, Future Challenges, and Opportunities." has been accepted for publication in Transportation Research Part E: Logistics and Transportation Review.
 * Aug 14, 2020: Paper titled "Modeling and Analysis of Business Process Reengineering Strategies for Improving Emergency Department Efficiency" has been accepted for publication in Simulation: Transactions of the Society for Modeling and Simulation International.
 * Aug 11, 2020: PhD student, Mohamed Salama, passed his comprehensive exam
 * July 27, 2020: Grant awarded by Roche Molecular Systems (along with investigators Drs. Richard Hammer and Suchithra Rajendran)
