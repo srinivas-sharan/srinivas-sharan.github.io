@@ -11,18 +11,6 @@ redirect_from:
 
 I enjoy teaching as it gives me the opportunity to educate and engage students intellectually. My teaching philosophy is based around the idea of active and experiential learning, where students learn the concepts and techniques by participating and engaging in various activities such as educational games, case studies, discussions, and problem-solving. I believe that such an approach would not only help the intellectually gifted but also the below-average students to learn and succeed. In particular, my goal as a teacher is preparing future professionals and leaders to use a quantitative approach (such as data analytics and simulation/mathematical modeling) for decision-making as well as improving business operations in manufacturing and service industry. Since I alternate teaching in engineering and business schools, I have tailored the learning outcomes for each student group depending on their background, technical expertise, and career paths, while ensuring to follow my teaching philosophy and achieving the goals.  
 
-Specifically, undergraduate engineering students must 
-1. understand the fundamental theories/concepts, 
-1. have the ability to identify, define, and formulate a problem
-1. use techniques learned in the course and develop quantitative models using the appropriate software/programming language. 
-
-On the other hand, the learning objective for undergraduate business majors is to 
-1. provide awareness on different quantitative tools,
-1. identify appropriate data-driven techniques for a business problem, 
-1. interpret the outcomes from the model to derive actionable insights. 
-
-In addition to the aforementioned capabilities, graduate students are expected to demonstrate their ability to extend the techniques learned in class to develop novel approaches/alternatives for problem-solving.
-
 
 Course Taught
 ======
