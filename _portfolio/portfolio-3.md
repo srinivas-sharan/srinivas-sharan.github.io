@@ -1,6 +1,6 @@
 ---
 title: "Service Systems Engineering and Management"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/ssem.png'>"
 collection: portfolio
 ---
 Motivated by the fact that service systems contribute to more than 75% of US GDP and provide close to 80% employment, a significant portion of my research efforts focused on improving service systems other than healthcare, such as education and hospitality. Since humans do a major portion of the work in the service industry, there exist a lot of variation, delays, non-value-added activities in their process. My research has led to the identification of these inefficiencies and the adoption of a new, improved process that was driven by techniques such as lean, six sigma, simulation modeling, and data analytics. Some of my recent publications are as follows:
