@@ -38,14 +38,14 @@ Course Taught
       * Software Used: MS Excel, Python
 
 
-  **IMSE 4280/7280 - Systems Simulation:** Many business systems (e.g., manufacturing facility, call centers, hospitals, retailers, transportation and logistics) experience complex problems at the strategic, tactical and operational levels. The complexity of these systems and the uncertain nature of the environment often make simulation the only feasible analytic tool to model and study the design and operations of these systems. This course enables the students to design, develop and evaluate a simulation model for quantitative decision-making. This course covers the important topics, concepts, and tools in discrete-event simulation. It covers all the steps involved in conducting a simulation experiment/project, namely, data collection, random number generation, input modeling, discrete-event modeling and experimentation, statistical testing, alternative comparison methodologies, and output analysis. The course adopts real-life applications to illustrate the concepts and provides hands-on training.
+  * **IMSE 4280/7280 - Systems Simulation:** Many business systems (e.g., manufacturing facility, call centers, hospitals, retailers, transportation and logistics) experience complex problems at the strategic, tactical and operational levels. The complexity of these systems and the uncertain nature of the environment often make simulation the only feasible analytic tool to model and study the design and operations of these systems. This course enables the students to design, develop and evaluate a simulation model for quantitative decision-making. This course covers the important topics, concepts, and tools in discrete-event simulation. It covers all the steps involved in conducting a simulation experiment/project, namely, data collection, random number generation, input modeling, discrete-event modeling and experimentation, statistical testing, alternative comparison methodologies, and output analysis. The course adopts real-life applications to illustrate the concepts and provides hands-on training.
       * Semsters Taught: Fall 2018, Fall 2019 
       * Software Used: MS Excel, Simio, Minitab, IBM SPSS
 
 Student Advising
 ======
 
-Current Studens
+Current Students
 ------
 * Mohamed Salama (Ph.D., IE)
 * Haya Salah (Ph.D., IE)
@@ -53,7 +53,7 @@ Current Studens
 Graduated Advisees
 -----
 * Dustin Smith (MS, IE): Currently working as a Project Engineer at Lochmueller Group
-* Alexander Jackson(MS, IE): Currently working as a Process Engineer at Lockheed Martin
+* Alexander Jackson (MS, IE): Currently working as a Process Engineer at Lockheed Martin
 
 Advising on Research Projects for Graduate and Undergraduate Students
 -----
@@ -63,9 +63,9 @@ I closely worked with the following students on research projects for a duration
 * Shitao Yu, Ph.D., IE, current
 * Roland Paul Nazareth, M.S., IE, current
 * Ashish Kambli, M.S., IE, Summer 2019
-* Jaiharan Venkatesan (M.S., IE, May 2018)
+* Jaiharan Venkatesan, M.S., IE, May 2018
 * John Tocco, B.S. IE, Spring 2019 
 * Alex Stone, B.S., IE, Spring 2019 
-* Joshua Zack, B. S. IE, Spring 2018 
-* Abdulah Sibalo, B. S. Economics, Spring 2018 
+* Joshua Zack, B.S. IE, Spring 2018 
+* Abdulah Sibalo, B.S. Economics, Spring 2018 
 
