@@ -7,196 +7,62 @@ redirect_from:
   - /markdown.html
 ---
 
-## Locations of key files/directories
+I am actively involved with leading international professional societies, namely, [Institute of Industrial and Systems Engineers (IISE)](https://www.iise.org/Home/) and [Institute for Operations Research and the Management Sciences (INFORMS)](https://www.informs.org/) in several leadership roles. In addition to being associated with professional societies, I am also invovled in various committees at the university-, college- and department-level at MU. Besides, I also serve as a reviewer for numerous reputed international journals and review the research works in the field of data analytics, operations managagement, operations research and industrial engineering. Listed below are some of my recent professional contributions.
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
 
-## Tips and hints
+Professional Roles in International Societies
+======
+* **Director**, IISE Operations Research Division, 2020 – 2022
+* **Member**, Institute for Operations Research and Management Sciences (INFORMS) 
+* **Member**, Institute of Industrial and Systems Engineers (IISE)
 
-* Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
-  * Green check: successful build
-  * Orange circle: building
-  * Red X: error
-  * No icon: not built
 
-## Resources
- * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
+Editorial and Refereeing Responsibilities
+======
+* Currently, I am editing a book titled “Supply Chain Management in Manufacturing and Service Systems: Advanced Analytics for Smarter Decisions” for Springer publisher along with Suchithra Rajendran (University of Missouri) and Hans Ziegler (University of Passau) as co-editors.
+* I have served as a reviewer for the following journals and reviewed over 20 articles:
+  * Journal of Intelligent Manufacturing 
+  * Health Systems 
+  * Artificial Intelligence
+  * Expert Systems with Applications 
+  * Nature Partner Journals Digital Medicine 
+  * Computers and Industrial Engineering 
+  * Networks and Spatial Economics 
+  * International Journal of Production Research
 
-## Markdown guide
 
-### Header three
+Organization and Chairmanship of Technical Sessions, Workshops And Conferences 
+======
 
-#### Header four
+* **Judge**, IISE Operations Research Division Undergraduate Student Paper Competition, 2020
+* **Co-Chair and Co-organizer**, Operations Research Track, IISE Annual Conference, 2021
+* Invited Session Organizations
+  * **Chair and Organizer** for a session titled “Empowering Smarter Healthcare Decisions Using Operations Research and Data Analytics” at the INFORMS Annual Meeting, Seattle, WA, October 20-24, 2019
+  * **Chair and Organizer** for a session titled “Operations Research and Analytics for Healthcare” at INFORMS Annual Meeting, Houston, TX, October 22-25, 2017
+  * **Chair and Organizer** for a session titled “Service Systems Engineering and Management” at IISE Annual Conference, Pittsburgh, PA, May 19-22, 2017.
+  * **Chair and Organizer** for a session titled “Healthcare Modeling” at the INFORMS 
 
-##### Header five
 
-###### Header six
+Service to MU
+======
+* Led the operations team that conducted a process reengineering study of the MU Emergency Department to reduce overcrowding and patient waiting time
+* Advised a group of graduate students in a six-sigma based process improvement study for improving service responsiveness at MU Campus Dining Services 
+Service to the UM System
+* Participated in UM Faculty Scholars, 2019-2020 Cohort
 
-## Blockquotes
+Division/College Service
+======
+* Serve on College of Engineering Annual Lectureship Committee, 2019-present
+* Participated in Trulaske College of Business faculty candidate interviews, 2019-2020
+* Served on Global Supply Chain Management Certificate development committee, 2018
+* Served on Global Supply Chain Management Certificate advisory committee, 2018
 
-Single line blockquote:
+Departmental Service
+======
+* Participated in Management Department’s faculty candidate interviews, 2020
+* Member, Course Planning Committee, Department of Industrial and Manufacturing Systems Engineering, University of Missouri – Columbia, 2019 - Present
+* Member, Curriculum Development Committee, Department of Industrial and Manufacturing Systems Engineering, University of Missouri – Columbia, 2017 - Present
+* Member, Marketing Analytics Committee, Department of Marketing, University of Missouri – Columbia, 2017 – Present
+* Participated in Marketing Department’s faculty candidate interviews, 2018 and 2019
+* Participated as a guest speaker in IMSE graduate seminar, 2017-2019
 
-> Quotes are cool.
-
-## Tables
-
-### Table 1
-
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
-
-### Table 2
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
-
-## Definition Lists
-
-Definition List Title
-:   Definition list division.
-
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
-
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
-
-Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
-
-## Unordered Lists (Nested)
-
-  * List item one 
-      * List item one 
-          * List item one
-          * List item two
-          * List item three
-          * List item four
-      * List item two
-      * List item three
-      * List item four
-  * List item two
-  * List item three
-  * List item four
-
-## Ordered List (Nested)
-
-  1. List item one 
-      1. List item one 
-          1. List item one
-          2. List item two
-          3. List item three
-          4. List item four
-      2. List item two
-      3. List item three
-      4. List item four
-  2. List item two
-  3. List item three
-  4. List item four
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
-
-## HTML Tags
-
-### Address Tag
-
-<address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
-</address>
-
-### Anchor Tag (aka. Link)
-
-This is an example of a [link](http://github.com "Github").
-
-### Abbreviation Tag
-
-The abbreviation CSS stands for "Cascading Style Sheets".
-
-*[CSS]: Cascading Style Sheets
-
-### Cite Tag
-
-"Code is poetry." ---<cite>Automattic</cite>
-
-### Code Tag
-
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
-
-### Strike Tag
-
-This tag will let you <strike>strikeout text</strike>.
-
-### Emphasize Tag
-
-The emphasize tag should _italicize_ text.
-
-### Insert Tag
-
-This tag should denote <ins>inserted</ins> text.
-
-### Keyboard Tag
-
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
-
-### Preformatted Tag
-
-This tag styles large blocks of code.
-
-<pre>
-.post-title {
-  margin: 0 0 5px;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 1.2;
-  and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-</pre>
-
-### Quote Tag
-
-<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
-
-### Strong Tag
-
-This tag shows **bold text**.
-
-### Subscript Tag
-
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
-
-### Superscript Tag
-
-Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
-
-### Variable Tag
-
-This allows you to denote <var>variables</var>.
