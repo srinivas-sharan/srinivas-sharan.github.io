@@ -24,6 +24,7 @@ Education
 
 Recent News
 ======
+* Nov 7, 2020: Best Paper Finalist for research titled "Discovering  Airline-specific  Business  Intelligence  FromOnline  Passenger Reviews:  An  Unsupervised  Text  Analytics  Approach" at the INFORMS Data Mining and Decision Analytics Competition, INFORMS Annual Meeting.
 * Sep 8, 2020: Paper titled "Air Taxi Service for Urban Mobility: A Critical Review of Recent Developments, Future Challenges, and Opportunities." has been accepted for publication in Transportation Research Part E: Logistics and Transportation Review.
 * Aug 14, 2020: Paper titled "Modeling and Analysis of Business Process Reengineering Strategies for Improving Emergency Department Efficiency" has been accepted for publication in Simulation: Transactions of the Society for Modeling and Simulation International.
 * Aug 11, 2020: PhD student, Mohamed Salama, passed his comprehensive exam
