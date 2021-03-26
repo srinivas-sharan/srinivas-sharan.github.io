@@ -24,7 +24,9 @@ Education
 
 Recent News
 ======
-* Feb 4, 2021: Paper titled "Predicting Demand for Air Taxi Urban Aviation Services using Machine Learning Algorithms" accepted for publication in Journal of Air Transport Management.
+* Mar 1, 2021: Appointed as Core Faculty at the [**MU Institute of Data Science and Informatics**](https://muidsi.missouri.edu/person/sharan-srinivas/)
+* Feb 4, 2021: Paper titled "Predicting Demand for Air Taxi Urban Aviation Services using Machine Learning Algorithms" accepted for publication in Journal of Air Transport Management.* Feb 4, 2021: Paper titled "Predicting Demand for Air Taxi Urban Aviation Services using Machine Learning Al
+gorithms" accepted for publication in Journal of Air Transport Management.
 * Nov 7, 2020: Best Paper Finalist for research titled "Discovering  Airline-specific  Business  Intelligence  FromOnline  Passenger Reviews:  An  Unsupervised  Text  Analytics  Approach" at the INFORMS Data Mining and Decision Analytics Competition, INFORMS Annual Meeting.
 * Sep 8, 2020: Paper titled "Air Taxi Service for Urban Mobility: A Critical Review of Recent Developments, Future Challenges, and Opportunities." has been accepted for publication in Transportation Research Part E: Logistics and Transportation Review.
 * Aug 14, 2020: Paper titled "Modeling and Analysis of Business Process Reengineering Strategies for Improving Emergency Department Efficiency" has been accepted for publication in Simulation: Transactions of the Society for Modeling and Simulation International.
