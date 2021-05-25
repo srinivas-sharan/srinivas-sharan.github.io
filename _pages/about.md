@@ -24,6 +24,7 @@ Education
 
 Recent News
 ======
+* May 4, 2021: Appointed as Academic Editor for the [**Journal of Healthcare Engineering**](https://www.hindawi.com/journals/jhe/?utm_source=google&utm_medium=cpc&utm_campaign=HDW_MRKT_GBL_SUB_ADWO_PAI_DYNA_JOUR_X&gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-LpaXRKWJgSBntlnfb9hsrUuMm9GKX5UaAOvTLeny-ETtKWhskzCHsaAjHNEALw_wcB)
 * Mar 1, 2021: Appointed as Core Faculty at the [**MU Institute of Data Science and Informatics**](https://muidsi.missouri.edu/person/sharan-srinivas/)
 * Feb 4, 2021: Paper titled [**"Predicting Demand for Air Taxi Urban Aviation Services using Machine Learning Algorithms"**](https://doi.org/10.1016/j.jairtraman.2021.102043) accepted for publication in Journal of Air Transport Management.
 gorithms" accepted for publication in Journal of Air Transport Management.
