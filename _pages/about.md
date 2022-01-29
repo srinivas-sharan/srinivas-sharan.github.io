@@ -12,7 +12,7 @@ I am an Assistant Professor with a joint appointment in the [Department of Indus
 
 My area of specialization is data analytics and operations research with research interests in healthcare operations management, logistics, smart service systems, and supply chain.  I published over 40 peer-reviewed articles in journals, conferences, and books. At MU,  I teach undergraduate, graduate, and MBA level courses that include topics pertaining to data analytics, machine learning, simulation, service systems, and supply chain optimization. I am also an active member of INFORMS and IISE professional societies, and has served numerous times as a chair in their annual conferences. I am a certified six sigma black belt and recipient of multiple awards (INFORMS Koopman prize, Winemiller Excellence Award, Richard Wallace Faculty Grant, Penn State Doctoral Fellowship, Service Enterprise Engineering Fellowship).
 
-Download [**CV**](https://missouri.box.com/s/1lzp704lcspbigwplzyuwrkgm6d3fx2h) 
+Download [**CV**](https://mailmissouri-my.sharepoint.com/:b:/g/personal/srinivassh_umsystem_edu/EZ22kiyEG5hDkNdmViZ8fssBaYImN0xUSXlmWEQBEysY0w?e=Lanar8) 
 
 Education
 ======
@@ -24,6 +24,8 @@ Education
 
 Recent News
 ======
+* Sep, 2021: Grant awarded by Boeing (along with investigators: Drs. Noble and McGarvey)
+* Aug, 2021: Grant awarded by Missouri Dept of Higher Education and Workforce Development (along with investigators: Drs. Devlin, Seo, Scott, Matisziw)
 * May 4, 2021: Appointed as Academic Editor for the [**Journal of Healthcare Engineering**](https://www.hindawi.com/journals/jhe/?utm_source=google&utm_medium=cpc&utm_campaign=HDW_MRKT_GBL_SUB_ADWO_PAI_DYNA_JOUR_X&gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-LpaXRKWJgSBntlnfb9hsrUuMm9GKX5UaAOvTLeny-ETtKWhskzCHsaAjHNEALw_wcB)
 * Mar 1, 2021: Appointed as Core Faculty at the [**MU Institute of Data Science and Informatics**](https://muidsi.missouri.edu/person/sharan-srinivas/)
 * Feb 4, 2021: Paper titled [**"Predicting Demand for Air Taxi Urban Aviation Services using Machine Learning Algorithms"**](https://doi.org/10.1016/j.jairtraman.2021.102043) accepted for publication in Journal of Air Transport Management.
