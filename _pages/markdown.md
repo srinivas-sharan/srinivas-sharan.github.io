@@ -12,6 +12,7 @@ I am actively involved with leading international professional societies, namely
 
 Professional Roles in International Societies
 ======
+* **President-Elect**, IISE Operations Research Division, 2022 – 2023
 * **Director**, IISE Operations Research Division, 2020 – 2022
 * **Member**, Institute for Operations Research and Management Sciences (INFORMS) 
 * **Member**, Institute of Industrial and Systems Engineers (IISE)
@@ -19,21 +20,24 @@ Professional Roles in International Societies
 
 Editorial and Refereeing Responsibilities
 ======
-* Currently, I am editing a book titled “Supply Chain Management in Manufacturing and Service Systems: Advanced Analytics for Smarter Decisions” for Springer publisher along with Suchithra Rajendran (University of Missouri) and Hans Ziegler (University of Passau) as co-editors.
-* I have served as a reviewer for the following journals and reviewed over 20 articles:
+* Edited a book titled [“Supply Chain Management in Manufacturing and Service Systems: Advanced Analytics for Smarter Decisions”](https://link.springer.com/book/10.1007/978-3-030-69265-0) for Springer publisher along with Suchithra Rajendran (University of Missouri) and Hans Ziegler (University of Passau) as co-editors.
+* Ad-hoc reviewer for the following journals and reviewed over 75 articles:
+  * Artificial Intelligence
+  * Computers and Industrial Engineering
   * Journal of Intelligent Manufacturing 
   * Health Systems 
-  * Artificial Intelligence
   * Expert Systems with Applications 
-  * Nature Partner Journals Digital Medicine 
+  * npj Digital Medicine 
   * Computers and Industrial Engineering 
   * Networks and Spatial Economics 
   * International Journal of Production Research
+  * Omega
+
 
 
 Organization and Chairmanship of Technical Sessions, Workshops And Conferences 
 ======
-
+* **Lead Track Chair**, Operations Research Track, IISE Annual Conference, 2022
 * **Judge**, IISE Operations Research Division Undergraduate Student Paper Competition, 2020
 * **Co-Chair and Co-organizer**, Operations Research Track, IISE Annual Conference, 2021
 * Invited Session Organizations
@@ -59,6 +63,10 @@ Division/College Service
 
 Departmental Service
 ======
+* Faculty Advisor, MU IISE Student Chapter, 2021-Present
+* Member, IMSE Faculty Search Committe, 2022
+* Member, IMSE Faculty Search Committe, 2021
+* Participated in Management Department’s faculty candidate interviews, 2020
 * Participated in Management Department’s faculty candidate interviews, 2020
 * Member, Course Planning Committee, Department of Industrial and Manufacturing Systems Engineering, University of Missouri – Columbia, 2019 - Present
 * Member, Curriculum Development Committee, Department of Industrial and Manufacturing Systems Engineering, University of Missouri – Columbia, 2017 - Present
