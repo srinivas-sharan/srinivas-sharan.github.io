@@ -25,10 +25,8 @@ Education
 
 Recent News
 ======
-<<<<<<< Updated upstream
-* Sep, 2021: Grant awarded by Boeing (along with investigators: Drs. Noble and McGarvey)
-* Aug, 2021: Grant awarded by Missouri Dept of Higher Education and Workforce Development (along with investigators: Drs. Devlin, Seo, Scott, Matisziw)
 =======
+* Dec, 2021: Research work featured among [**Top 10 Stories of 2021**](https://engineering.missouri.edu/2021/robots-plastics-and-cows-top-10-research-stories-of-2021/) at MU College of Engineering
 * Sep, 2021: Grant awarded by Boeing (Co-I: Srinivas, PI: Noble)
 * Aug, 2021: Grant awarded by Missouri Dept of Higher Education and Workforce Development (PI: Srinivas, Co-Is: Seo, Scott, Matisziw)
 >>>>>>> Stashed changes
