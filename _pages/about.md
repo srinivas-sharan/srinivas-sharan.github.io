@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor with a joint appointment in the [Department of Industrial & Manufacturing Systems Engineering](https://engineering.missouri.edu/academics/imse/) and the [Department of Marketing](https://business.missouri.edu/departments-faculty/marketing-department) at the Robert J. Trulaske Sr. College of Business, University of Missouri (MU). I am also a visiting faculty at the University of Passau, Germany. Besides, I have been an investigator on a range of industry-based research projects.
+I am an Assistant Professor with a joint appointment in the [Department of Industrial &  Systems Engineering](https://engineering.missouri.edu/departments/ise/) and the [Department of Marketing](https://business.missouri.edu/departments-faculty/marketing-department) at the Robert J. Trulaske Sr. College of Business, University of Missouri (MU). I am also a visiting faculty at the University of Passau, Germany. Besides, I have been an investigator on a range of industry-based research projects.
 
 My area of specialization is data analytics and operations research with research interests in healthcare operations management, transportation/logistics, smart service systems and supply chain. I have been an investigator on a range of federal, state,  and industry sponsored research projects. He has published over 75 peer-reviewed articles in journals, conferences, books, and trade publications. I am active member of INFORMS and IISE professional societies, and has served numerous times as a session chair in their annual conferences. I am also a certified six sigma black belt and recipient of multiple awards (Outstanding IMSE Faculty Award, INFORMS Koopman prize, INFORMS Data Mining and Decision Analytics Best Paper Finalist, Winemiller Excellence Award, Richard Wallace Faculty Grant, Service Enterprise Engineering Fellowship).
 
@@ -26,6 +26,8 @@ Education
 Recent News
 ======
 =======
+* Apr, 2023: NSF IRES Grant Awarded for project titled "International Research Experiences for Students in AI-Enabled Decision Analytics for Advancing Air Taxi and Drone Operations" (PI: Rajendran, Co-PI: Sharan Srinivas, Prasad Calyam, Derek Anderson)[**NSF IRES Public Abstract**](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2245469&HistoricalAwards=false)
+* Feb, 2023:  NSF REU Grant Awarded for project titled "Research on Prescriptive Analytics for AI-enabled Operations Engineering" (PI: Rajendran, Co-PI: Sharan Srinivas, Prasad Calyam) [**NSF REU Public Abstract**](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2243589&HistoricalAwards=false)
 * Dec, 2021: Research work featured among [**Top 10 Stories of 2021**](https://engineering.missouri.edu/2021/robots-plastics-and-cows-top-10-research-stories-of-2021/) at MU College of Engineering
 * Sep, 2021: Grant awarded by Boeing (Co-I: Srinivas, PI: Noble)
 * Aug, 2021: Grant awarded by Missouri Dept of Higher Education and Workforce Development (PI: Srinivas, Co-Is: Seo, Scott, Matisziw)
