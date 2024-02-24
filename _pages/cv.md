@@ -44,28 +44,42 @@ Course Taught
 
 Student Advising
 ======
+As the major academic advisor, I have recruited and graduated 3 Ph.D. students and 2 M.S. students since joining MU in 2017. Currently, I am advising 8 Ph.D. students and 3 M.S. students. In addition, I am currently co-advising 2 graduate students at foreign universities - 1 Ph.D. student from Eskisehir Technical University, Turkey (currently at MU as a Fullbright Scholar in 4th year of his Ph.D. program) and 1 MS student from IIT Madras, India. Besides, I have mentored over 25 undergraduate students and provided them with research experience by involving them in sponsored research projects (e.g., NSF REU, NSF IRES, and industry-sponsored research). The students I have supervised and mentored have joined top-tier companies in the US, such as Boeing, Honeywell, Rockwell Automation, Lockheed Martin, Edward Elmhurst Health, and Lochmueller Group.
+
 
 Current Students
 ------
-* Mohamed Salama (Ph.D., IE)
-* Haya Salah (Ph.D., IE)
+* Pyam Oveys, Ph.D. 
+* Paul Antonacci, Ph.D.
+* Negar Jahanbakhsh Javid, Ph.D.
+* Mahima Naznin, Ph.D.
+* Arash Alizadeh, Ph.D. 
+* Arghadeep Mitra, Ph.D.
+* Celiker Busra, Ph.D.
+* Fatemeh Pourdehghan, Ph.D.
+* Sai Kiran Singraj, MS
+* Ray Wood, MS
+* Parth Jahagirdar, MS
+
 
 Graduated Advisees
 -----
-* Dustin Smith (MS, IE): Currently working as a Project Engineer at Lochmueller Group
-* Alexander Jackson (MS, IE): Currently working as a Process Engineer at Lockheed Martin
+* Shitao Yu, Ph.D., Summer 2023 
+* Mohamed Salama, Ph.D., Spring 2022 
+* Haya Salah, Ph.D., Spring 2022 
+* Dustin Smith, MS, Spring 2019
+* Alexander Jackson, MS, Spring 2019
 
-Advising on Research Projects for Graduate and Undergraduate Students
+
+Supervisor/Mentor (students who are not my advisees but were supported on my grants)
+-----
+* Nima Golghamat Raad, PhD ISE (funded on AKDOT project as GRA, 2023-24)
+* Hemanth Sai Yeddulapalli, MS EECS (funded on AKDOT project as GRA, 2024)
+* Alicia Esquivel Morel, PhD EECS (funded on NSF PFI project as GRA, 2024)
+
+Mentor/Advisor for Undergraduate Students
 -----
 
-I closely worked with the following students on research projects for a duration of 1 – 2 years. Most of these works started as a project in my course and then later evolved into novel research leading to journal publications.
-* Akhouri Amitanand Sinha, Ph.D., IE, current
-* Shitao Yu, Ph.D., IE, current
-* Roland Paul Nazareth, M.S., IE, current
-* Ashish Kambli, M.S., IE, Summer 2019
-* Jaiharan Venkatesan, M.S., IE, May 2018
-* John Tocco, B.S. IE, Spring 2019 
-* Alex Stone, B.S., IE, Spring 2019 
-* Joshua Zack, B.S. IE, Spring 2018 
-* Abdulah Sibalo, B.S. Economics, Spring 2018 
+Thomas Willerth (IE honors),  Stephen Swingle (IE honors), Ben McIntire (2023 Summer NSF REU Student), Abdullahi Ayantayo (2023 Summer NSF REU Student), Dylan Nojadera (2023 Summer NSF REU Student), Brianna Abam (2023 Summer NSF REU Student), Lilyan    Groat (2023 Summer NSF REU Student), Brian    Yang (2023 Summer NSF REU Student), Emma    Lewis (2023 Summer NSF REU Student), Daniel Grenier (2023 Summer NSF REU Student), Carson Swain (2023 Summer NSF REU Student), Aditya    Khowal (2023 Summer NSF REU Student), Zachary Bazile (2023 Summer NSF REU Student), Charan Govarthanaraj (2023 Summer NSF IRES Student), Vishnu Arun (2023 Summer NSF IRES Student), Prashish Lamsal (2023 Summer NSF IRES Student), Nikhil Vyas (2023 Summer NSF IRES Student), Sienna Schreiber (IE, 2023), Erik Starrenburg (IE, 2023), Mikey Joyce (EECS, 2022), Emily Pagel (IE, 2020), Trenton Grimshaw (IE, 2020), Grace Floyd (IE, 2020), Jacob Beeth (IE, 2020), John Tocco (IE, 2019), Alex Stone (IE, 2019), Dustin Smith (IE, 2018), Joshua Zack (IE, 2018), Abdulah Sibalo (Economics, 2018)
+
 

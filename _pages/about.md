@@ -31,7 +31,7 @@ Education
 
 Recent News
 ======
-* Dec 2023: • Voted by Graduating Seniors as the Outstanding Professor in Industrial and Systems Engineering for Fall 2023.
+* Dec 2023: Voted by Graduating Seniors as the Outstanding Professor in Industrial and Systems Engineering for Fall 2023.
 * Sep 2023: Department of Defense (DoD) flow-through Grant Awarded for project titled "Analysis Capabilities for Competition, Crisis, and Combat (AC4)" (PI: James Noble, Co-PI: Sharan Srinivas, Suchithra Rajendran)
 * Sep 2023: Alaska Department of Transportation Research Grant Awarded for project titled "Development of an intelligent truck transport management application for freight and fuel movement through route optimization, scenario analysis, and incident management" (PI: Sharan Srinivas, Co-PIs: Suchithra Rajendran, Prasad Calyam).
 * Aug 2023:  NSF PFI-TT Grant Awarded for project titled "PFI-TT: Cloud-based Route Management Platform for Optimizing Last-Mile Logistics of Electric Truck and Drone Operations" (PI: Sharan Srinivas, Co-PIs: Suchithra Rajendran, Prasad Calyam) [**NSF PFI-TT Public Abstract**](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2313887).
