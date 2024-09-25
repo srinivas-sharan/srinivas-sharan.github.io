@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my corner of academia and research expertise! I am an Assistant Professor with a joint appointment in the [Department of Industrial &  Systems Engineering](https://engineering.missouri.edu/departments/ise/) and the [Department of Marketing](https://business.missouri.edu/departments-faculty/marketing-department) at the Robert J. Trulaske Sr. College of Business, University of Missouri (MU). I am also a Core Faculty in the MU Informatics and Data Science Institute. 
+Welcome to my corner of academia and research expertise! I am an Associate Professor with a joint appointment in the [Department of Industrial &  Systems Engineering](https://engineering.missouri.edu/departments/ise/) and the [Department of Marketing](https://business.missouri.edu/departments-faculty/marketing-department) at the Robert J. Trulaske Sr. College of Business, University of Missouri (MU). I am also the Director for Graduate Studies for the Industrial & Systems Engineering department. 
 
 The core focus of my research is to develop novel theories and methods to effectively solve complex operations research (OR) problems that address societal needs and national priorities. With the advent of Industry 5.0, which focuses on societal values, mass customizations and human-machine cooperation, the need to address new OR problems that have real-world implications in fields such as supply chain, manufacturing, logistics/transportation, healthcare, biomedical informatics, and other service systems are increasing. As a result, I am motivated by the prominent challenges in developing novel frameworks, techniques and tools for use-inspired OR problems to enable faster and smarter decisions in the aforementioned thrust areas. 
 
@@ -31,6 +31,10 @@ Education
 
 Recent News
 ======
+* Sep 2024: Promoted to Associate Professor with tenure at the University of Missouri 
+* Aug 2024: NSF CyberTraining Grant Awarded for project titled "CyberTraining: Implementation: Small: Application-inspired Cloud DevOps Training using an Online Self-service Learning Platform" (PI: Prasad Calyam, Co-PIs: Sharan Srinivas, Noah Glaser) [**NSF PFI-TT Public Abstract**](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2417826).
+* Jul 2024: Appointed as the Editorial Board Member for BMC Medical Informatics and Decision Making journal
+* Feb 2024: Appointed as the Editorial Board Member for Transportation Research Part E: Logistics and Transportation Review journal
 * Dec 2023: Voted by Graduating Seniors as the Outstanding Professor in Industrial and Systems Engineering for Fall 2023.
 * Sep 2023: Department of Defense (DoD) flow-through Grant Awarded for project titled "Analysis Capabilities for Competition, Crisis, and Combat (AC4)" (PI: James Noble, Co-PI: Sharan Srinivas, Suchithra Rajendran)
 * Sep 2023: Alaska Department of Transportation Research Grant Awarded for project titled "Development of an intelligent truck transport management application for freight and fuel movement through route optimization, scenario analysis, and incident management" (PI: Sharan Srinivas, Co-PIs: Suchithra Rajendran, Prasad Calyam).
