@@ -12,6 +12,8 @@ I am actively involved with leading international professional societies, namely
 
 Professional Roles in International Societies
 ======
+* **Immediate Past President**, IISE Operations Research Division, 2024 – 2025
+* **President**, IISE Operations Research Division, 2023 – 2024
 * **President-Elect**, IISE Operations Research Division, 2022 – 2023
 * **Director**, IISE Operations Research Division, 2020 – 2022
 * **Member**, Institute for Operations Research and Management Sciences (INFORMS) 

@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-I enjoy teaching as it gives me the opportunity to educate and engage students intellectually. My teaching philosophy is based around the idea of active and experiential learning, where students learn the concepts and techniques by participating and engaging in various activities such as educational games, case studies, discussions, and problem-solving. I believe that such an approach would not only help the intellectually gifted but also the below-average students to learn and succeed. In particular, my goal as a teacher is preparing future professionals and leaders to use a quantitative approach (such as data analytics and simulation/mathematical modeling) for decision-making as well as improving business operations in manufacturing and service industry. Since I alternate teaching in engineering and business schools, I have tailored the learning outcomes for each student group depending on their background, technical expertise, and career paths, while ensuring to follow my teaching philosophy and achieving the goals.  
-
+I enjoy teaching as it gives me the opportunity to educate and engage students intellectually. My teaching philosophy is based on the idea of active and problem-based learning, where students learn relevant theories, techniques, critical thinking, and problem-solving skills by engaging in various activities beyond traditional lectures, such as hands-on tutorials, educational games, case studies, and research projects. I believe that such an approach would not only help intellectually gifted students but all learners to succeed. My goal as a teacher is to engender next-generation professionals, researchers and leaders with the skills to effectively tackle and manage complex analytical problems. I understand there are diverse types of learners, and I strive to employ numerous teaching methods and structured learning strategies to fit their unique needs. Specifically, I believe curiosity is the key to learning and retaining acquired knowledge, and thus, I aspire to create excitement and trigger intellectual curiosity among students. In addition, I aim to bridge the research-teaching gap by systematically integrating current research methods in all my courses. I am a strong proponent of applying theories and methods into practice and, therefore, embrace technology in the classroom, especially hands-on tutorials of in-demand tools for solving realistic problems. I also nurture effective teamwork and peer learning since it is a critical component for success in today’s fast-paced and interconnected world. I strongly believe the above-mentioned practices would foster students’ skills in systems thinking, problem-solving, technology adoption, communication, and collaborative working. Consequently, I aim to empower students to become lifelong learners and be well-prepared to enter/re-enter the workforce and make an impact. 
 
 Course Taught
 ======
@@ -49,37 +48,55 @@ As the major academic advisor, I have recruited and graduated 3 Ph.D. students a
 
 Current Students
 ------
-* Pyam Oveys, Ph.D. 
+* Soham Basu, MS and Ph.D.
+* Pyam Oveys, Ph.D.
 * Paul Antonacci, Ph.D.
 * Negar Jahanbakhsh Javid, Ph.D.
 * Mahima Naznin, Ph.D.
-* Arash Alizadeh, Ph.D. 
-* Arghadeep Mitra, Ph.D.
+* Arash Alizadeh, Ph.D.
+* Arghadeep Mitra, MS and Ph.D.
 * Celiker Busra, Ph.D.
 * Fatemeh Pourdehghan, Ph.D.
-* Sai Kiran Singraj, MS
-* Ray Wood, MS
-* Parth Jahagirdar, MS
+* Ali Fallah, MS
+* Matt Floyd, MS
 
 
 Graduated Advisees
 -----
-* Shitao Yu, Ph.D., Summer 2023 
-* Mohamed Salama, Ph.D., Spring 2022 
-* Haya Salah, Ph.D., Spring 2022 
-* Dustin Smith, MS, Spring 2019
-* Alexander Jackson, MS, Spring 2019
+* Fatemeh Pourdehghan, MS, Spring 2025
+* Mahima Naznin, MS, Spring 2025
+* Arash Alizadeh, MS, Fall 2024
+* Parth Jahagirdar, MS, Summer 2024
+* Sai Kiran Singraj, MS, Summer 2024
+* Ray Wood, MS, Spring 2024
+* Shitao Yu, Ph.D., Summer 2023
+* Mohamed Salama, Ph.D., Spring 2022
+* Haya Salah, Ph.D., Spring 2022
+* Dustin Smith, M. S., Spring 2019
+* Alexander Jackson, M.S., Spring 2019
+
 
 
 Supervisor/Mentor (students who are not my advisees but were supported on my grants)
 -----
+* Garrett Robison, PhD ISE (funded on project with US Army as GRA, 2023-25)
+* Michael Geisecke, PhD ISE (funded on project with US Army as GRA, 2023-25)
 * Nima Golghamat Raad, PhD ISE (funded on AKDOT project as GRA, 2023-24)
+* Chandra Bhamidipati, MS EECS (funded on NSF PFI project as GRA, 2024)
+* Zack Murray, BS EECS (funded on NSF REU Supplement, 2024)
 * Hemanth Sai Yeddulapalli, MS EECS (funded on AKDOT project as GRA, 2024)
 * Alicia Esquivel Morel, PhD EECS (funded on NSF PFI project as GRA, 2024)
 
 Mentor/Advisor for Undergraduate Students
 -----
 
-Thomas Willerth (IE honors),  Stephen Swingle (IE honors), Ben McIntire (2023 Summer NSF REU Student), Abdullahi Ayantayo (2023 Summer NSF REU Student), Dylan Nojadera (2023 Summer NSF REU Student), Brianna Abam (2023 Summer NSF REU Student), Lilyan    Groat (2023 Summer NSF REU Student), Brian    Yang (2023 Summer NSF REU Student), Emma    Lewis (2023 Summer NSF REU Student), Daniel Grenier (2023 Summer NSF REU Student), Carson Swain (2023 Summer NSF REU Student), Aditya    Khowal (2023 Summer NSF REU Student), Zachary Bazile (2023 Summer NSF REU Student), Charan Govarthanaraj (2023 Summer NSF IRES Student), Vishnu Arun (2023 Summer NSF IRES Student), Prashish Lamsal (2023 Summer NSF IRES Student), Nikhil Vyas (2023 Summer NSF IRES Student), Sienna Schreiber (IE, 2023), Erik Starrenburg (IE, 2023), Mikey Joyce (EECS, 2022), Emily Pagel (IE, 2020), Trenton Grimshaw (IE, 2020), Grace Floyd (IE, 2020), Jacob Beeth (IE, 2020), John Tocco (IE, 2019), Alex Stone (IE, 2019), Dustin Smith (IE, 2018), Joshua Zack (IE, 2018), Abdulah Sibalo (Economics, 2018)
+* **MU Students:** Luke Richey (In Progress), Thomas Willerth (IE honors/In Progress), Stephen Swingle (IE honors/In Progress), Matt Floyd (IE, 2024), Marc Rosner (Marketing, 2024), Sienna Schreiber (IE, 2023), Erik Starrenburg (IE, 2023), Mikey Joyce (EECS, 2022), Emily Pagel (IE, 2020), Trenton Grimshaw (IE, 2020), Grace Floyd (IE, 2020), Jacob Beeth (IE, 2020), John Tocco (IE, 2019), Alex Stone (IE, 2019), Dustin Smith (IE, 2018), Joshua Zack (IE, 2018), Abdulah Sibalo (Economics, 2018)
+
+* **NSF REU 2024:** Neel Shah, Matt Lamborne, Joseph Couzens, John Maxwell, Ayhum Asfour, Emily Pham, Jakob Fick, Johann Zhang, Vishnu Arun
+
+* **NSF REU 2023:** Ben McIntire, Abdullahi Ayantayo, Dylan Nojadera, Brianna Abam, Lilyan Groat, Brian Yang, Emma Lewis,  Daniel Grenier, Carson Swain, Aditya Khowal, Zachary Bazile
+
+* **NSF IRES 2024:** Ben McIntire, Siddarth Tummala, Ryan Brophy, Abhinav Sairam, Snowbird Rubio, Faisal Shaikh, Rishi Jain
+NSF IRES 2023: Charan Govarthanaraj, Vishnu Arun, Prashish Lamsal, Nikhil Vyas
 
 
