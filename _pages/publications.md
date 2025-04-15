@@ -3,7 +3,11 @@ layout: archive
 title: "News"
 permalink: /publications/
 author_profile: true
+redirect_from:
+  - /resume
 ---
+
+{% include base_path %}
 
 * Apr 2025: Appointed as the Editorial Board Member for Scientific Reports journal
 * Mar 2025: Paper titled [**"Collaborative Human–Robot Teaming for Dynamic Order Picking: Interventionist strategies for improving warehouse intralogistics operations"**](https://www.sciencedirect.com/science/article/abs/pii/S1366554525001231) accepted for publication in Transportation Research Part E: Logistics and Transportation Review.
