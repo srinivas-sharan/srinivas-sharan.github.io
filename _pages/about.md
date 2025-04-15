@@ -51,4 +51,6 @@ Recent News
 * Apr 2023: NSF IRES Grant Awarded for project titled "International Research Experiences for Students in AI-Enabled Decision Analytics for Advancing Air Taxi and Drone Operations" (PI: Suchithra Rajendran, Co-PI: Sharan Srinivas, Prasad Calyam, Derek Anderson) [**NSF IRES Public Abstract**](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2245469&HistoricalAwards=false)
 * Feb 2023:  NSF REU Grant Awarded for project titled "Research on Prescriptive Analytics for AI-enabled Operations Engineering" (PI: Suchithra Rajendran, Co-PI: Sharan Srinivas, Prasad Calyam) [**NSF REU Public Abstract**](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2243589&HistoricalAwards=false)
 * Jan 2023: Paper titled [**"Passenger intelligence as a competitive opportunity: unsupervised text analytics for discovering airline-specific insights from online reviews"**](https://link.springer.com/article/10.1007/s10479-022-05162-9) accepted for publication in Annals of Operations Research.
-See all  other archived [**News here**](https://srinivas-sharan.github.io/publications/).
+
+
+* See all  other archived [**News here**](https://srinivas-sharan.github.io/publications/).
