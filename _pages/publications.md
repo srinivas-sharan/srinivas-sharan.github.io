@@ -1,8 +1,10 @@
 ---
-layout: archive
 title: "News"
 permalink: /publications/
 author_profile: true
+redirect_from: 
+  - /publications/
+  - /publications.html
 ---
 
 * Apr 2025: Appointed as the Editorial Board Member for Scientific Reports journal
