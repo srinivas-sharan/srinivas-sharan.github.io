@@ -1,0 +1,18 @@
+---
+import { Image } from 'astro:assets';
+import meeting from '../assets/photos/trinity-research-presentation.png';
+---
+<div class="steel-research-photo">
+  <h4>Research Translation</h4>
+  <figure>
+    <Image src={meeting} alt="PhD student Pyam Oveys discussing steel-market decision-support research beside a Trinity Products project poster." width={800} widths={[400,800]} format="webp" quality={90} sizes="(max-width: 700px) 90vw, 45vw" loading="lazy" />
+    <figcaption>Pyam Oveys presenting the Trinity Products steel-market analytics project at the 2024 CELDi Research Symposium, where he earned first place in the poster competition. <a href="https://engineering.missouri.edu/2024/ph-d-student-earns-first-in-poster-competition-at-celdi-research-symposium/">Read the Mizzou Engineering story ↗</a></figcaption>
+  </figure>
+</div>
+<style>
+  .steel-research-photo { width:100%; margin-block:.5rem 1rem; }
+  h4 { margin:0 0 .75rem; }
+  figure { margin:0; }
+  img { display:block; width:100%; height:auto; border:1px solid var(--line); }
+  figcaption { margin-top:.5rem; font-size:14px; color:var(--ink-600); }
+</style>

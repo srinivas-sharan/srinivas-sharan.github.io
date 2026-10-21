@@ -1,0 +1,31 @@
+---
+import { Image } from 'astro:assets';
+import dashboard from '../assets/photos/steel-platform.webp';
+
+// Set this prop to a public MP4 URL when a silent demo is available.
+// Playback is user-initiated, including for visitors who prefer reduced motion.
+interface Props { demoSrc?: string; }
+const { demoSrc } = Astro.props;
+---
+<div class="steel-project-media">
+  <h4>Platform</h4>
+  <figure>
+    {demoSrc ? <video controls muted playsinline loop preload="none" poster={dashboard.src} aria-label="Steel market analytics platform demo"><source src={demoSrc} type="video/mp4" /></video> : <a href={dashboard.src} aria-label="View the steel market analytics dashboard at full size"><Image src={dashboard} alt="Steel market analytics platform showing a price forecast and decision-support dashboard." width={1200} widths={[600,1200,1930]} sizes="(max-width: 700px) 90vw, 45vw" loading="lazy" /></a>}
+  </figure>
+  <h4>Analytics Capabilities</h4>
+  <ul>
+    <li><strong>Market Analytics:</strong> Connect steel prices and market indicators with procurement context.</li>
+    <li><strong>AI Forecasting:</strong> Use machine learning forecasts to examine future prices and uncertainty.</li>
+    <li><strong>Decision Support:</strong> Connect market intelligence with purchasing decisions through interactive analytics.</li>
+  </ul>
+
+</div>
+<style>
+  .steel-project-media { width:100%; margin-block:.5rem 1rem; }
+  h4 { margin:0 0 .75rem; }
+  figure { margin:0 0 1.25rem; }
+  img,video { display:block; width:100%; height:auto; border:1px solid var(--line); }
+  figcaption { margin-top:.5rem; font-size:14px; color:var(--ink-600); }
+  ul { padding-left:1.2rem; margin:0 0 1.25rem; font-size:16px; }
+  li + li { margin-top:.5rem; }
+</style>

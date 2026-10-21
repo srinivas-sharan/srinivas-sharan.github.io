@@ -1,0 +1,14 @@
+---
+import ResearchIcon from './ResearchIcon.astro';
+const dimensions=[
+ {icon:'algorithms',title:'Intelligent Optimization & Learning',terms:'MILP · Stochastic & Robust Optimization · Learning-Augmented Search · Reinforcement Learning · Quantum-Assisted Optimization'},
+ {icon:'autonomy',title:'Autonomous & Resilient Systems',terms:'Human-Robot Operations · Multi-Agent Coordination · Truck-Drone Logistics · Resilient Logistics · Contested Logistics'},
+ {icon:'simulation',title:'Digital Decision Environments',terms:'Simulation · Scenario Analysis · Predictive Analytics · GenAI Analytics · Digital Decision-Support Platforms'},
+ {icon:'translation',title:'Research Translation & Impact',terms:'Sponsored Research · Publications · Prototypes & Software · I-Corps / Research Translation · Operational Implementation'},
+];
+---
+<div class="optidec-ecosystem">
+ <svg class="ecosystem-connectors" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><ellipse cx="50" cy="50" rx="13" ry="40"/>{['M38 23C49 17 35 50 50 50','M62 23C51 17 65 50 50 50','M38 77C49 83 35 50 50 50','M62 77C51 83 65 50 50 50'].map((d,i)=><path class={`connector-${i}`} d={d}/>)}</svg>
+ <div class="optidec-center"><strong>OptiDec Research</strong><span>OR + AI for complex operational systems</span></div>
+ {dimensions.map((d,i)=><article class={`dimension dimension-${i}`} tabindex="0" aria-labelledby={`dimension-title-${i}`}><ResearchIcon kind={d.icon}/><h3 id={`dimension-title-${i}`}>{d.title}</h3><p>{d.terms}</p></article>)}
+</div>

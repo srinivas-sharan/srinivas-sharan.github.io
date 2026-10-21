@@ -1,0 +1,24 @@
+---
+import {researchers,researcherStreams,publications} from '../data/research';
+import {capabilityName} from '../data/capabilities';
+interface Props {person:typeof researchers[number]}
+const {person:p}=Astro.props;
+const stream=researcherStreams[p.id];
+const paper=publications.find(x=>x.id===p.publicationIds[0]);
+const initials=p.name.split(' ').map(n=>n[0]).filter((_,i,a)=>i===0||i===a.length-1).join('');
+const detailed=!!(p.description||stream||paper||p.completions.length);
+---
+<article class="researcher-card" id={p.id} data-researcher data-degrees={p.degrees.join(' ')}>
+ <div class="researcher-identity"><span class="researcher-avatar" aria-hidden="true">{p.portrait?<img src={p.portrait.src} alt="" width="160" height="160" loading="lazy" decoding="async" style={{'--portrait-position':p.portrait.position,'--portrait-scale':p.portrait.scale,'--portrait-origin':p.portrait.origin}}/>:initials}</span><div><h3>{p.name}</h3><p>{p.degrees.includes('PhD')?'PhD':p.degrees.join(' & ')} Researcher</p></div></div>
+ {p.collapsedTags.length>0&&<ul class="research-tags">{p.collapsedTags.map(tag=><li>{tag}</li>)}</ul>}
+ {detailed&&<div class="researcher-disclosure"><button type="button" data-researcher-toggle aria-expanded="false" aria-controls={`details-${p.id}`} hidden>View research ↓</button><div id={`details-${p.id}`} data-researcher-details>
+ {p.description&&<><h4>Research focus</h4><p>{p.description}</p></>}
+ {p.expertise.length>0&&<><h4>Methods / Expertise</h4><ul class="research-tags">{p.expertise.map(tag=><li>{tag}</li>)}</ul></>}
+ {stream&&<><h4>Research stream</h4><p>{stream.projectId?<a href={`/research/projects/#${stream.projectId}`}>{stream.stream}</a>:stream.stream}</p></>}
+ {stream?.achievement&&<><h4>Achievement</h4><p>{stream.achievement}</p></>}
+ {paper&&<><h4>Representative publication</h4><p>{paper.url?<a href={paper.url}>{paper.title}</a>:paper.title} · {paper.year}</p></>}
+ {p.capabilityIds.length>0&&<><h4>Technical Capabilities</h4><ul class="research-tags">{p.capabilityIds.map(id=><li><a href={`/research/projects/?capability=${id}`}>{capabilityName(id)}</a></li>)}</ul></>}
+ {p.completions.map(c=><p class="researcher-milestone">{c.degree} completed · {c.period}</p>)}
+ {p.url&&<a class="text-link" href={p.url}>Research story ↗</a>}
+ </div></div>}
+</article>

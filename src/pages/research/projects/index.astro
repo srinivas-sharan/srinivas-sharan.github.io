@@ -1,0 +1,15 @@
+---
+import ResearchLayout from '../../../layouts/ResearchLayout.astro';
+import ResearchProject from '../../../components/ResearchProject.astro';
+import {technicalCapabilities} from '../../../data/capabilities';
+import {projects,researchAreas} from '../../../data/research';
+---
+<ResearchLayout title="Research Projects" description="Current and completed sponsored research projects in the OptiDec research program.">
+<header class="container research-hero"><h1>Research Projects</h1><p>Sponsored research in operational decision-making, analytics, technology development, and research training.</p><p class="research-note">Project status reflects the listed funding period.</p></header>
+<section class="section research-catalog"><div class="container" data-project-filter>
+ <div class="research-filter-bar" data-filter-controls hidden><fieldset><legend>Project status</legend><div class="filter-buttons">{['All','Current','Completed'].map((name,i)=><button type="button" data-status-filter={name.toLowerCase()} aria-pressed={i===0?'true':'false'}>{name}</button>)}</div></fieldset><label>Research Area<select data-area-filter><option value="all">All Areas</option>{researchAreas.map(a=><option value={a.id}>{a.title}</option>)}</select></label><label>Technical Capability<select data-capability-filter><option value="all">All Capabilities</option>{technicalCapabilities.map(c=><option value={c.id}>{c.title}</option>)}</select></label></div>
+ <p class="filter-result" data-filter-result role="status" aria-live="polite">{projects.filter(p=>!p.parentId).length} projects / programs</p><p class="filter-empty" data-filter-empty hidden>No projects match these filters. Try another capability, area, or status.</p>
+ <h2 class="sr-only">Sponsored Research Projects</h2>
+ <div class="research-project-grid">{projects.filter(p=>!p.parentId).map(project=><ResearchProject project={project}/>)}</div>
+</div></section>
+</ResearchLayout>

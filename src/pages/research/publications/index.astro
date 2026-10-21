@@ -1,0 +1,14 @@
+---
+import ResearchLayout from '../../../layouts/ResearchLayout.astro';
+import ResearchCitation from '../../../components/ResearchCitation.astro';
+import {publications,researchAreas} from '../../../data/research';
+const years=[...new Set(publications.map(p=>p.year))];
+---
+<ResearchLayout title="Publications" description="Peer-reviewed journal publications by Sharan Srinivas and collaborators, searchable by title, author, journal, year, and research area.">
+<header class="container research-hero"><h1>Publications</h1><p>Peer-reviewed journal research across operations research, analytics, transportation, human–robot operations, and service systems.</p></header>
+<section class="section research-catalog"><div class="container" data-publication-filter>
+ <div class="research-filter-bar publication-controls" data-filter-controls hidden><label>Search publications<input type="search" data-publication-search placeholder="Title, author, journal, or research area" autocomplete="off" /></label><label>Year<select data-year-filter><option value="all">All Years</option>{years.map(year=><option value={year}>{year}</option>)}</select></label><label>Research Area<select data-area-filter><option value="all">All Areas</option>{researchAreas.map(a=><option value={a.id}>{a.title}</option>)}</select></label></div>
+ <p class="filter-result" data-filter-result role="status" aria-live="polite">{publications.length} journal publications</p><p class="filter-empty" data-filter-empty hidden>No publications match these filters. Try a different search, year, or area.</p>
+ {years.map(year=><section class="publication-year" data-publication-year><h2>{year}</h2><div>{publications.filter(p=>p.year===year).map(publication=><ResearchCitation publication={publication}/>)}</div></section>)}
+</div></section>
+</ResearchLayout>

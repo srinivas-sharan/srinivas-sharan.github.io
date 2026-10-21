@@ -1,0 +1,113 @@
+---
+import CvButton from "./CvButton.astro";
+import { primaryNavigation, researchNavigation, site } from "../data/site";
+
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+const isCurrent = (href: string) =>
+  href === "/" ? currentPath === "/" : currentPath.startsWith(href);
+---
+
+<header class="site-header">
+  <div class="site-header__inner container">
+    <a class="wordmark" href="/" aria-label={`${site.name}, home`}>
+      <span class="wordmark__name">{site.name}</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a
+        class:list={["nav-link", { "is-current": currentPath === "/" }]}
+        aria-current={currentPath === "/" ? "page" : undefined}
+        href="/"
+      >Home</a>
+
+      <details class="nav-dropdown" data-nav-details>
+        <summary class:list={["nav-link", { "is-current": currentPath.startsWith("/research/") }]} aria-controls="research-navigation" aria-expanded="false">Research</summary>
+        <div class="nav-dropdown__panel" id="research-navigation">
+          {researchNavigation.map((item) => (
+            <a
+              href={item.href}
+              aria-current={currentPath === item.href ? "page" : undefined}
+            >
+              <span>{item.label}</span><span aria-hidden="true">↗</span>
+            </a>
+          ))}
+        </div>
+      </details>
+
+      {primaryNavigation.slice(2).map((item) => (
+        <a
+          class:list={["nav-link", { "is-current": isCurrent(item.href) }]}
+          href={item.href}
+          aria-current={isCurrent(item.href) ? "page" : undefined}
+        >{item.label}</a>
+      ))}
+    </nav>
+
+    <div class="site-header__cv">
+      <CvButton variant="primary" />
+    </div>
+
+    <details class="mobile-nav" data-nav-details>
+      <summary aria-label="Open navigation menu" aria-controls="mobile-navigation" aria-expanded="false">Menu</summary>
+      <nav class="mobile-nav__panel" id="mobile-navigation" aria-label="Mobile navigation">
+        <a
+          class:list={["mobile-nav__primary", { "is-current": currentPath === "/" }]}
+          href="/"
+          aria-current={currentPath === "/" ? "page" : undefined}
+        >Home</a>
+
+        <details class="mobile-nav__group" open>
+          <summary class:list={["mobile-nav__primary", { "is-current": currentPath.startsWith("/research/") }]}>
+            <span>Research</span><span class="mobile-nav__toggle" aria-hidden="true">+</span>
+          </summary>
+          <div class="mobile-nav__research" aria-label="Research pages">
+            {researchNavigation.map((item) => (
+              <a href={item.href} aria-current={currentPath === item.href ? "page" : undefined}>
+                {item.label}<span aria-hidden="true">↗</span>
+              </a>
+            ))}
+          </div>
+        </details>
+
+        {primaryNavigation.slice(2).map((item) => (
+          <a
+            class:list={["mobile-nav__primary", { "is-current": isCurrent(item.href) }]}
+            href={item.href}
+            aria-current={isCurrent(item.href) ? "page" : undefined}
+          >{item.label}</a>
+        ))}
+        <CvButton variant="primary" />
+      </nav>
+    </details>
+  </div>
+</header>
+
+<script>
+  const navDetails = Array.from(document.querySelectorAll<HTMLDetailsElement>("[data-nav-details]"));
+
+  for (const details of navDetails) {
+    const summary = details.querySelector<HTMLElement>("summary");
+
+    details.addEventListener("toggle", () => {
+      summary?.setAttribute("aria-expanded", String(details.open));
+    });
+
+    details.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        details.open = false;
+      });
+    });
+  }
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape") return;
+    const openMenu = navDetails.find((details) => details.open);
+    if (!openMenu) return;
+    openMenu.open = false;
+    openMenu.querySelector<HTMLElement>("summary")?.focus();
+  });
+</script>

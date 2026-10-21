@@ -1,0 +1,59 @@
+---
+import { methodologicalThemes } from '../data/methodologicalThemes';
+interface Props { transition?: boolean; }
+const { transition = false } = Astro.props;
+---
+<section class="methodology" aria-labelledby="methodology-title">
+  <h2 id="methodology-title">Methodological Research Themes</h2>
+  <div class="methodology-grid">
+    {methodologicalThemes.map((theme) => (
+      <a class="methodology-theme" href={theme.href}>
+        <div class="methodology-mark">
+          <svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            {theme.icon === 'network' && <>
+              <path d="M8 28 19 9 39 17 31 39 8 28 39 17M19 9l12 30"/>
+              <path class="accent" d="m8 28 11-19 20 8"/>
+              {[[8,28],[19,9],[39,17],[31,39]].map(([cx,cy])=><circle cx={cx} cy={cy} r="3" fill="var(--paper-warm)"/>)}
+            </>}
+            {theme.icon === 'search' && <>
+              <path d="M9 38V27q0-9 10-9h10M19 18V9M29 18q9 0 9 10v10M19 18v20"/>
+              <path class="accent" d="M9 38V27q0-9 10-9V9M26 7q13 0 15 12m-5-3 5 3 2-5"/>
+              {[[9,38],[19,9],[19,38],[38,38]].map(([cx,cy])=><circle cx={cx} cy={cy} r="2.6" fill="var(--paper-warm)"/>)}
+            </>}
+            {theme.icon === 'forecast' && <>
+              <path d="M5 8v29h23M8 29l6-9 6 5"/>
+              <path class="accent" d="M20 25q7-15 15-11M20 16v17" stroke-dasharray="3 3"/>
+              <path d="M35 14v10m0 14v5m-6-13-7 5m19-5 4 5"/>
+              <path class="accent" d="m35 24 7 7-7 7-7-7z"/>
+            </>}
+            {theme.icon === 'scenarios' && <>
+              <path d="M12 13h24M12 13v22h24M24 13v10m0 6v6"/>
+              <path class="accent" d="M12 13q-7 0-7 11t7 11m24 0q7 0 7-11t-7-11" stroke-dasharray="3 3"/>
+              <rect x="7" y="8" width="10" height="10" rx="2"/><rect x="31" y="8" width="10" height="10" rx="2"/>
+              <rect x="7" y="30" width="10" height="10" rx="2"/><rect x="31" y="30" width="10" height="10" rx="2"/>
+              <circle class="accent" cx="24" cy="26" r="3"/>
+            </>}
+          </svg>
+        </div>
+        <h3>{theme.title}</h3>
+      </a>
+    ))}
+  </div>
+  {transition && <p class="methodology-transition">These methods are integrated across four operational research domains.</p>}
+</section>
+<style>
+  .methodology { margin-top:1.25rem; padding-top:1rem; border-top:1px solid var(--line); }
+  .methodology h2 { font-size:18px; line-height:1.4; letter-spacing:0; margin:0 0 .75rem; }
+  .methodology-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1rem; }
+  .methodology-theme { display:flex; align-items:center; gap:.65rem; min-width:0; padding:.25rem 0; text-decoration:none; color:inherit; }
+  .methodology-mark { color:#61737b; flex:0 0 28px; transition:color 180ms; }
+  .methodology-mark svg { width:28px; height:28px; display:block; }
+  .accent { stroke:var(--gold-600); }
+  .methodology .methodology-theme h3 { font-size:16px; line-height:1.4; font-weight:550; letter-spacing:0; margin:0; }
+  .methodology-theme:hover .methodology-mark,.methodology-theme:focus-visible .methodology-mark { color:var(--gold-600); }
+  .methodology-theme:focus-visible { outline:2px solid var(--gold-600); outline-offset:4px; }
+  .methodology .methodology-transition { border-left:2px solid var(--gold-600); padding-left:.8rem; margin:1rem 0 0; font-size:15px; line-height:1.5; color:var(--ink-600); }
+  @media(max-width:1050px) { .methodology-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+  @media(max-width:600px) { .methodology-grid { grid-template-columns:1fr; gap:.65rem; } }
+  @media(prefers-reduced-motion:reduce) { .methodology-mark { transition:none; } }
+</style>

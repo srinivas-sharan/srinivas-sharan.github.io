@@ -1,0 +1,70 @@
+---
+import { Image } from 'astro:assets';
+import freightDashboard from '../assets/photos/ifreightops-dashboard.png';
+import reuPhoto from '../assets/photos/reu-summer-program.jpg';
+import mitraAmr from '../assets/photos/mitra-amr-industry-visit.png';
+import iresIndia from '../assets/photos/ires-india.png';
+import alaskaTeam from '../assets/photos/FreightAnalytics_Anchorage.png';
+import truck from '../assets/photos/Srinivas.jpg';
+import RebundleProjectMedia from './RebundleProjectMedia.astro';
+import SteelResearchPhoto from './SteelResearchPhoto.astro';
+import SteelProjectMedia from './SteelProjectMedia.astro';
+import {capabilityName} from '../data/capabilities';
+import { projects, areaName, personName, publications, type ResearchProject } from '../data/research';
+interface Props {project: ResearchProject; preview?:boolean;}
+const {project:p,preview=false}=Astro.props;
+const supplements=projects.filter(x=>x.parentId===p.id);
+const relatedProjects=p.relatedProjectIds.map(id=>projects.find(project=>project.id===id)!).filter(Boolean);
+---
+<article class="research-project" id={preview?undefined:p.id} data-project data-status={p.status} data-areas={p.areaIds.join(' ')} data-capabilities={p.capabilityIds.join(' ')}>
+  <div class="project-meta"><span>{p.status==='current'?'Current':p.status==='completed'?'Completed award period':'Research project'}</span>{p.dates&&<span>{p.dates}</span>}</div>
+  {supplements.length>0&&<p class="project-family-label">Electric Truck–Drone Route Management Research Program</p>}
+  <h3>{preview?<a href={`/research/projects/#${p.id}`}>{p.title}</a>:p.title}</h3>
+  <p class="project-sponsor">{p.sponsor}</p><p class="project-role">{p.role}</p>
+  <p>{p.description}</p>
+  {!preview&&p.id==='project-01'&&<figure class="project-detail-photo">
+    <Image src={alaskaTeam} alt="Sharan Srinivas and students in Alaska with mountains in the background." width={1200} widths={[600,1200]} sizes="(max-width: 700px) 90vw, 45vw" format="webp" quality={90} loading="lazy" />
+    <figcaption>Sharan Srinivas and students in Alaska.</figcaption>
+  </figure>}
+  {!preview&&p.id==='project-19'&&<RebundleProjectMedia />}
+  {!preview&&p.id==='project-20'&&<p><a class="text-link" href="https://engineering.missouri.edu/2022/new-program-allows-missourians-to-hone-their-digital-skills-for-todays-workplace/">Read the Mizzou Engineering story ↗</a></p>}
+  {!preview&&p.id==='project-15'&&<figure class="project-detail-photo">
+    <Image src={iresIndia} alt="IRES students and faculty gathered during the air-taxi and drone research program in India." width={1200} widths={[600,1200]} sizes="(max-width: 700px) 90vw, 45vw" format="webp" quality={90} loading="lazy" />
+    <figcaption>Students and faculty during the IRES research program in India, connecting AI-enabled decision analytics with air-taxi and drone operations.</figcaption>
+  </figure>}
+  {!preview&&p.id==='project-07'&&<figure class="project-detail-photo project-detail-photo--portrait">
+    <Image src={mitraAmr} alt="PhD student Arghadeep Mitra with an industry professional beside a Locus autonomous mobile robot." width={800} widths={[400,800]} sizes="(max-width: 700px) 80vw, 360px" format="webp" quality={90} loading="lazy" />
+    <figcaption>As part of the I-Corps project, PhD student Arghadeep Mitra traveled across the country to meet industry professionals and gain insights into the software ecosystem supporting autonomous mobile robots (AMRs).</figcaption>
+  </figure>}
+  {!preview&&p.id==='project-14'&&<figure class="project-detail-photo">
+    <Image src={reuPhoto} alt="REU summer program students and mentors gathered at Mizzou’s Engineering Time Capsule Lounge." width={1200} widths={[600,1200]} sizes="(max-width: 700px) 90vw, 45vw" format="webp" quality={90} loading="lazy" />
+    <figcaption>Students and mentors in Mizzou’s 2025 summer REU program in prescriptive analytics and AI-enabled operations engineering. <a href="https://engineering.missouri.edu/2025/students-apply-ai-to-real-world-challenges-in-mizzou-summer-program/">Read the Mizzou Engineering story ↗</a></figcaption>
+  </figure>}
+  {!preview&&p.id==='project-13'&&<figure class="project-detail-photo">
+    <a href={freightDashboard.src} aria-label="View the iFreightOps dashboard at full size">
+      <Image src={freightDashboard} alt="iFreightOps dashboard showing a port-area map, truck cycle times, hourly arrivals, waiting times, correlation heatmaps, and expected vehicle counts." width={926} widths={[463,926]} sizes="(max-width: 700px) 90vw, 45vw" format="webp" quality={95} loading="lazy" />
+    </a>
+    <figcaption>A dashboard feature of iFreightOps, the platform developed for freight and fuel transport management through route optimization, scenario analysis, and incident management.</figcaption>
+  </figure>}
+  {!preview&&p.id==='project-02'&&<SteelProjectMedia />}
+  {!preview&&p.id==='project-18'&&<SteelResearchPhoto />}
+  {!preview&&p.id==='project-16'&&<figure class="project-detail-photo">
+    <Image src={truck} alt="Sharan Srinivas and PhD student Arash Alizadeh beside a Workhorse Aero delivery truck." width={800} widths={[400,800]} sizes="(max-width: 700px) 90vw, 45vw" format="webp" quality={90} loading="lazy" />
+    <figcaption>Sharan Srinivas and PhD student Arash Alizadeh visiting Workhorse during I-Corps customer discovery. <a href="https://engineering.missouri.edu/2022/engineering-team-develops-last-mile-delivery-platform-with-help-from-i-corps/">Read the Mizzou Engineering story ↗</a></figcaption>
+  </figure>}
+  {p.projectType&&<p class="research-note">Project Type: {p.projectType}</p>}
+  {p.areaIds.length>0&&<ul class="research-tags" aria-label="Research areas">{p.areaIds.map((id,i)=><li><span>{i===0?'Primary: ':'Secondary: '}</span><a href={`/research/areas/#${id}`}>{areaName(id)}</a></li>)}</ul>}
+  {p.methodTags.length>0&&<ul class="research-tags capability-tags" aria-label="Project methods">{p.methodTags.map(tag=><li>{tag.label}</li>)}</ul>}
+  {p.capabilityIds.length>0&&<ul class="research-tags capability-tags" aria-label="Technical capabilities">{p.capabilityIds.map(id=><li><a href={`/research/projects/?capability=${id}`}>{capabilityName(id)}</a></li>)}</ul>}
+  {!preview&&relatedProjects.length>0&&<div class="related-projects"><h4>Related Industry Projects</h4><ul>{relatedProjects.map(project=><li><a href={`/research/projects/#${project.id}`}>{project.title}</a> — {project.sponsor}</li>)}</ul></div>}
+  {p.relatedProgramId&&<p class="research-note">Related research program: <a href={`/research/projects/#${p.relatedProgramId}`}>NSF PFI-TT electric truck–drone route management</a></p>}
+  {!preview&&supplements.length>0&&<div class="project-supplements"><h4>Related supplements</h4>{supplements.map(s=><div id={s.id}><strong>{s.id==='project-09'?'REU Supplement':'PAWR Supplement'}</strong><span>{s.dates} · Current</span><p>{s.description}</p></div>)}</div>}
+  {!preview&&p.details&&<details class="project-expansion"><summary>Explore project</summary><div><h4>Research Question</h4><p>{p.details.question}</p><h4>Methods</h4><p>{p.details.methods.join(' · ')}</p>{p.details.researcherIds.length>0&&<><h4>Research Contributors</h4><p>{p.details.researcherIds.map(personName).join(' · ')}</p></>}{p.details.publicationIds.length>0&&<><h4>Related Publications</h4><ul>{p.details.publicationIds.map(id=><li><a href={`/research/publications/#${id}`}>{publications.find(x=>x.id===id)?.title}</a></li>)}</ul></>}<a class="text-link" href={p.details.url}>Project story ↗</a></div></details>}
+</article>
+
+<style>
+  .project-detail-photo { width:100%; margin:.5rem 0 1.25rem; }
+  .project-detail-photo--portrait { max-width:360px; align-self:center; }
+  .project-detail-photo img { display:block; width:100%; height:auto; border:1px solid var(--line); }
+  .project-detail-photo figcaption { margin-top:.5rem; font-size:14px; color:var(--ink-600); }
+</style>

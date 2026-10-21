@@ -1,0 +1,15 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { researchNavigation } from '../data/site';
+import '../styles/research.css';
+interface Props { title: string; description: string; }
+const {title,description}=Astro.props;
+---
+<BaseLayout title={title} description={description}>
+<div class="research-site">
+  <nav class="research-nav" aria-label="Research section"><div class="container"><span class="lab-wordmark">OptiDec</span><div class="research-nav-links">{researchNavigation.map(item=><a href={item.href} aria-current={Astro.url.pathname===item.href?'page':undefined}>{item.label}</a>)}</div></div></nav>
+  <slot />
+  <div class="research-signature container"><span>OptiDec · Optimization &amp; Intelligent Decision Systems Lab</span><span>Faculty Lead: Sharan Srinivas</span></div>
+</div>
+</BaseLayout>
+<script src="../scripts/research.ts"></script>

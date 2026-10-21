@@ -1,0 +1,7 @@
+---
+import {technicalCapabilities} from '../data/capabilities';
+import ResearchIcon from './ResearchIcon.astro';
+interface Props { heading?: string; intro?: string; }
+const {heading='Technical Capabilities', intro='OptiDec combines established operations-research foundations with AI, adaptive algorithms, simulation, autonomous decision systems, and emerging computational methods.'}=Astro.props;
+---
+<section class="section" id="technical-capabilities"><div class="container"><h2>{heading}</h2><p>{intro}</p><div class="technical-capabilities">{technicalCapabilities.map(c=><a class="technical-capability" id={`capability-${c.id}`} href={`/research/projects/?capability=${c.id}`}><ResearchIcon kind={c.id}/><span class="research-kicker">{c.cue}</span><h3>{c.title}</h3><p>{c.methods.join(' · ')}</p><small>{c.id==='emerging'?'AI–OR integration and emerging computational approaches.':''}</small><span class="capability-action sr-only">Explore related projects →</span></a>)}</div></div></section>

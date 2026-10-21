@@ -1,0 +1,18 @@
+---
+import {recruitment as r} from '../data/recruitment';
+interface Props {compact?:boolean}
+const {compact=false}=Astro.props;
+---
+{r.active&&(compact?<aside class="recruitment-callout" aria-label="Open PhD research positions"><span class="open-label">Open · {r.numberOfPositions} {r.positionType} positions · {r.startTerm}</span><p>{r.researchGroup} is recruiting {r.numberOfPositions} {r.positionType} students for {r.startTerm} for research at the intersection of operations research and artificial intelligence. Strong preparation in operations research, mathematics, programming, and prior research is expected.</p><a class="text-link" href="/research/group/#prospective-researchers">View research opportunities →</a></aside>:<section class="section" id="prospective-researchers"><div class="container recruitment-full"><h2>Prospective Researchers</h2><span class="open-label">Open · {r.numberOfPositions} {r.positionType} positions · {r.startTerm}</span><h3>{r.title}</h3><p>{r.researchGroup} is recruiting {r.numberOfPositions} {r.positionType} students for {r.startTerm} for research at the intersection of operations research and artificial intelligence. My research group works on optimization, AI, simulation, and intelligent decision systems with applications across logistics, mobility, human-robot operations, and production and service systems.</p><div class="recruitment-columns"><div><h4>Competitive applicants should demonstrate</h4><ul>{r.qualifications.map(text=><li>{text}</li>)}</ul><p>Experience with optimization solvers and modeling tools such as Gurobi, CPLEX, Pyomo, or similar platforms is particularly useful. Experience with reinforcement learning, metaheuristics, simulation, or learning-augmented optimization may also be relevant depending on the research direction.</p></div><div><h4>Before contacting me</h4><p>Prospective students should include:</p><ul>{r.contactMaterials.map(text=><li>{text}</li>)}</ul><p>Generic requests for admission or funding without information on research preparation may not receive a response.</p></div></div><p class="preparation-note">{r.preparation}</p><div class="button-row">{r.applicationUrl&&<a class="text-link" href={r.applicationUrl}>PhD application information →</a>}<a class="text-link" href={`mailto:${r.contactEmail}`}>Contact Sharan about PhD research →</a></div></div></section>)}
+<style>
+.recruitment-callout { margin-top:2rem; border-left:3px solid var(--gold-500); padding:1rem 1.5rem; background:var(--paper-warm); }
+.open-label { font-size:13px; font-weight:650; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-800); }
+.recruitment-callout p { margin:.5rem 0; font-size:17px; }
+.recruitment-full > h3 { margin-top:.75rem; font-size:24px; }
+.recruitment-columns { display:grid; grid-template-columns:1fr 1fr; gap:3rem; margin-top:1.5rem; }
+.recruitment-columns h4 { font-size:18px; }
+.recruitment-columns li,.recruitment-columns p { font-size:17px; line-height:1.7; }
+.recruitment-columns ul { padding-left:1.2rem; }.recruitment-columns li { margin-bottom:.65rem; }
+.preparation-note { border-left:3px solid var(--gold-500); padding-left:1rem; font-weight:550; }
+@media(max-width:760px){.recruitment-columns {grid-template-columns:1fr;gap:1rem;}}
+</style>

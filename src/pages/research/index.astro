@@ -1,0 +1,21 @@
+---
+import AreaMethodTags from '../../components/AreaMethodTags.astro';
+import ResearchScene from '../../components/ResearchScene.astro';
+import ResearchLayout from '../../layouts/ResearchLayout.astro';
+import ResearchFramework from '../../components/ResearchFramework.astro';
+import ResearchProject from '../../components/ResearchProject.astro';
+import ResearchCitation from '../../components/ResearchCitation.astro';
+import TechnicalCapabilities from '../../components/TechnicalCapabilities.astro';
+import ResearchSponsors from '../../components/ResearchSponsors.astro';
+import {labName,researchAreas,currentProjects,currentResearchers,publications,selectedPublications} from '../../data/research';
+---
+<ResearchLayout title="Research" description="OptiDec: operations research, analytics, simulation, and AI for complex operational systems, led by Sharan Srinivas at the University of Missouri.">
+<header class="container research-hero research-overview-hero"><h1>Research</h1><div class="research-identity"><div><span class="research-kicker">OptiDec</span><h2>{labName}</h2><p>OptiDec is the Optimization &amp; Intelligent Decision Systems Lab led by Sharan Srinivas in Industrial &amp; Systems Engineering at the University of Missouri. The group develops and applies operations research, analytics, simulation, and AI methods to complex operational systems.</p></div><ResearchFramework /></div></header>
+<TechnicalCapabilities intro="These capabilities provide the methodological foundation for research across OptiDec's four application domains." />
+<section class="section research-neutral"><div class="container"><p class="methods-transition">From methods to operational systems</p><h2>Research Areas</h2><div class="research-area-previews">{researchAreas.map((area,i)=><article><ResearchScene area={area.id} /><div><span class="research-index">0{i+1}</span><h3>{area.title}</h3><p>{area.summary}</p><AreaMethodTags tags={area.methodTags} /><a class="text-link" href={`/research/areas/#${area.id}`}>Explore area →</a></div></article>)}</div></div></section>
+<section class="section"><div class="container"><div class="research-section-heading"><h2>Current Research</h2><a class="text-link" href="/research/projects/">View all projects →</a></div><div class="research-project-grid">{currentProjects.map(project=><ResearchProject project={project} preview />)}</div></div></section>
+<ResearchSponsors />
+<section class="section"><div class="container research-group-snapshot"><div><h2>Research Group</h2><p>OptiDec brings together graduate and undergraduate researchers working across optimization, AI, analytics, simulation, and complex operational systems.</p><a class="text-link" href="/research/group/">Meet OptiDec →</a></div><div class="research-community-summary"><strong>{currentResearchers.filter(p=>!p.degrees.includes('Undergraduate')).length} current graduate researchers</strong><p>PhD and MS researchers contribute alongside undergraduate researchers and participants in NSF-supported research training.</p><span>Faculty Lead: Sharan Srinivas</span></div></div></section>
+<div class="container research-impact" aria-label="Research impact"><p><strong>{publications.length}</strong> peer-reviewed journal publications</p><p><strong>50+</strong> undergraduates mentored</p></div>
+<section class="section"><div class="container"><div class="research-section-heading"><h2>Selected Publications</h2><a class="text-link" href="/research/publications/">View all publications →</a></div><div class="research-citations">{selectedPublications.map(publication=><ResearchCitation publication={publication}/>)}</div></div></section>
+</ResearchLayout>

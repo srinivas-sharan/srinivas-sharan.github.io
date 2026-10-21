@@ -1,0 +1,72 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import groupPhoto from '../../assets/photos/iise-arkansas.jpg';
+import presentationPhoto from '../../assets/photos/ray-iise-presentation.jpg';
+import { graduatePath, institutionalService, competitionResults, currentEditors, curriculumStages, curriculumPrinciples, selectedProfessionalService } from '../../data/leadership';
+import { leadershipRoles } from '../../data/content';
+import '../../styles/leadership.css';
+---
+<BaseLayout title="Leadership & Service" description="Graduate program leadership, academic program development, student professional engagement, and institutional, professional, and editorial service.">
+<div class="leadership-page">
+  <header class="container leadership-hero">
+    <h1>Leadership, Service, and<br class="desktop-break" /> Program Development</h1>
+    <p>My leadership and service span graduate education, academic program development, student professional engagement, professional societies, editorial work, and university service.</p>
+  </header>
+
+  <section class="section" aria-labelledby="graduate-title"><div class="container">
+    <div class="leadership-section-heading"><div><h2 id="graduate-title">Graduate Program Leadership</h2><p>Director of Graduate Studies · Industrial and Systems Engineering</p></div><p class="scope-note">Supporting a graduate community of approximately <strong>50–70 graduate students</strong>.</p></div>
+    <ol class="graduate-path leadership-reveal">{graduatePath.map((stage,i)=><li style={`--stage:${i}`}>
+      <h3 class="graduate-stage-heading"><button class="graduate-stage" type="button" data-graduate-stage={i} aria-expanded="true" aria-controls={`graduate-detail-${i}`} disabled><span class="stage-number">{String(i+1).padStart(2,'0')}</span><span class="stage-title"><svg class="leadership-icon" viewBox="0 0 24 24" aria-hidden="true"><path d={stage.icon}/></svg>{stage.title}</span><span class="stage-focus">{stage.focus}</span><span class="stage-indicator" aria-hidden="true">−</span></button></h3>
+      <div class="graduate-detail" id={`graduate-detail-${i}`} data-graduate-panel={i}><ul>{stage.items.map(item=><li>{item}</li>)}</ul></div>
+    </li>)}</ol>
+  </div></section>
+
+  <section class="section leadership-neutral" aria-labelledby="program-title"><div class="container">
+    <h2 id="program-title">Academic Program Development</h2>
+    <div class="program-features">
+      <article class="certificate-feature"><span class="leadership-label">Program design &amp; direction</span><h3>Decision and Operations<br /> Analytics Certificates</h3><p>Conceived the programs, led proposal development and approval, and now direct both certificates, integrating analytics, optimization, decision modeling, and operations-oriented training.</p><dl><div><dt>Undergraduate Certificate</dt><dd>Director · Being integrated into advising for the current ISE undergraduate cohort.</dd></div><div><dt>Graduate Certificate</dt><dd>Director · 7 students currently enrolled.</dd></div></dl></article>
+      <article class="dots-feature"><span class="leadership-label">Integrated Case Curriculum Framework</span><h3>Connecting the Dots</h3><p>Initiated and developed a cross-curriculum framework that connects ISE courses through a shared, evolving operational context. Students revisit the same system across successive courses, with validated outputs from earlier analyses becoming inputs to later engineering decisions.</p>
+        <div class="curriculum-visual leadership-reveal"><div class="curriculum-context"><strong>Shared Operational Context</strong><span>Common data · evolving decisions · cross-course continuity</span></div>
+          <ol class="curriculum-thread" aria-label="Curriculum stages">{curriculumStages.map(([year,title,methods],i)=><li style={`--stage:${i}`}><button type="button" data-curriculum-stage={i} aria-pressed={i===0?'true':'false'} disabled><span class="curriculum-year">{year}</span><strong>{title}</strong><span class="curriculum-methods">{methods}</span></button></li>)}</ol>
+          <div class="curriculum-endpoint">Integrated Engineering Decisions</div>
+        </div>
+        <dl class="curriculum-principles">{curriculumPrinciples.map(([title,detail])=><div><dt>{title}</dt><dd>{detail}</dd></div>)}</dl>
+        <p class="program-footnote">Supported by a shared digital data environment that preserves artifacts and analytical continuity across courses.</p>
+      </article>
+    </div>
+  </div></section>
+
+  <section class="section" aria-labelledby="student-title"><div class="container">
+    <h2 id="student-title">Student Leadership &amp; Professional Engagement</h2>
+    <div class="student-engagement"><figure class="chapter-photo"><Image src={groupPhoto} alt="University of Missouri students and faculty at the IISE regional conference in Arkansas" widths={[640,960,1440]} sizes="(max-width: 760px) 90vw, 55vw" width={1440} format="webp" quality={85} /><figcaption>IISE regional conference · University of Arkansas</figcaption></figure>
+    <div class="chapter-detail"><h3>IISE Student Chapter Faculty Advisor</h3><p>As faculty advisor to the University of Missouri IISE Student Chapter, I support student leadership, professional activities, annual participation in regional conferences, and student competitions.</p><p>Supported the 2023 regional conference hosted at Mizzou.</p><figure class="presentation-photo"><Image src={presentationPhoto} alt="Ray Wood presenting a manufacturing optimization research project at an IISE regional conference" widths={[480,800,1100]} sizes="(max-width: 760px) 90vw, 35vw" width={1100} format="webp" quality={85} loading="lazy" /><figcaption>Ray Wood presenting student research at IISE.</figcaption></figure></div></div>
+    <h3 class="recognition-title">IISE Regional Student Paper Competition</h3><ol class="student-recognition">{competitionResults.map(([year,name,place])=><li><span>{year}</span><h4>{name}</h4><p>{place}</p></li>)}</ol>
+  </div></section>
+
+  <section class="section leadership-neutral" aria-labelledby="mizzou-title"><div class="container">
+    <h2 id="mizzou-title">Mizzou Service</h2><p class="section-intro">Contributions across the department, College of Engineering, and university.</p>
+    <div class="institutional-service"><div class="service-selector" role="group" aria-label="Institutional level" hidden>{institutionalService.map((level,i)=><button type="button" data-service={level.id} aria-pressed={i===0?'true':'false'} aria-controls={`service-${level.id}`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d={level.icon}/></svg><span>{level.title}</span><span aria-hidden="true">→</span></button>)}</div>
+    <div class="service-panels">{institutionalService.map(level=><article id={`service-${level.id}`} data-service-panel={level.id}><h3>{level.title}</h3><p>{level.description}</p><dl>{level.roles.map(([title,detail])=><div><dt>{title}</dt><dd>{detail}</dd></div>)}</dl></article>)}</div></div>
+    <div class="applied-service"><h3>Applied Service at Mizzou</h3><div class="applied-service-strip">
+      <article><svg class="leadership-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 22V5h16v17M2 22h20M10 22v-5h4v5M12 7v6m-3-3h6"/></svg><div><h4>MU Emergency Department</h4><p>Led a process-reengineering study focused on overcrowding and patient waiting.</p></div></article>
+      <article><svg class="leadership-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M5 17a7 7 0 0 1 14 0M12 8V5m-2 0h4M3 21h18"/></svg><div><h4>MU Campus Dining Services</h4><p>Advised a graduate Six Sigma process-improvement study focused on service responsiveness.</p></div></article>
+    </div></div>
+  </div></section>
+
+  <section class="section" aria-labelledby="professional-title"><div class="container">
+    <h2 id="professional-title">Professional Leadership</h2><h3>IISE Operations Research Division</h3>
+    <ol class="division-timeline leadership-reveal">{[...leadershipRoles.slice(0,4)].reverse().map(([role,detail],i)=><li style={`--stage:${i}`}><span>{detail.split(' · ')[1]}</span><h4>{role}</h4></li>)}</ol>
+    <article class="conference-role"><div><span class="leadership-label">Current conference leadership</span><h3>Program Chair</h3></div><p>2027 IISE Annual Conference</p></article>
+    <h3 class="other-service-title">Selected Professional Service</h3><div class="selected-service">{selectedProfessionalService.map(([role,detail])=><article><h4>{role}</h4><p>{detail}</p></article>)}</div><p class="session-note">Additional service includes Operations Research Undergraduate Student Competition Chair and Operations Research Teaching Award Chair in 2022, along with selected IISE and INFORMS session organization.</p>
+  </div></section>
+
+  <section class="section leadership-neutral" aria-labelledby="editorial-title"><div class="container">
+    <h2 id="editorial-title">Editorial &amp; Scholarly Service</h2><p class="leadership-label">Current editorial appointments</p>
+    <div class="editorial-grid">{currentEditors.map(([journal,role,date])=><article><span>{date}</span><h3>{journal}</h3><p>{role}</p></article>)}</div>
+    <p class="reviewer-summary">Ad hoc reviewer for 30+ journals across operations research, analytics, transportation, healthcare, manufacturing, and AI.</p>
+    <div class="prior-editorial"><span class="leadership-label">Prior editorial service</span><p><strong>Journal of Healthcare Engineering</strong><br />Academic Editor · May 2021–May 2023</p></div>
+  </div></section>
+</div>
+</BaseLayout>
+<script src="../../scripts/leadership.ts"></script>

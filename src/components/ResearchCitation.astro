@@ -1,0 +1,12 @@
+---
+import { areaName, type ResearchPublication } from '../data/research';
+interface Props { publication: ResearchPublication; compact?:boolean; }
+const {publication:p,compact=false}=Astro.props;
+const Heading=compact?'h4':'h3';
+---
+<article class:list={['research-citation',{'research-citation--compact':compact}]} id={compact?undefined:p.id} data-publication data-year={p.year} data-areas={p.areaIds.join(' ')} data-search={`${p.title} ${p.authors} ${p.journal} ${p.areaIds.map(areaName).join(' ')}`.toLowerCase()}>
+  {!compact && <p class="citation-authors">{p.authors}</p>}
+  <Heading>{p.url?<a href={p.url}>{p.title}<span class="sr-only">: publisher page</span></a>:p.title}</Heading>
+  <p class="citation-journal"><em>{p.journal}</em>{!compact&&p.details} <span>· {p.year}</span></p>
+  {!compact && p.areaIds.length>0 && <ul class="research-tags" aria-label="Research areas">{p.areaIds.map((id,i)=><li class:list={{'primary-area':i===0}}><a href={`/research/publications/?area=${id}`}>{areaName(id)}</a></li>)}</ul>}
+</article>

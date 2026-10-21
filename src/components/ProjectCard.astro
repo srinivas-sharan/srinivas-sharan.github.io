@@ -1,0 +1,27 @@
+---
+import type { Project } from "../data/content";
+
+interface Props {
+  project: Project;
+  index?: number;
+}
+
+const { project, index = 0 } = Astro.props;
+---
+
+<article class="project-card">
+  <div class="project-card__topline">
+    <span>{String(index + 1).padStart(2, "0")}</span>
+    <span>{project.period}</span>
+  </div>
+  <h3>{project.title}</h3>
+  <p class="project-card__summary">{project.summary}</p>
+  <dl>
+    {project.sponsor && <><dt>Sponsor</dt><dd>{project.sponsor}</dd></>}
+    {project.role && <><dt>Role</dt><dd>{project.role}</dd></>}
+  </dl>
+  <ul class="tag-list">
+    {project.tags.map((tag) => <li>{tag}</li>)}
+  </ul>
+  {project.url && <a class="card-link" href={project.url} target="_blank" rel="noreferrer">Project record <span aria-hidden="true">↗</span></a>}
+</article>

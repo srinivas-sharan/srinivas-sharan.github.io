@@ -1,0 +1,27 @@
+---
+import CvButton from "./CvButton.astro";
+import { site } from "../data/site";
+---
+
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div>
+      <h2>Sharan Srinivas</h2>
+    </div>
+    <div class="site-footer__contact">
+      <p>{site.shortRole}<br />{site.department}<br />{site.institution}</p>
+      <a href={`mailto:${site.email}`}>{site.email}</a>
+    </div>
+    <div class="site-footer__links">
+      {site.profiles.map((profile) => (
+        <a href={profile.url} target="_blank" rel="noreferrer">{profile.label}<span aria-hidden="true">↗</span></a>
+      ))}
+    </div>
+    <div class="site-footer__action" id="cv-access">
+      <CvButton />
+    </div>
+  </div>
+  <div class="container site-footer__bottom">
+    <p>© {new Date().getFullYear()} {site.name}</p>
+  </div>
+</footer>

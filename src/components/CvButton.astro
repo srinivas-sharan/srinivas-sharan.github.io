@@ -1,0 +1,9 @@
+---
+import ButtonLink from "./ButtonLink.astro";
+import { site } from "../data/site";
+interface Props { variant?: "primary" | "secondary" }
+const { variant = "secondary" } = Astro.props;
+---
+{site.cvUrl ? <ButtonLink href={site.cvUrl} variant={variant} external>CV</ButtonLink> :
+  <span class="cv-pending"><button type="button" class:list={["button-link", `button-link--${variant}`]} aria-disabled="true" aria-label="CV">CV <span aria-hidden="true">↗</span></button></span>
+}

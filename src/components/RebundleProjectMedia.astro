@@ -1,0 +1,28 @@
+---
+import { Image } from 'astro:assets';
+import presentation from '../assets/photos/ray-wood-rebundle.png';
+import { rebundleNews } from '../data/content';
+---
+<div class="rebundle-media">
+  <figure>
+    <Image src={presentation} alt="Ray Wood presenting optimization research on sustainable hair-extension manufacturing at an IISE conference." width={800} widths={[400,800]} sizes="(max-width: 700px) 90vw, 45vw" format="webp" quality={90} loading="lazy" />
+    <figcaption>Ray Wood presenting the Rebundle manufacturing-optimization research at the IISE South Central Regional Conference.</figcaption>
+  </figure>
+  <h4>Research Recognition</h4>
+  <p>Student researcher Ray Wood received:</p>
+  <ul>
+    <li>First Place · IISE South Central Regional Paper Competition · 2024<br /><a href={rebundleNews[0].url}>Read Mizzou Engineering story ↗</a> <time datetime="2024-03-10">March 10, 2024</time></li>
+    <li>Third Place · IISE Global Undergraduate Student Technical Paper Competition · 2024<br />Third Place · IISE Operations Research Undergraduate Research Competition · 2024<br /><a href={rebundleNews[1].url}>Read Mizzou Engineering story ↗</a> <time datetime="2024-07-25">July 25, 2024</time></li>
+  </ul>
+</div>
+<style>
+  .rebundle-media { width:100%; margin:.5rem 0 1rem; }
+  figure { margin:0 0 1.25rem; }
+  img { display:block; width:100%; height:auto; aspect-ratio:800 / 554; object-fit:cover; border:1px solid var(--line); }
+  figcaption,time { font-size:14px; color:var(--ink-600); }
+  figcaption { margin-top:.5rem; }
+  time { display:block; }
+  h4 { margin:0 0 .75rem; }
+  ul { padding-left:1.2rem; font-size:16px; }
+  li + li { margin-top:.75rem; }
+</style>

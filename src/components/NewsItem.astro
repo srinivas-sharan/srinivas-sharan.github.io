@@ -1,0 +1,37 @@
+---
+import type { NewsItem } from "../data/content";
+import {Image} from 'astro:assets';
+import facultyAward from '../assets/photos/ISE Award 2024.jpg';
+
+interface Props { item: NewsItem; linkPublicationTitle?: boolean; showRecognitionImage?:boolean }
+const { item, linkPublicationTitle = false, showRecognitionImage = false } = Astro.props;
+
+const categoryIcons: Record<NewsItem["category"], string> = {
+  Appointment: "◷",
+  Publication: "▤",
+  Grant: "$",
+  Award: "🏆",
+  Career: "↑",
+  Recognition: "★",
+  Student: "◆",
+  Leadership: "◎",
+};
+---
+
+<article class="news-item" data-news-category={item.category.toLowerCase()} data-news-year={item.year}>
+  <div class="news-item__date"><span>{item.year}</span>{item.date && <time>{item.date}</time>}</div>
+  <div>
+    <span class="news-item__category" data-category={item.category.toLowerCase()}>
+      <span class="news-item__icon" aria-hidden="true">{categoryIcons[item.category]}</span>
+      {item.category}
+    </span>
+    <h3>{linkPublicationTitle && item.category === "Publication" && item.url ? <a class="publication-title" href={item.url} target="_blank" rel="noreferrer">{item.title}</a> : item.title}</h3>
+    {showRecognitionImage&&<Image class="recognition-photo" src={facultyAward} alt="Sharan Srinivas receiving the 2024 Outstanding ISE Faculty Award" width={480} format="webp" quality={90} loading="lazy"/>}
+  </div>
+  {item.url && <a href={item.url} target="_blank" rel="noreferrer" aria-label={`Read more about: ${item.title}`}>Source <span aria-hidden="true">↗</span></a>}
+</article>
+<style>
+  .recognition-photo { width:100%; max-width:24rem; height:auto; margin-top:1rem; }
+  .publication-title { color:inherit; font:inherit; text-decoration:none; }
+  .publication-title:hover { text-decoration:underline; text-underline-offset:.18em; }
+</style>

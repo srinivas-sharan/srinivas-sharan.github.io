@@ -1,0 +1,92 @@
+---
+const methods = [
+ ['Mathematical Optimization','', 'M4 27V5M4 27h25M8 22l7-8 6 3 8-12M23 5h6v6'],
+ ['Simulation &','Scenario Analysis', 'M3 4h28v21H3zM10 31h14M17 25v6M8 20v-5m9 5V9m9 11v-8'],
+ ['Stochastic & Robust','Optimization', 'M2 28h30M3 26C10 26 10 5 17 5S24 26 31 26M17 5v23'],
+ ['Prescriptive Analytics','& Metaheuristics','M4 7h25M4 17h25M4 27h25M11 3v8m12 2v8M14 23v8'],
+ ['Machine Learning','& Forecasting','M6 6l22 11L6 28M6 6v22M6 6h22v22H6M6 28 28 6M6 17h22'],
+ ['Explainable &','Data-Driven Models','M4 8c0-7 26-7 26 0s-26 7-26 0v18c0 7 26 7 26 0V8M4 17c0 7 26 7 26 0'],
+ ['Learning-Augmented','& Adaptive Decisions','M5 12a13 13 0 0 1 23-4M28 2v6h-6M29 22A13 13 0 0 1 6 27M6 33v-6h6M12 17h10m-4-4 4 4-4 4'],
+ ['Emerging AI &','Computational Methods','M17 3v8m0 12v8M3 17h8m12 0h8M7 7l6 6m8 8 6 6M7 27l6-6m8-8 6-6M17 11l6 6-6 6-6-6z'],
+];
+---
+<div class="decision-framework">
+{['wide','narrow'].map(layout=>{
+ const mobile=layout==='narrow', cx=mobile?200:600, cy=mobile?500:235;
+ return <svg class={`framework-${layout}`} viewBox={mobile?'0 0 400 1000':'0 0 1200 470'} role="group" aria-labelledby={`framework-title-${layout}`}>
+ <title id={`framework-title-${layout}`}>Operations Research and Artificial Intelligence converge in Intelligent Decision Systems</title>
+ <rect class="panel panel-or" x={mobile?10:0} y="12" width={mobile?380:350} height={mobile?336:446} rx="8"/>
+ <rect class="panel panel-ai" x={mobile?10:850} y={mobile?652:12} width={mobile?380:350} height={mobile?336:446} rx="8"/>
+ <text class="panel-heading" x={mobile?30:22} y="52">Operations Research</text>
+ <text class="panel-heading" x={mobile?30:872} y={mobile?692:52}>Artificial Intelligence</text>
+ <path class="heading-rule" d={mobile?'M30 66h42':'M22 68h42'}/>
+ <path class="heading-rule heading-rule-ai" d={mobile?'M30 706h42':'M872 68h42'}/>
+ {methods.map(([line1,line2,icon],i)=>{
+ const left=i<4,row=i%4,x=mobile?25:left?16:866,y=mobile?(left?88:728)+row*60:100+row*82;
+ const connector=mobile?`M365 ${y+22} H380 V${left?375:625} H200`:left?`M334 ${y+25} C385 ${y+25} 378 235 425 235`:`M866 ${y+25} C815 ${y+25} 822 235 775 235`;
+ return <g class="method" data-side={left?'or':'ai'} tabindex="0" role="group" aria-label={`${line1} ${line2}: ${left?'Operations Research':'Artificial Intelligence'} to Intelligent Decision Systems`}>
+ <path class="method-connector" d={connector}/><rect class="method-surface" x={x} y={y-3} width={mobile?340:318} height="58" rx="5"/>
+ <circle class="icon-backplate" cx={x+24} cy={y+22} r="22"/>
+ <g class="method-icon" transform={`translate(${x+10} ${y+8}) scale(.85)`}><path d={icon}/><circle class="icon-accent" cx="28" cy="6" r="2.3"/></g>
+ <text class="method-label" x={x+53} y={y+(line2?17:27)}>{line1}{line2&&<tspan x={x+53} dy="21">{line2}</tspan>}</text>
+ </g>;
+ })}
+ <g class="pathway pathway-or"><path d={mobile?'M200 375v25':'M455 235h45'}/><circle cx={mobile?200:440} cy={mobile?375:235} r="17"/><text x={mobile?200:440} y={mobile?380:240}>OR</text></g>
+ <g class="pathway pathway-ai"><path d={mobile?'M200 625v-25':'M745 235h-45'}/><circle cx={mobile?200:760} cy={mobile?625:235} r="17"/><text x={mobile?200:760} y={mobile?630:240}>AI</text></g>
+ <circle class="core-ring outer-ring" cx={cx} cy={cy} r="113"/>
+ <circle class="core-ring" cx={cx} cy={cy} r="106"/>
+ <g class="decision-core" tabindex="0" role="group" aria-label="Intelligent Decision Systems combines Operations Research and Artificial Intelligence: Model, Predict, Simulate, Optimize, Adapt, Decide">
+ <circle class="core-disc" cx={cx} cy={cy} r="100"/>
+ <g class="core-mark" transform={`translate(${cx} ${cy-48})`}>
+ <path d="M-25 6 0-5 25 6M-25-15 0-5 25-15M0-5v22"/>
+ <circle cx="-25" cy="6" r="4"/><circle cx="25" cy="6" r="4"/><circle cx="-25" cy="-15" r="4"/><circle cx="25" cy="-15" r="4"/><circle cx="0" cy="17" r="4"/><circle class="core-hub" cx="0" cy="-5" r="6"/>
+ </g>
+ <text class="core-title" x={cx} y={cy-5}>Intelligent<tspan x={cx} dy="25">Decision Systems</tspan></text>
+ <text class="core-verbs" x={cx} y={cy+45}>Model · Predict · Simulate<tspan x={cx} dy="20">Optimize · Adapt · Decide</tspan></text>
+ </g></svg>;
+})}
+</div>
+<style>
+.decision-framework { --accent:#9b7528; --edge:#d9d5cc; color:var(--ink-800); }
+svg { display:block; width:100%; height:auto; overflow:visible; font-family:inherit; }
+.framework-narrow { display:none; }
+.panel { stroke:var(--edge); }
+.panel-or { fill:#f7f1e4; stroke:#dfceb0; }
+.panel-ai { fill:#eef1f3; stroke:#ced6dc; }
+text { fill:currentColor; user-select:text; }
+.panel-heading { font-size:24px; font-weight:650; letter-spacing:-.5px; }
+.heading-rule { stroke:var(--accent); stroke-width:2; }
+.heading-rule-ai { stroke:#74838e; }
+.method-surface { fill:transparent; stroke:transparent; }
+.icon-backplate { fill:#eee3ce; stroke:#dfceb0; stroke-width:.8; }
+[data-side="ai"] .icon-backplate { fill:#e1e7eb; stroke:#cad3da; }
+[data-side="ai"] .method-icon { stroke:#536570; }
+.icon-accent { fill:var(--accent); stroke:var(--accent); stroke-width:.5; }
+.method-label { font-size:17px; font-weight:500; }
+.method-icon { fill:none; stroke:currentColor; stroke-width:1.65; stroke-linecap:round; stroke-linejoin:round; }
+.method-connector { fill:none; stroke:#a9a59c; stroke-width:1.15; }
+.pathway path { fill:none; stroke:#b08a3c; stroke-width:2.6; }
+.pathway circle { fill:#ecd9af; stroke:var(--accent); stroke-width:1.5; }
+.pathway text { text-anchor:middle; font-size:12px; font-weight:650; }
+.core-disc { fill:#fff7e7; stroke:var(--accent); stroke-width:2; filter:drop-shadow(0 3px 4px #30281712); }
+.core-ring { fill:none; stroke:#d6c298; stroke-width:1; pointer-events:none; }
+.outer-ring { stroke:#e5dccb; stroke-width:.8; }
+.core-mark { fill:#fff7e7; stroke:var(--accent); stroke-width:1.8; stroke-linejoin:round; }
+.core-mark .core-hub { fill:#bd9544; }
+.core-title { text-anchor:middle; font-size:20px; font-weight:650; letter-spacing:-.5px; }
+.core-verbs { text-anchor:middle; font-size:12px; fill:var(--ink-600); }
+.method,.decision-core { outline:none; }
+.method-surface,.method-icon,.method-connector,.pathway,.pathway path,.pathway circle,.core-disc,.icon-backplate { transition:stroke 200ms,fill 200ms,stroke-width 200ms,opacity 200ms; }
+.method:hover .icon-backplate,.method:focus .icon-backplate { fill:#ecd9af; stroke:var(--accent); }
+.method:focus-visible .method-surface { stroke:var(--accent); stroke-dasharray:3 3; }
+.method:hover .method-icon,.method:focus .method-icon { stroke:var(--accent); }
+.method:hover .method-connector,.method:focus .method-connector { stroke:var(--accent); stroke-width:2; }
+svg:has(.method:hover) .core-disc,svg:has(.method:focus) .core-disc,.decision-core:hover .core-disc,.decision-core:focus .core-disc { stroke:var(--accent); stroke-width:2.8; fill:#fcf0d8; }
+svg:has(.method:is(:hover,:focus)) .method:not(:hover):not(:focus) .method-connector { opacity:.35; }
+svg:has([data-side="or"]:is(:hover,:focus)) .pathway-ai,svg:has([data-side="ai"]:is(:hover,:focus)) .pathway-or { opacity:.45; }
+svg:has([data-side="or"]:hover) .pathway-or path,svg:has([data-side="or"]:focus) .pathway-or path,svg:has([data-side="ai"]:hover) .pathway-ai path,svg:has([data-side="ai"]:focus) .pathway-ai path,svg:has(.decision-core:hover) .pathway path,svg:has(.decision-core:focus) .pathway path { stroke:var(--accent); stroke-width:2.5; }
+svg:has([data-side="or"]:hover) .pathway-or circle,svg:has([data-side="or"]:focus) .pathway-or circle,svg:has([data-side="ai"]:hover) .pathway-ai circle,svg:has([data-side="ai"]:focus) .pathway-ai circle,svg:has(.decision-core:hover) .pathway circle,svg:has(.decision-core:focus) .pathway circle { fill:#ead9b5; stroke-width:2; }
+svg:has(.decision-core:hover) .method-connector,svg:has(.decision-core:focus) .method-connector { stroke:var(--accent); stroke-width:1.6; }
+@media(max-width:760px) { .framework-wide { display:none; } .framework-narrow { display:block; max-width:480px; margin-inline:auto; } }
+@media(prefers-reduced-motion:reduce) { .method-surface,.method-icon,.method-connector,.pathway,.pathway path,.pathway circle,.core-disc,.icon-backplate { transition:none; } }
+</style>

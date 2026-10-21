@@ -1,0 +1,38 @@
+---
+interface Props { kind: string; }
+const { kind } = Astro.props;
+---
+<svg class="technical-illustration" viewBox="0 0 320 150" fill="none" aria-hidden="true">
+  <g stroke="#d9d9d1" stroke-width="1"><path d="M20 35H300M20 75H300M20 115H300M60 15V135M120 15V135M180 15V135M240 15V135"/></g>
+  {kind === "logistics" && <g stroke-width="2">
+    <path stroke="#7b7d76" d="M38 105L106 40L188 100L282 40M38 105L188 100M106 40H282" />
+    <path stroke="#10110f" stroke-dasharray="5 5" d="M106 40L188 100" />
+    <path stroke="#a87300" stroke-width="3" d="M38 105L106 40L216 28L282 40L188 100" />
+    <path stroke="#10110f" d="M142 63l12 12m0-12l-12 12" />
+    {[ [38,105],[106,40],[188,100],[282,40],[216,28] ].map(([cx,cy])=><circle cx={cx} cy={cy} r="6" fill="white" stroke="#10110f"/>)}
+    <rect x="65" y="72" width="16" height="10" fill="#f1b82d" stroke="#10110f"/>
+  </g>}
+  {kind === "autonomy" && <g stroke="#10110f" stroke-width="2">
+    <path stroke="#a87300" stroke-width="3" d="M66 95H144V48H254M144 95H254" />
+    <path stroke="#7b7d76" stroke-dasharray="5 5" d="M66 52H110V118H254" />
+    <circle cx="66" cy="32" r="9" fill="white"/><path d="M51 61v-8q15-14 30 0v8M66 61v20m-14-10l14-10 14 10"/>
+    <rect x="45" y="92" width="42" height="24" rx="5" fill="white"/><circle cx="55" cy="118" r="3"/><circle cx="78" cy="118" r="3"/>
+    <path d="M55 101H77"/><circle cx="144" cy="95" r="5" fill="#f1b82d"/>
+    {[35,82,105].map(y=><rect x="252" y={y} width="28" height="24" fill="white"/>)}
+  </g>}
+  {kind === "aviation" && <g stroke="#10110f" stroke-width="2">
+    <path stroke="#7b7d76" stroke-dasharray="4 5" d="M38 109Q158-60 282 105M38 109Q173 155 282 105"/>
+    <path stroke="#a87300" stroke-width="3" d="M38 109Q83 5 158 55T282 105" />
+    <path d="M127 42l30 13 24-18-13 29-26-1-10 9 1-17z" fill="white"/>
+    {[ [38,109],[282,105],[187,115] ].map(([cx,cy])=><g><ellipse cx={cx} cy={cy} rx="16" ry="7" fill="white"/><path d={`M${cx-5} ${cy-3}v6m10-6v6m-10-3h10`}/></g>)}
+    <path stroke="#7b7d76" d="M70 124H146M220 130H270"/>
+  </g>}
+  {kind === "service-healthcare" && <g stroke="#10110f" stroke-width="2">
+    <path stroke="#7b7d76" d="M36 75H105M105 75V35H173M105 75H173M105 75v40H173M215 35h30v80h-30M245 75h42"/>
+    <path stroke="#a87300" stroke-width="3" d="M36 75H105V35H173M215 35h30v40h42"/>
+    {[38,58,78].map(cx=><circle cx={cx} cy="75" r="5" fill="white"/>)}
+    {[35,75,115].map(cy=><g><rect x="173" y={cy-13} width="42" height="26" rx="3" fill="white"/><path d={`M188 ${cy}h12m-6-6v12`} /></g>)}
+    <circle cx="289" cy="75" r="7" fill="#f1b82d"/>
+  </g>}
+</svg>
+

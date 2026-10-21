@@ -1,0 +1,28 @@
+---
+import type { ResearchArea } from "../data/content";
+
+interface Props {
+  area: ResearchArea;
+  compact?: boolean;
+}
+
+const { area, compact = false } = Astro.props;
+---
+
+<article class:list={["area-card", { "area-card--compact": compact }]} id={compact ? undefined : area.slug}>
+  <div class="area-card__visual">
+    {area.image ? (
+      <img src={area.image} alt={area.imageAlt} loading="lazy" />
+    ) : (
+      <div class="research-placeholder" aria-hidden="true"><span>{area.number}</span></div>
+    )}
+    <span class="area-card__number">{area.number}</span>
+  </div>
+  <div class="area-card__body">
+    <h3>{area.title}</h3>
+    <p>{area.summary}</p>
+    <ul class="tag-list" aria-label="Methods and themes">
+      {area.methods.map((method) => <li>{method}</li>)}
+    </ul>
+  </div>
+</article>

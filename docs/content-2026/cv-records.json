@@ -1,0 +1,3964 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-09-24",
+  "state": "selected-fields-consumed-by-homepage-build",
+  "sourcePolicy": {
+    "authority": "User-supplied CV, updated September 24, 2026; user's architecture decisions govern presentation.",
+    "privateSourceIncluded": false,
+    "excluded": [
+      "phone",
+      "mailing address",
+      "personal funding shares",
+      "individual award amounts",
+      "student evaluation scores",
+      "proposal-review panel identifiers and dates"
+    ]
+  },
+  "identity": {
+    "name": "Sharan Srinivas",
+    "title": "Associate Professor and Director of Graduate Studies",
+    "department": "Industrial & Systems Engineering",
+    "institution": "University of Missouri",
+    "proposition": "Operations Research + AI for Intelligent, Resilient & Autonomous Systems",
+    "intro": "I develop optimization, simulation, and AI methods for complex operational systems, with applications in resilient supply chains and logistics, autonomous and human-robot operations, advanced mobility and logistics systems, and service systems engineering.",
+    "groupName": "Optimization & Intelligent Decision Systems Lab",
+    "groupAcronym": null,
+    "cvDirectUrl": null,
+    "cvLinkNote": "Use a public PDF or approved external CV URL; never the source Word file.",
+    "email": "SrinivasSh@missouri.edu",
+    "linkedin": "http://www.linkedin.com/in/sharan-srinivas",
+    "conceptualVisual": "Operations Research + Artificial Intelligence → Intelligent Decision Systems",
+    "profiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=DrWVHmIAAAAJ&hl=en&oi=ao",
+        "source": "CV",
+        "verifiedOnline": false
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0003-2066-8836",
+        "source": "Existing website",
+        "verifiedOnline": false
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/srinivas-sharan",
+        "source": "Existing website",
+        "verifiedOnline": false
+      },
+      {
+        "label": "LinkedIn",
+        "url": "http://www.linkedin.com/in/sharan-srinivas",
+        "source": "CV",
+        "verifiedOnline": false
+      }
+    ]
+  },
+  "journals": [
+    {
+      "id": "journal-01",
+      "type": "journal",
+      "year": 2026,
+      "authors": "Javid, N. J., & Srinivas, S",
+      "title": "Electric truck–drone routing problem with flight-sensitive zones and partial truck recharging: A multi-objective optimization framework",
+      "venue": "Transportation Research Part E: Logistics and Transportation Review",
+      "bibliographicDetails": ", 216, 105149.",
+      "citation": "Javid, N. J., & Srinivas, S. (2026). Electric truck–drone routing problem with flight-sensitive zones and partial truck recharging: A multi-objective optimization framework. Transportation Research Part E: Logistics and Transportation Review, 216, 105149.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "logistics",
+        "autonomy"
+      ],
+      "featured": true,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 1
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-02",
+      "type": "journal",
+      "year": 2026,
+      "authors": "Thomas, T., Rajendran, C., & Srinivas, S",
+      "title": "Integrating drones into post-disaster logistics: a two-echelon location routing model with split deliveries and heterogeneous fleet",
+      "venue": "International Journal of Production Research",
+      "bibliographicDetails": ", 1-30.",
+      "citation": "Thomas, T., Rajendran, C., & Srinivas, S. (2026). Integrating drones into post-disaster logistics: a two-echelon location routing model with split deliveries and heterogeneous fleet. International Journal of Production Research, 1-30.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "logistics",
+        "autonomy"
+      ],
+      "featured": true,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 2
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-03",
+      "type": "journal",
+      "year": 2026,
+      "authors": "Gandhudi, M., Alphonse, P. J. A., Srinivas, S., & Gangadharan, G. R",
+      "title": "Causal Inference and Explainable Artificial Intelligence based Quantum Deep Learning for Remaining Useful Lifetime Prediction",
+      "venue": "Knowledge-Based Systems",
+      "bibliographicDetails": ", 115669.",
+      "citation": "Gandhudi, M., Alphonse, P. J. A., Srinivas, S., & Gangadharan, G. R. (2026). Causal Inference and Explainable Artificial Intelligence based Quantum Deep Learning for Remaining Useful Lifetime Prediction. Knowledge-Based Systems, 115669.",
+      "publicationStatus": "published",
+      "areaIds": [],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 3
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-04",
+      "type": "journal",
+      "year": 2026,
+      "authors": "Murty, A. S., Rajendran, C., & Srinivas, S",
+      "title": "Integrated maintenance and production scheduling on a single machine with time-based and job-specific deterioration: A matheuristic approach",
+      "venue": "Computers & Operations Research",
+      "bibliographicDetails": ", 107493.",
+      "citation": "Murty, A. S., Rajendran, C., & Srinivas, S. (2026). Integrated maintenance and production scheduling on a single machine with time-based and job-specific deterioration: A matheuristic approach. Computers & Operations Research, 107493.",
+      "publicationStatus": "published",
+      "areaIds": [],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 4
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-05",
+      "type": "journal",
+      "year": 2026,
+      "authors": "Raad, N. G., Wood, R., Pasupati, V., Yeddulapalli, H., Srinivas, S., Rajendran, S., & Calyam, P",
+      "title": "iFreightOps: Platform for Data-driven Freight Transportation Management in Port Operations",
+      "venue": "IEEE Transactions on Engineering Management",
+      "bibliographicDetails": ".",
+      "citation": "**Raad, N. G., *Wood, R., Pasupati, V., Yeddulapalli, H., Srinivas, S., Rajendran, S., & Calyam, P. (2026).  iFreightOps: Platform for Data-driven Freight Transportation Management in Port Operations. IEEE Transactions on Engineering Management.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "logistics"
+      ],
+      "featured": true,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 5
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-06",
+      "type": "journal",
+      "year": 2026,
+      "authors": "Alizadeh, A., Srinivas, S., Noble, J., & Otto, A",
+      "title": "Collaborative Truck Multi-Drone Pollution Routing Problem with Pickup and Delivery under Variable Truck Speeds: A Cost Minimization Approach",
+      "venue": "International Journal of Production Research",
+      "bibliographicDetails": "(accepted, in-press).",
+      "citation": "*Alizadeh, A., Srinivas, S., Noble, J., & Otto, A. (2026). Collaborative Truck Multi-Drone Pollution Routing Problem with Pickup and Delivery under Variable Truck Speeds: A Cost Minimization Approach. International Journal of Production Research (accepted, in-press).",
+      "publicationStatus": "accepted-in-press",
+      "areaIds": [
+        "logistics",
+        "autonomy"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 6
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-07",
+      "type": "journal",
+      "year": 2025,
+      "authors": "Raad, N. G., Rajendran, S., Srinivas, S., Khowal, A., Abam, B., & Lewis, E",
+      "title": "Hybrid and distributionally robust optimization approaches for hospital blood bank inventory management under demand uncertainty",
+      "venue": "Journal of the Operational Research Society",
+      "bibliographicDetails": ", 1-24.",
+      "citation": "**Raad, N. G., Rajendran, S., Srinivas, S., *Khowal, A., *Abam, B., & *Lewis, E. (2025). Hybrid and distributionally robust optimization approaches for hospital blood bank inventory management under demand uncertainty. Journal of the Operational Research Society, 1-24.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 7
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-08",
+      "type": "journal",
+      "year": 2025,
+      "authors": "Golghamat Raad, N., Fick, J., Shah, N., & Srinivas, S",
+      "title": "From voices to value: Leveraging online reviews to benchmark airline efficiency with GenAI-assisted text analytics and DEA",
+      "venue": "Journal of the Operational Research Society",
+      "bibliographicDetails": ", 1-24.",
+      "citation": "**Golghamat Raad, N., **Fick, J., **Shah, N., & Srinivas, S. (2025). From voices to value: Leveraging online reviews to benchmark airline efficiency with GenAI-assisted text analytics and DEA. Journal of the Operational Research Society, 1-24.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "aviation"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 8
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-09",
+      "type": "journal",
+      "year": 2025,
+      "authors": "Yu, S and Srinivas, S",
+      "title": "Collaborative Human–Robot Teaming for Dynamic Order Picking: Interventionist strategies for improving warehouse intralogistics operations",
+      "venue": "Transportation Research Part E: Logistics and Transportation Review",
+      "bibliographicDetails": ", 197, 104082.",
+      "citation": "*Yu, S and Srinivas, S. (2025). Collaborative Human–Robot Teaming for Dynamic Order Picking: Interventionist strategies for improving warehouse intralogistics operations. Transportation Research Part E: Logistics and Transportation Review, 197, 104082.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "autonomy"
+      ],
+      "featured": true,
+      "links": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1366554525001231",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 9
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-10",
+      "type": "journal",
+      "year": 2025,
+      "authors": "Senthilnathan, V. P., Singaravelu, M., Rajendran, S., & Srinivas, S",
+      "title": "A clustering-metaheuristic-simulation approach to determine air taxi operating site location",
+      "venue": "Transportation Research Interdisciplinary Perspectives",
+      "bibliographicDetails": ", 29, 101330.",
+      "citation": "**Senthilnathan, V. P., **Singaravelu, M., Rajendran, S., & Srinivas, S. (2025). A clustering-metaheuristic-simulation approach to determine air taxi operating site location. Transportation Research Interdisciplinary Perspectives, 29, 101330.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "aviation"
+      ],
+      "featured": false,
+      "links": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2590198225000090",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 10
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-11",
+      "type": "journal",
+      "year": 2025,
+      "authors": "Jos, B. C., Chandrasekharan, R., & Srinivas, S",
+      "title": "Order acceptance and scheduling on non-identical parallel machines with dependent setup times: new mixed integer programming formulations",
+      "venue": "Flexible Services and Manufacturing Journal",
+      "bibliographicDetails": ", 1-23.",
+      "citation": "Jos, B. C., Chandrasekharan, R., & Srinivas, S. (2025). Order acceptance and scheduling on non-identical parallel machines with dependent setup times: new mixed integer programming formulations. Flexible Services and Manufacturing Journal, 1-23.",
+      "publicationStatus": "published",
+      "areaIds": [],
+      "featured": false,
+      "links": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s10696-025-09602-z",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 11
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-12",
+      "type": "journal",
+      "year": 2024,
+      "authors": "Srinivas, S., & Ramachandiran, S",
+      "title": "Passenger intelligence as a competitive opportunity: unsupervised text analytics for discovering airline-specific insights from online reviews",
+      "venue": "Annals of Operations Research",
+      "bibliographicDetails": ", 333(2), 1045-1075. (Best Paper Finalist, INFORMS DMDA Competition; 55 Altmetric Attention Score- Top 5% of all research scored by Altmetric).",
+      "citation": "Srinivas, S., & **Ramachandiran, S. (2024). Passenger intelligence as a competitive opportunity: unsupervised text analytics for discovering airline-specific insights from online reviews. Annals of Operations Research, 333(2), 1045-1075. (Best Paper Finalist, INFORMS DMDA Competition; 55 Altmetric Attention Score- Top 5% of all research scored by Altmetric).",
+      "publicationStatus": "published",
+      "areaIds": [
+        "aviation"
+      ],
+      "featured": false,
+      "links": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s10479-022-05162-9",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 12
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-13",
+      "type": "journal",
+      "year": 2024,
+      "authors": "Neupane, R. L., Calyam, P., Wang, S., Neupane, K., Pandey, A., Cheng, X., Gafurov, D. Yeddulapalli, H.S., Glaser, N., Singh, K.P. and Gu, Y., Li, S. & Srinivas, S",
+      "title": "Online Self-Service Learning Platform for Application-Inspired Cloud Development and Operations (DevOps) Curriculum",
+      "venue": "IEEE Transactions on Learning Technologies",
+      "bibliographicDetails": ".",
+      "citation": "Neupane, R. L., Calyam, P., Wang, S., Neupane, K., Pandey, A., Cheng, X., Gafurov, D. Yeddulapalli, H.S., Glaser, N., Singh, K.P. and Gu, Y., Li, S. & Srinivas, S. (2024). Online Self-Service Learning Platform for Application-Inspired Cloud Development and Operations (DevOps) Curriculum. IEEE Transactions on Learning Technologies.",
+      "publicationStatus": "published",
+      "areaIds": [],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 13
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-14",
+      "type": "journal",
+      "year": 2024,
+      "authors": "Singh, S. P., Srinivas, S., Sundaram, T., & Chockalingam, A",
+      "title": "Adolescent obesity and mental health: Narrative review of modulation factors",
+      "venue": "International Journal of Noncommunicable Diseases",
+      "bibliographicDetails": ", 9(3), 102-108.",
+      "citation": "Singh, S. P., Srinivas, S., Sundaram, T., & Chockalingam, A. (2024). Adolescent obesity and mental health: Narrative review of modulation factors. International Journal of Noncommunicable Diseases, 9(3), 102-108.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 14
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-15",
+      "type": "journal",
+      "year": 2024,
+      "authors": "McBee-Black, K., Zhao, L., & Srinivas, S",
+      "title": "Promoting Adaptive Apparel on Instagram: The Role of People with Disabilities as Users, Influencers, and Advocates",
+      "venue": "Clothing and Textiles Research Journal",
+      "bibliographicDetails": ", 0887302X241284808.",
+      "citation": "McBee-Black, K., Zhao, L., & Srinivas, S. (2024). Promoting Adaptive Apparel on Instagram: The Role of People with Disabilities as Users, Influencers, and Advocates. Clothing and Textiles Research Journal, 0887302X241284808.",
+      "publicationStatus": "published",
+      "areaIds": [],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 15
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-16",
+      "type": "journal",
+      "year": 2024,
+      "authors": "Thomas, T., Srinivas, S., & Chandrasekharan, R",
+      "title": "Collaborative truck multi-drone delivery system considering drone scheduling and en route operations",
+      "venue": "Annals of Operations Research",
+      "bibliographicDetails": ", 339, 693-739.",
+      "citation": "Thomas, T., Srinivas, S., & Chandrasekharan, R. (2024). Collaborative truck multi-drone delivery system considering drone scheduling and en route operations. Annals of Operations Research, 339, 693-739.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "logistics",
+        "autonomy"
+      ],
+      "featured": false,
+      "links": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s10479-023-05418-y",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 16
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-17",
+      "type": "journal",
+      "year": 2023,
+      "authors": "Ezhil, S. A., Chandrasekharan, R. & Srinivas, S",
+      "title": "Improved Lagrangian-relaxation based approaches for multi-period multi-stage fixed charge transportation problem",
+      "venue": "International Journal of Systems Science: Operations & Logistics",
+      "bibliographicDetails": ", 10(1), 2224511.",
+      "citation": "Ezhil, S. A., Chandrasekharan, R. & Srinivas, S. (2023). Improved Lagrangian-relaxation based approaches for multi-period multi-stage fixed charge transportation problem. International Journal of Systems Science: Operations & Logistics, 10(1), 2224511.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "logistics"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 17
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-18",
+      "type": "journal",
+      "year": 2023,
+      "authors": "Li, M., Zhao, L., & Srinivas, S",
+      "title": "It's about Inclusion! Mining Online Reviews to Understand the Needs of Adaptive Clothing Customers",
+      "venue": "International Journal of Consumer Studies",
+      "bibliographicDetails": ", 47(3), 1157-1172.",
+      "citation": "Li, M., Zhao, L., & Srinivas, S. (2023). It's about Inclusion! Mining Online Reviews to Understand the Needs of Adaptive Clothing Customers. International Journal of Consumer Studies, 47(3), 1157-1172.",
+      "publicationStatus": "published",
+      "areaIds": [],
+      "featured": false,
+      "links": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ijcs.12895",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 18
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-19",
+      "type": "journal",
+      "year": 2023,
+      "authors": "Rajendran, S., Sinha, A. A., & Srinivas, S",
+      "title": "Capacitated vertiport and charging station location-allocation problem for air taxi operations with battery and fleet dispatching considerations: a case study of New York City",
+      "venue": "International Journal of Systems Science: Operations & Logistics",
+      "bibliographicDetails": ", 10(1), 2252737.",
+      "citation": "Rajendran, S., Sinha, A. A., & Srinivas, S. (2023). Capacitated vertiport and charging station location-allocation problem for air taxi operations with battery and fleet dispatching considerations: a case study of New York City. International Journal of Systems Science: Operations & Logistics, 10(1), 2252737.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "aviation"
+      ],
+      "featured": true,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 19
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-20",
+      "type": "journal",
+      "year": 2023,
+      "authors": "Rajendran, S., Srinivas, S. and Pagel, E",
+      "title": "Mining Voice of Customers and Employees in Insurance Companies from Online Reviews: A Text Analytics Approach",
+      "venue": "Benchmarking: An International Journal",
+      "bibliographicDetails": ", 30(1), 1-22.",
+      "citation": "Rajendran, S., Srinivas, S. and **Pagel, E. (2023). Mining Voice of Customers and Employees in Insurance Companies from Online Reviews: A Text Analytics Approach. Benchmarking: An International Journal, 30(1), 1-22.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 20
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-21",
+      "type": "journal",
+      "year": 2022,
+      "authors": "Salah, H., & Srinivas, S",
+      "title": "Explainable machine learning framework for predicting long-term cardiovascular disease risk among adolescents",
+      "venue": "Scientific Reports",
+      "bibliographicDetails": ", 12(1), 1-14.",
+      "citation": "*Salah, H., & Srinivas, S. (2022). Explainable machine learning framework for predicting long-term cardiovascular disease risk among adolescents. Scientific Reports, 12(1), 1-14.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": true,
+      "links": [
+        {
+          "url": "https://www.nature.com/articles/s41598-022-25933-5",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 21
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-22",
+      "type": "journal",
+      "year": 2022,
+      "authors": "Srinivas, S., & Yu, S",
+      "title": "Collaborative order picking with multiple pickers and robots: Integrated approach for order batching, sequencing and picker-robot routing",
+      "venue": "International Journal of Production Economics",
+      "bibliographicDetails": ", 254, 108634.",
+      "citation": "Srinivas, S., & *Yu, S. (2022). Collaborative order picking with multiple pickers and robots: Integrated approach for order batching, sequencing and picker-robot routing. International Journal of Production Economics, 254, 108634.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "autonomy"
+      ],
+      "featured": true,
+      "links": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S092552732200216X",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 22
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-23",
+      "type": "journal",
+      "year": 2022,
+      "authors": "Srinivas, S., Ramachandiran, S., & Rajendran, S",
+      "title": "Autonomous robot-driven deliveries: A review of recent developments and future directions",
+      "venue": "Transportation Research Part E: Logistics and Transportation Review",
+      "bibliographicDetails": ", 165, 102834. (Cited over 200 times).",
+      "citation": "Srinivas, S., **Ramachandiran, S., & Rajendran, S. (2022). Autonomous robot-driven deliveries: A review of recent developments and future directions. Transportation Research Part E: Logistics and Transportation Review, 165, 102834. (Cited over 200 times).",
+      "publicationStatus": "published",
+      "areaIds": [
+        "autonomy"
+      ],
+      "featured": false,
+      "links": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1366554522002150",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 23
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-24",
+      "type": "journal",
+      "year": 2022,
+      "authors": "Salama, M. R., & Srinivas, S",
+      "title": "Collaborative truck multi-drone routing and scheduling problem: Package delivery with flexible launch and recovery sites",
+      "venue": "Transportation Research Part E: Logistics and Transportation Review",
+      "bibliographicDetails": ", 164, 102788.",
+      "citation": "*Salama, M. R., & Srinivas, S. (2022). Collaborative truck multi-drone routing and scheduling problem: Package delivery with flexible launch and recovery sites. Transportation Research Part E: Logistics and Transportation Review, 164, 102788.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "logistics",
+        "autonomy"
+      ],
+      "featured": false,
+      "links": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1366554522001776",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 24
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-25",
+      "type": "journal",
+      "year": 2022,
+      "authors": "Srinivas, S., & Choi, S. S",
+      "title": "Designing variable-sized block appointment system under time-varying no-shows",
+      "venue": "Computers & Industrial Engineering",
+      "bibliographicDetails": ", 172, 108596.",
+      "citation": "Srinivas, S., & Choi, S. S. (2022). Designing variable-sized block appointment system under time-varying no-shows. Computers & Industrial Engineering, 172, 108596.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 25
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-26",
+      "type": "journal",
+      "year": 2022,
+      "authors": "Salah, H., & Srinivas, S",
+      "title": "Predict, then schedule: Prescriptive analytics approach for machine learning-enabled sequential clinical scheduling",
+      "venue": "Computers & Industrial Engineering",
+      "bibliographicDetails": ", 108270.",
+      "citation": "*Salah, H., & Srinivas, S. (2022). Predict, then schedule: Prescriptive analytics approach for machine learning-enabled sequential clinical scheduling. Computers & Industrial Engineering, 108270.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 26
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-27",
+      "type": "journal",
+      "year": 2022,
+      "authors": "Chockalingam, A., Bettencourt, B. A., Anand, K., Dorairajan, S., Anbuganapathi, G., Srinivas, S., & Chockalingam, V",
+      "title": "Siddha Self-Inquiry for Flow, Bliss, and Uvagai: Mindfulness for Intuitive Lifestyle in Complex Cardiac Disease",
+      "venue": "American Journal of Lifestyle Medicine",
+      "bibliographicDetails": ", 15598276221117091.",
+      "citation": "Chockalingam, A., Bettencourt, B. A., **Anand, K., Dorairajan, S., Anbuganapathi, G., Srinivas, S., & Chockalingam, V. (2022). Siddha Self-Inquiry for Flow, Bliss, and Uvagai: Mindfulness for Intuitive Lifestyle in Complex Cardiac Disease. American Journal of Lifestyle Medicine, 15598276221117091.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 27
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-28",
+      "type": "journal",
+      "year": 2021,
+      "authors": "Srinivas, S., Anand, K. and Chockalingam, A",
+      "title": "Adolescent psychological well-being and adulthood cardiovascular disease risk: longitudinal association and implications for care quality management",
+      "venue": "Benchmarking: An International Journal",
+      "bibliographicDetails": ", 29(10), 3163-3175. (108 Altmetric Attention Score, Top 5% of all research scored by Altmetric).",
+      "citation": "Srinivas, S., **Anand, K. and Chockalingam, A. (2021), “Adolescent psychological well-being and adulthood cardiovascular disease risk: longitudinal association and implications for care quality management. Benchmarking: An International Journal, 29(10), 3163-3175. (108 Altmetric Attention Score, Top 5% of all research scored by Altmetric).",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 28
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-29",
+      "type": "journal",
+      "year": 2021,
+      "authors": "Salama, M., and Srinivas, S",
+      "title": "Adaptive neighborhood simulated annealing for sustainability-oriented single machine scheduling with deterioration effect",
+      "venue": "Applied Soft Computing",
+      "bibliographicDetails": ", 107632.",
+      "citation": "*Salama, M., and Srinivas, S. (2021). Adaptive neighborhood simulated annealing for sustainability-oriented single machine scheduling with deterioration effect. Applied Soft Computing, 107632.",
+      "publicationStatus": "published",
+      "areaIds": [],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 29
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-30",
+      "type": "journal",
+      "year": 2021,
+      "authors": "Srinivas, S. and Salah, H",
+      "title": "Consultation Length and No-show Prediction for Improving Appointment Scheduling Efficiency at a Cardiology Clinic: A Data Analytics Approach",
+      "venue": "International Journal of Medical Informatics",
+      "bibliographicDetails": ", 145, 104290.",
+      "citation": "Srinivas, S. and *Salah, H.  (2021). Consultation Length and No-show Prediction for Improving Appointment Scheduling Efficiency at a Cardiology Clinic: A Data Analytics Approach. International Journal of Medical Informatics, 145, 104290.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 30
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-31",
+      "type": "journal",
+      "year": 2021,
+      "authors": "Rajendran, S., Srinivas, S. and Grimshaw, T",
+      "title": "Predicting Demand for Air Taxi Urban Aviation Services using Machine Learning Algorithms",
+      "venue": "Journal of Air Transport Management",
+      "bibliographicDetails": ", 92, 102043.",
+      "citation": "Rajendran, S., Srinivas, S. and **Grimshaw, T. (2021). Predicting Demand for Air Taxi Urban Aviation Services using Machine Learning Algorithms. Journal of Air Transport Management, 92, 102043.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "aviation"
+      ],
+      "featured": false,
+      "links": [
+        {
+          "url": "https://doi.org/10.1016/j.jairtraman.2021.102043",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 31
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-32",
+      "type": "journal",
+      "year": 2021,
+      "authors": "Srinivas, S., Nazareth, R. P., & Ullah, S. M",
+      "title": "Modeling and Analysis of Business Process Reengineering Strategies for Improving Emergency Department Efficiency",
+      "venue": "SIMULATION",
+      "bibliographicDetails": ", 97(1), 3-18.",
+      "citation": "Srinivas, S., **Nazareth, R. P., & **Ullah, S. M. (2021). Modeling and Analysis of Business Process Reengineering Strategies for Improving Emergency Department Efficiency. SIMULATION, 97(1), 3-18.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 32
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-33",
+      "type": "journal",
+      "year": 2020,
+      "authors": "Rajendran, S., & Srinivas, S",
+      "title": "Hybrid Ordering Policies for Platelet Inventory Management under Demand Uncertainty",
+      "venue": "IISE Transactions on Healthcare Systems Engineering",
+      "bibliographicDetails": ", 10(2), 113-126.",
+      "citation": "Rajendran, S., & Srinivas, S. (2020). Hybrid Ordering Policies for Platelet Inventory Management under Demand Uncertainty. IISE Transactions on Healthcare Systems Engineering, 10(2), 113-126.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 33
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-34",
+      "type": "journal",
+      "year": 2020,
+      "authors": "Rajendran, S., and Srinivas, S",
+      "title": "Air Taxi Service for Urban Mobility: A Critical Review of Recent Developments, Future Challenges, and Opportunities",
+      "venue": "Transportation Research Part E: Logistics and Transportation Review",
+      "bibliographicDetails": ", 143, 102090. (Cited over 300 times).",
+      "citation": "Rajendran, S., and Srinivas, S. (2020). Air Taxi Service for Urban Mobility: A Critical Review of Recent Developments, Future Challenges, and Opportunities. Transportation Research Part E: Logistics and Transportation Review, 143, 102090. (Cited over 300 times).",
+      "publicationStatus": "published",
+      "areaIds": [
+        "aviation"
+      ],
+      "featured": false,
+      "links": [
+        {
+          "url": "https://doi.org/10.1016/j.tre.2020.102090",
+          "label": "Publisher",
+          "source": "Existing website news archive; topic-matched candidate",
+          "verifiedOnline": false
+        }
+      ],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 34
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-35",
+      "type": "journal",
+      "year": 2020,
+      "authors": "Salama, M., & Srinivas, S",
+      "title": "Joint optimization of customer location clustering and drone-based routing for last-mile deliveries",
+      "venue": "Transportation Research Part C: Emerging Technologies",
+      "bibliographicDetails": ", 114, 620-642. (Cited over 275 times).",
+      "citation": "*Salama, M., & Srinivas, S. (2020). Joint optimization of customer location clustering and drone-based routing for last-mile deliveries. Transportation Research Part C: Emerging Technologies, 114, 620-642. (Cited over 275 times).",
+      "publicationStatus": "published",
+      "areaIds": [
+        "logistics",
+        "autonomy"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 35
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-36",
+      "type": "journal",
+      "year": 2020,
+      "authors": "Srinivas, S",
+      "title": "A Machine Learning-Based Approach for Predicting Patient Punctuality in Ambulatory Care Centers",
+      "venue": "International Journal of Environmental Research and Public Health",
+      "bibliographicDetails": ", 17(10), 3703.",
+      "citation": "Srinivas, S. (2020). A Machine Learning-Based Approach for Predicting Patient Punctuality in Ambulatory Care Centers.  International Journal of Environmental Research and Public Health, 17(10), 3703.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 36
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-37",
+      "type": "journal",
+      "year": 2020,
+      "authors": "Srinivas, S., & Ravindran, A",
+      "title": "Designing schedule configuration of a hybrid appointment system for a two-stage outpatient clinic with multiple servers",
+      "venue": "Health Care Management Science",
+      "bibliographicDetails": ", 23, 360-386.",
+      "citation": "Srinivas, S., & Ravindran, A. (2020). Designing schedule configuration of a hybrid appointment system for a two-stage outpatient clinic with multiple servers. Health Care Management Science, 23, 360-386.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 37
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-38",
+      "type": "journal",
+      "year": 2020,
+      "authors": "Kambli, A., Sinha, A. A., & Srinivas, S",
+      "title": "Improving campus dining operations using capacity and queue management: A simulation-based case study",
+      "venue": "Journal of Hospitality and Tourism Management",
+      "bibliographicDetails": ", 43, 62-70. (Featured in ISE magazine).",
+      "citation": "**Kambli, A., **Sinha, A. A., & Srinivas, S. (2020). Improving campus dining operations using capacity and queue management: A simulation-based case study. Journal of Hospitality and Tourism Management, 43, 62-70. (Featured in ISE magazine).",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 38
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-39",
+      "type": "journal",
+      "year": 2019,
+      "authors": "Srinivas, S., and Rajendran, S",
+      "title": "Topic-based Knowledge Mining of Online Student Reviews for Strategic Planning in Universities",
+      "venue": "Computers and Industrial Engineering",
+      "bibliographicDetails": ", 128, 974-984.",
+      "citation": "Srinivas, S., and Rajendran, S. (2019). Topic-based Knowledge Mining of Online Student Reviews for Strategic Planning in Universities. Computers and Industrial Engineering, 128, 974-984.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 39
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-40",
+      "type": "journal",
+      "year": 2019,
+      "authors": "Nivethitha, S., & Srinivas, S",
+      "title": "Modeling the Impact of Employee Engagement and Happiness on Burnout and Turnover Intention Among Blue-Collar Workers at a Manufacturing Company",
+      "venue": "Benchmarking",
+      "bibliographicDetails": ", 27(2), 499-516. (Cited 190+ times).",
+      "citation": "Nivethitha, S., & Srinivas, S. (2019). Modeling the Impact of Employee Engagement and Happiness on Burnout and Turnover Intention Among Blue-Collar Workers at a Manufacturing Company. Benchmarking, 27(2), 499-516. (Cited 190+ times).",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 40
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-41",
+      "type": "journal",
+      "year": 2019,
+      "authors": "Srinivas, S., & Chandrasekharan, R",
+      "title": "Community Detection and Influential Node Identification in Complex Networks using Mathematical Programming",
+      "venue": "Expert Systems with Applications",
+      "bibliographicDetails": ", 135(30), 296-312.",
+      "citation": "Srinivas, S., & Chandrasekharan, R. (2019). Community Detection and Influential Node Identification in Complex Networks using Mathematical Programming. Expert Systems with Applications, 135(30), 296-312.",
+      "publicationStatus": "published",
+      "areaIds": [],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 41
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-42",
+      "type": "journal",
+      "year": 2019,
+      "authors": "Smith, D., & Srinivas, S",
+      "title": "A Simulation-based Evaluation of Warehouse Check-in Strategies for Improving Inbound Logistics Operations",
+      "venue": "Simulation Modelling Practice and Theory",
+      "bibliographicDetails": ", 94, 303-320. (Featured in ISE magazine)",
+      "citation": "*Smith, D., & Srinivas, S. (2019). A Simulation-based Evaluation of Warehouse Check-in Strategies for Improving Inbound Logistics Operations. Simulation Modelling Practice and Theory, 94, 303-320. (Featured in ISE magazine)",
+      "publicationStatus": "published",
+      "areaIds": [
+        "logistics"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 42
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-43",
+      "type": "journal",
+      "year": 2017,
+      "authors": "Srinivas, S., Mahdi, M., and Bastian, N.D",
+      "title": "Optimizing student team and corporate job assignments for Holy Family Academy",
+      "venue": "Interfaces",
+      "bibliographicDetails": ", 47(2), 163-174.",
+      "citation": "Srinivas, S., Mahdi, M., and Bastian, N.D. (2017). Optimizing student team and corporate job assignments for Holy Family Academy. Interfaces, 47(2), 163-174.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 43
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-44",
+      "type": "journal",
+      "year": 2015,
+      "authors": "Rajendran, S., Srinivas, S., and Saha, C",
+      "title": "Analysis of Operations of Port using Mathematical and Simulation Modelling",
+      "venue": "International Journal of Logistics Systems and Management",
+      "bibliographicDetails": ", 20(3), 325-347.",
+      "citation": "Rajendran, S., Srinivas, S., and Saha, C. (2015). Analysis of Operations of Port using Mathematical and Simulation Modelling. International Journal of Logistics Systems and Management, 20(3), 325-347.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "logistics"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 44
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-45",
+      "type": "journal",
+      "year": 2015,
+      "authors": "Bastian, N. D., McMurry, P., Fulton, L. V., Griffin, P. M., Cui, S., Hanson, T., and Srinivas, S",
+      "title": "The AMEDD Uses Goal Programming to Optimize Workforce Planning Decisions",
+      "venue": "Interfaces",
+      "bibliographicDetails": ", 45(4), 305-324. (Winner, INFORMS Koopman Prize)",
+      "citation": "Bastian, N. D., McMurry, P., Fulton, L. V., Griffin, P. M., Cui, S., Hanson, T., and Srinivas, S. (2015). The AMEDD Uses Goal Programming to Optimize Workforce Planning Decisions. Interfaces, 45(4), 305-324. (Winner, INFORMS Koopman Prize)",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 45
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-46",
+      "type": "journal",
+      "year": 2020,
+      "authors": "Srinivas, S., Anand, K., & Chockalingam, A",
+      "title": "Longitudinal association between adolescent negative emotions and adulthood cardiovascular disease risk: an opportunity for healthcare quality improvement",
+      "venue": "Benchmarking: An International Journal",
+      "bibliographicDetails": ", 27(8), 2323-2339.",
+      "citation": "Srinivas, S., **Anand, K., & Chockalingam, A. (2020). Longitudinal association between adolescent negative emotions and adulthood cardiovascular disease risk: an opportunity for healthcare quality improvement. Benchmarking: An International Journal, 27(8), 2323-2339.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 46
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-47",
+      "type": "journal",
+      "year": 2018,
+      "authors": "Srinivas, S., Rajendran, S., Anand, K., & Chockalingam, A",
+      "title": "Self-reported Depressive Symptoms in Adolescence Increase the Risk for Obesity and High BP in Adulthood",
+      "venue": "International Journal of Cardiology",
+      "bibliographicDetails": ", 269, 339-342.",
+      "citation": "Srinivas, S., Rajendran, S., **Anand, K., & Chockalingam, A. (2018). Self-reported Depressive Symptoms in Adolescence Increase the Risk for Obesity and High BP in Adulthood. International Journal of Cardiology, 269, 339-342.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 47
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-48",
+      "type": "journal",
+      "year": 2018,
+      "authors": "Srinivas, S., and Ravindran, A",
+      "title": "Optimizing Outpatient Appointment System using Machine Learning Algorithms and Scheduling Rules: A Prescriptive Analytics Framework",
+      "venue": "Expert Systems with Applications",
+      "bibliographicDetails": ", 102, 245-261. (Cited over 200 times)",
+      "citation": "Srinivas, S., and Ravindran, A. (2018). Optimizing Outpatient Appointment System using Machine Learning Algorithms and Scheduling Rules: A Prescriptive Analytics Framework. Expert Systems with Applications, 102, 245-261. (Cited over 200 times)",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 48
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-49",
+      "type": "journal",
+      "year": 2017,
+      "authors": "Srinivas, S., and Khasawneh, M. T",
+      "title": "Design and analysis of a hybrid appointment system: An optimization approach",
+      "venue": "International Journal of Operational Research",
+      "bibliographicDetails": ", 29, 376-399.",
+      "citation": "Srinivas, S., and Khasawneh, M. T. (2017). Design and analysis of a hybrid appointment system: An optimization approach. International Journal of Operational Research, 29, 376-399.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 49
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    },
+    {
+      "id": "journal-50",
+      "type": "journal",
+      "year": 2016,
+      "authors": "Srinivas, S",
+      "title": "Evaluating the impact of nature of patient flow and patient availability on the performance of appointment scheduling rules in outpatient clinics",
+      "venue": "International Journal of Operations and Quantitative Management",
+      "bibliographicDetails": ", 22(2), 93-118.",
+      "citation": "Srinivas, S. (2016). Evaluating the impact of nature of patient flow and patient availability on the performance of appointment scheduling rules in outpatient clinics. International Journal of Operations and Quantitative Management, 22(2), 93-118.",
+      "publicationStatus": "published",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "featured": false,
+      "links": [],
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Refereed journal publications",
+        "ordinal": 50
+      },
+      "areaTagStatus": "editorial-title-based-review-before-publication"
+    }
+  ],
+  "books": [
+    {
+      "id": "book-1",
+      "type": "edited-book",
+      "year": 2021,
+      "citation": "Srinivas, S., Rajendran, S., & Ziegler, H. (2021). Supply Chain Management in Manufacturing and Service Systems. Springer.",
+      "links": [],
+      "areaIds": []
+    },
+    {
+      "id": "book-2",
+      "type": "book-chapter",
+      "year": 2021,
+      "citation": "Srinivas, S., Rajendran, S., & Ziegler, H. (2021). An Overview of Decisions, Performance and Analytics in Supply Chain Management. In Supply Chain Management in Manufacturing and Service Systems, 1-17. Springer, Cham.",
+      "links": [],
+      "areaIds": []
+    },
+    {
+      "id": "book-3",
+      "type": "book-chapter",
+      "year": 2021,
+      "citation": "*Jackson, A., & Srinivas, S. (2021). A Simulation-Based Evaluation of Drone Integrated Delivery Strategies for Improving Pharmaceutical Service. In Supply Chain Management in Manufacturing and Service Systems (pp. 185-204). Springer, Cham.",
+      "links": [],
+      "areaIds": []
+    },
+    {
+      "id": "book-4",
+      "type": "book-chapter",
+      "year": 2017,
+      "citation": "Srinivas, S., and Rajendran, S. (2017). A Data-Driven Approach for Multi-Objective Loan Portfolio Optimization using Machine Learning Algorithms and Mathematical Programming. In Big Data Analytics Using Multiple Criteria Decision Making Models. Ramanathan, R., et al. (Eds.), CRC press.",
+      "links": [],
+      "areaIds": []
+    },
+    {
+      "id": "book-5",
+      "type": "book-chapter",
+      "year": 2017,
+      "citation": "Goyal, R., Ananthakrishnan, V., Srinivas, S., and Prabhu, V. (2017). Multi-Criteria Evaluation of Predictive Analytics for Electric Utility Management. In Big Data Analytics using Multiple Criteria Decision Making Models. Ramanathan, R., et al. (Eds.), CRC press.",
+      "links": [],
+      "areaIds": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-01",
+      "title": "Advancing Anchorage's Freight Transportation Network: A Comprehensive Analysis for Cost-Effective, Safe, and Resilient Operations",
+      "displayTitle": "Resilient freight in Anchorage",
+      "sponsor": "Alaska Dept. of Transportation and FHWA",
+      "period": {
+        "label": "Mar 2026 - Dec 2027",
+        "start": "2026-03",
+        "end": "2027-12",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-PI: Suchithra Rajendran",
+      "areaIds": [
+        "logistics"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 1
+      },
+      "status": "active-by-listed-award-period",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": true,
+      "featuredOnProjectsPage": true
+    },
+    {
+      "id": "project-02",
+      "title": "A Risk-Aware Decision-Support Platform for Commodity Pricing under Market Uncertainty",
+      "displayTitle": "Risk-aware commodity pricing",
+      "sponsor": "Universal Metal Coating Company (UNICOIL)",
+      "period": {
+        "label": "Apr 2026 – Dec 2030",
+        "start": "2026-04",
+        "end": "2030-12",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-I: James Noble",
+      "areaIds": [
+        "logistics"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 2
+      },
+      "status": "active-by-listed-award-period",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": true
+    },
+    {
+      "id": "project-03",
+      "title": "IRES: Advancing Research on Optimizing Collaborative Human-Mobile Robot Operations for Next-Generation Manufacturing and Service Systems",
+      "displayTitle": "Collaborative human–mobile robot operations",
+      "sponsor": "National Science Foundation",
+      "period": {
+        "label": "Sep 2025 – Aug 2028",
+        "start": "2025-09",
+        "end": "2028-08",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-I: James Noble",
+      "areaIds": [
+        "autonomy",
+        "service-healthcare"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 3
+      },
+      "status": "active-by-listed-award-period",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": true,
+      "featuredOnProjectsPage": true
+    },
+    {
+      "id": "project-04",
+      "title": "A Route Management Platform for Optimizing Last-mile Logistics Operations using Electric Truck and Drones",
+      "displayTitle": "Electric truck–drone route management",
+      "sponsor": "Mizzou TechHub (NSF ART flow-through)",
+      "period": {
+        "label": "Sep 2025 – Dec 2026",
+        "start": "2025-09",
+        "end": "2026-12",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-I: Prasad Calyam",
+      "areaIds": [
+        "logistics",
+        "autonomy"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 4
+      },
+      "status": "active-by-listed-award-period",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": true,
+      "featuredOnProjectsPage": true
+    },
+    {
+      "id": "project-05",
+      "title": "Advancing Steel Market Analytics and Decision-Making through Integration of Large Language Models",
+      "displayTitle": "LLMs for steel-market decisions",
+      "sponsor": "Universal Metal Coating Company (UNICOIL)",
+      "period": {
+        "label": "Apr 2025 – Dec 2028",
+        "start": "2025-04",
+        "end": "2028-12",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-I: James Noble",
+      "areaIds": [
+        "logistics"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 5
+      },
+      "status": "active-by-listed-award-period",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": true,
+      "featuredOnProjectsPage": true
+    },
+    {
+      "id": "project-06",
+      "title": "PAWR Supplement - PFI-TT: Cloud-based Route Management Platform for Optimizing Last-Mile Logistics of Electric Truck and Drone Operations",
+      "displayTitle": "Wireless research for truck–drone logistics",
+      "sponsor": "National Science Foundation",
+      "period": {
+        "label": "Aug 2025 - Jan 2026",
+        "start": "2025-08",
+        "end": "2026-01",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-PIs: Prasad Calyam, Suchithra Rajendran",
+      "areaIds": [
+        "logistics",
+        "autonomy"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 6
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-07",
+      "title": "I-Corps: Translation Potential of a Software Platform for Optimizing Collaborative Human-Robot Operations",
+      "displayTitle": "Human–robot software translation",
+      "sponsor": "National Science Foundation",
+      "period": {
+        "label": "Feb 2025 – Jan 2026",
+        "start": "2025-02",
+        "end": "2026-01",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": null,
+      "areaIds": [
+        "autonomy"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [
+        {
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2447357",
+          "label": "NSF award",
+          "source": "Existing website news archive",
+          "verifiedOnline": false
+        }
+      ],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 7
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-08",
+      "title": "CyberTraining: Implementation: Small: Application-inspired Cloud DevOps Training using an Online Self-Service Learning Platform",
+      "displayTitle": "Cloud DevOps research training",
+      "sponsor": "National Science Foundation",
+      "period": {
+        "label": "Aug 2024 – Jul 2027",
+        "start": "2024-08",
+        "end": "2027-07",
+        "precision": "month"
+      },
+      "role": "Co-Principal Investigator",
+      "collaborators": "PI: Prasad Calyam, Co-PI: Noah Glaser",
+      "areaIds": [],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [
+        {
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2417826",
+          "label": "NSF award",
+          "source": "Existing website news archive",
+          "verifiedOnline": false
+        }
+      ],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 8
+      },
+      "status": "active-by-listed-award-period",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": true
+    },
+    {
+      "id": "project-09",
+      "title": "REU Supplement - PFI-TT: Cloud-based Route Management Platform for Optimizing Last-Mile Logistics of Electric Truck and Drone Operations",
+      "displayTitle": "Undergraduate research in truck–drone logistics",
+      "sponsor": "National Science Foundation",
+      "period": {
+        "label": "Aug 2024 - Jan 2026",
+        "start": "2024-08",
+        "end": "2026-01",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-PIs: Prasad Calyam, Suchithra Rajendran",
+      "areaIds": [
+        "logistics",
+        "autonomy"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 9
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-10",
+      "title": "Development of AI-Powered Analytics Platform for Steel Price Prediction",
+      "displayTitle": "AI-powered steel-price prediction",
+      "sponsor": "Universal Metal Coating Company (UNICOIL)",
+      "period": {
+        "label": "Jan 2024 – Dec 2028",
+        "start": "2024-01",
+        "end": "2028-12",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-PIs: James Noble",
+      "areaIds": [
+        "logistics"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 10
+      },
+      "status": "active-by-listed-award-period",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": true
+    },
+    {
+      "id": "project-11",
+      "title": "Analysis Capabilities for Competition, Crisis, and Combat (AC4)",
+      "displayTitle": "Analysis capabilities for competition, crisis, and combat",
+      "sponsor": "University of Houston (federal flow through from Dept. of Defense/DoD)",
+      "period": {
+        "label": null,
+        "start": null,
+        "end": null,
+        "precision": "unknown"
+      },
+      "role": "Co-Principal Investigator",
+      "collaborators": "PI: James Noble, Co-PI: Suchithra Rajendran",
+      "areaIds": [],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 11
+      },
+      "status": "dates-unknown",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-12",
+      "title": "PFI-TT: Cloud-based Route Management Platform for Optimizing Last-Mile Logistics of Electric Truck and Drone Operations",
+      "displayTitle": "Cloud-based truck–drone logistics",
+      "sponsor": "National Science Foundation",
+      "period": {
+        "label": "Aug 2023 - Jan 2026",
+        "start": "2023-08",
+        "end": "2026-01",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-PIs: Prasad Calyam, Suchithra Rajendran",
+      "areaIds": [
+        "logistics",
+        "autonomy"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [
+        {
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2313887",
+          "label": "NSF award",
+          "source": "Existing website news archive",
+          "verifiedOnline": false
+        }
+      ],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 12
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-13",
+      "title": "Development of an intelligent truck transport management application for freight and fuel movement through route optimization, scenario analysis, and incident management",
+      "displayTitle": "Intelligent freight and fuel transport",
+      "sponsor": "Alaska Dept. of Transportation and FHWA",
+      "period": {
+        "label": "Aug 2023 - Dec 2025",
+        "start": "2023-08",
+        "end": "2025-12",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-PIs: Prasad Calyam, Suchithra Rajendran",
+      "areaIds": [
+        "logistics"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 13
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-14",
+      "title": "REU Site: Research on Prescriptive Analytics for AI-enabled Operations Engineering",
+      "displayTitle": "AI-enabled operations engineering REU",
+      "sponsor": "National Science Foundation",
+      "period": {
+        "label": "Aug 2023 - Dec 2024",
+        "start": "2023-08",
+        "end": "2024-12",
+        "precision": "month"
+      },
+      "role": "Co-Principal Investigator",
+      "collaborators": "PI: Suchithra Rajendran, Co-PI: Calyam, SP: Noble, Zhou",
+      "areaIds": [],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [
+        {
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2243589",
+          "label": "NSF award",
+          "source": "Existing website news archive",
+          "verifiedOnline": false
+        }
+      ],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 14
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "statusNote": "CV lists award through December 2024 but includes 2025 REU cohort. Confirm extension/renewal; award dates do not establish program closure.",
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-15",
+      "title": "IRES Track 1: International Research Experiences for Students in AI-Enabled Decision Analytics for Advancing Air Taxi and Drone Operations",
+      "displayTitle": "Air-taxi and drone research experiences",
+      "sponsor": "National Science Foundation",
+      "period": {
+        "label": "Apr 2023 - Mar 2026",
+        "start": "2023-04",
+        "end": "2026-03",
+        "precision": "month"
+      },
+      "role": "Co-Principal Investigator",
+      "collaborators": "PI: Suchi Rajendran, Co-PI: Calyam, Anderson",
+      "areaIds": [
+        "aviation",
+        "autonomy"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [
+        {
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2245469",
+          "label": "NSF award",
+          "source": "Existing website news archive",
+          "verifiedOnline": false
+        }
+      ],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 15
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "statusNote": "Listed air-taxi/drone award ended March 2026; distinct from the active human-mobile robot IRES award.",
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-16",
+      "title": "I-Corps: A Scalable Cloud-based Route Optimization Software for Efficient Aerial and Road Logistics",
+      "displayTitle": "Aerial and road logistics software translation",
+      "sponsor": "National Science Foundation",
+      "period": {
+        "label": "Aug 2022 -Aug 2023",
+        "start": "2022-08",
+        "end": "2023-08",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": null,
+      "areaIds": [
+        "logistics",
+        "aviation"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [
+        {
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2240977",
+          "label": "NSF award",
+          "source": "Existing website news archive",
+          "verifiedOnline": false
+        }
+      ],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 16
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-17",
+      "title": "Enhancing Innovation, Resilience and Agility in Missouri's Manufacturers",
+      "displayTitle": "Resilience in Missouri manufacturing",
+      "sponsor": "US Economic Development Administration",
+      "period": {
+        "label": "Feb 2021 - Nov 2023",
+        "start": "2021-02",
+        "end": "2023-11",
+        "precision": "month"
+      },
+      "role": "Co-Principal Investigator",
+      "collaborators": "PI: Robert Russell, Co-PI: Alan Spell",
+      "areaIds": [
+        "logistics"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 17
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-18",
+      "title": "CELDi: Intelligent Decision Support System for Steel Market Analytics",
+      "displayTitle": "Steel-market decision support",
+      "sponsor": "Trinity Products",
+      "period": {
+        "label": "Jan 2023 - Jun 2024",
+        "start": "2023-01",
+        "end": "2024-06",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-PIs: James Noble, Anthony Ross, Kihyung Kim",
+      "areaIds": [
+        "logistics"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 18
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-19",
+      "title": "Optimization of Hair Extension Manufacturing Process",
+      "displayTitle": "Hair-extension manufacturing optimization",
+      "sponsor": "Rebundle Co.",
+      "period": {
+        "label": "Nov 2022 - Oct 2023",
+        "start": "2022-11",
+        "end": "2023-10",
+        "precision": "month"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-PI: Suchithra Rajendran",
+      "areaIds": [],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 19
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-20",
+      "title": "GEER Non-credit Professional and Continuing Education Program",
+      "displayTitle": "Professional and continuing education",
+      "sponsor": "Missouri Dept of Higher Education and Workforce Development",
+      "period": {
+        "label": "2021 - 2022",
+        "start": "2021",
+        "end": "2022",
+        "precision": "year"
+      },
+      "role": "Principal Investigator",
+      "collaborators": "Co-PI: Kangwon Seo, Grant Scott, Tim Matisziw, Rob Russell",
+      "areaIds": [],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 20
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-21",
+      "title": "CELDi – Optimal Supplier Collaboration",
+      "displayTitle": "Supplier collaboration",
+      "sponsor": "Boeing",
+      "period": {
+        "label": "Sep 2021 - Aug 2022",
+        "start": "2021-09",
+        "end": "2022-08",
+        "precision": "month"
+      },
+      "role": "Co-Principal Investigator",
+      "collaborators": "PI: James Noble",
+      "areaIds": [
+        "logistics"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 21
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-22",
+      "title": "NAVIFY Tumor Board – Economic Evaluation",
+      "displayTitle": "Tumor-board economic evaluation",
+      "sponsor": "Roche Molecular Systems, Inc",
+      "period": {
+        "label": "Jul 2020 - Aug 2021",
+        "start": "2020-07",
+        "end": "2021-08",
+        "precision": "month"
+      },
+      "role": "Co-Principal Investigator",
+      "collaborators": "PI: Richard Hammer, Co-PI: Suchithra Rajendran",
+      "areaIds": [
+        "service-healthcare"
+      ],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 22
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    },
+    {
+      "id": "project-23",
+      "title": "CELDi - Schneider Electric",
+      "displayTitle": "Schneider Electric collaboration",
+      "sponsor": "Schneider Electric",
+      "period": {
+        "label": "Aug 2018 - Mar 2020",
+        "start": "2018-08",
+        "end": "2020-03",
+        "precision": "month"
+      },
+      "role": "Co-Principal Investigator",
+      "collaborators": "PI: Ron McGarvey, Co-PI: Suchi Rajendran, James Noble",
+      "areaIds": [],
+      "description": null,
+      "image": null,
+      "relatedPublicationIds": [],
+      "links": [],
+      "funding": {
+        "amount": null,
+        "currency": "USD",
+        "showAmount": false
+      },
+      "source": {
+        "document": "CV updated 2026-09-24",
+        "section": "Externally funded ongoing and completed projects",
+        "ordinal": 23
+      },
+      "status": "listed-award-period-ended",
+      "editorialStatus": "proposed-display-title-and-area-tags",
+      "featuredOnHome": false,
+      "featuredOnProjectsPage": false
+    }
+  ],
+  "people": [
+    {
+      "id": "yusuf-salik",
+      "name": "Yusuf Salik",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Yusuf Salik, Ph.D.",
+          "completedPeriod": null
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "soham-basu",
+      "name": "Soham Basu",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "MS",
+            "PhD"
+          ],
+          "sourceText": "Soham Basu, MS and Ph.D.",
+          "completedPeriod": null
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "pyam-oveys",
+      "name": "Pyam Oveys",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Pyam Oveys, Ph.D.",
+          "completedPeriod": null
+        },
+        {
+          "type": "completed-degree",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Pyam Oveys, Spring 2026",
+          "completedPeriod": {
+            "year": 2026,
+            "season": "Spring",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "negar-jahanbakhsh-javid",
+      "name": "Negar Jahanbakhsh Javid",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Negar Jahanbakhsh Javid, Ph.D.",
+          "completedPeriod": null
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "mahima-naznin",
+      "name": "Mahima Naznin",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Mahima Naznin, Ph.D.",
+          "completedPeriod": null
+        },
+        {
+          "type": "completed-degree",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Mahima Naznin, MS, Spring 2025",
+          "completedPeriod": {
+            "year": 2025,
+            "season": "Spring",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "arghadeep-mitra",
+      "name": "Arghadeep Mitra",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "MS",
+            "PhD"
+          ],
+          "sourceText": "Arghadeep Mitra, MS and Ph.D.",
+          "completedPeriod": null
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "celiker-busra",
+      "name": "Celiker Busra",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Celiker Busra, Ph.D.",
+          "completedPeriod": null
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "fatemeh-pourdehghan",
+      "name": "Fatemeh Pourdehghan",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Fatemeh Pourdehghan, Ph.D.",
+          "completedPeriod": null
+        },
+        {
+          "type": "completed-degree",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Fatemeh Pourdehghan, MS, Spring 2025",
+          "completedPeriod": {
+            "year": 2025,
+            "season": "Spring",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "ilitch-fisher",
+      "name": "Ilitch Fisher",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Ilitch Fisher, MS",
+          "completedPeriod": null
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "george-miras",
+      "name": "George Miras",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "George Miras, MS",
+          "completedPeriod": null
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "kallan-jennings",
+      "name": "Kallan Jennings",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Kallan Jennings, MS",
+          "completedPeriod": null
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "proffitt-blackburn",
+      "name": "Proffitt Blackburn",
+      "relationships": [
+        {
+          "type": "current-advisee",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Proffitt Blackburn, MS",
+          "completedPeriod": null
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "paul-antonacci",
+      "name": "Paul Antonacci",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Paul Antonacci, Ph.D., Summer 2026",
+          "completedPeriod": {
+            "year": 2026,
+            "season": "Summer",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "arash-alizadeh",
+      "name": "Arash Alizadeh",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Arash Alizadeh, Ph.D., Fall 2025",
+          "completedPeriod": {
+            "year": 2025,
+            "season": "Fall",
+            "precision": "season"
+          }
+        },
+        {
+          "type": "completed-degree",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Arash Alizadeh, MS, Fall 2024",
+          "completedPeriod": {
+            "year": 2024,
+            "season": "Fall",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "shitao-yu",
+      "name": "Shitao Yu",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Shitao Yu, Ph.D., Summer 2023",
+          "completedPeriod": {
+            "year": 2023,
+            "season": "Summer",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "mohamed-salama",
+      "name": "Mohamed Salama",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Mohamed Salama, Ph.D., Spring 2022",
+          "completedPeriod": {
+            "year": 2022,
+            "season": "Spring",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "haya-salah",
+      "name": "Haya Salah",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "PhD"
+          ],
+          "sourceText": "Haya Salah, Ph.D., Spring 2022",
+          "completedPeriod": {
+            "year": 2022,
+            "season": "Spring",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "ali-fallah",
+      "name": "Ali Fallah",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Ali Fallah, MS, Summer 2025",
+          "completedPeriod": {
+            "year": 2025,
+            "season": "Summer",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "parth-jahagirdar",
+      "name": "Parth Jahagirdar",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Parth Jahagirdar, MS, Summer 2024",
+          "completedPeriod": {
+            "year": 2024,
+            "season": "Summer",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "sai-kiran-singraj",
+      "name": "Sai Kiran Singraj",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Sai Kiran Singraj, MS, Summer 2024",
+          "completedPeriod": {
+            "year": 2024,
+            "season": "Summer",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "ray-wood",
+      "name": "Ray Wood",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Ray Wood, MS, Spring 2024",
+          "completedPeriod": {
+            "year": 2024,
+            "season": "Spring",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "dustin-smith",
+      "name": "Dustin Smith",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Dustin Smith, M. S., Spring 2019",
+          "completedPeriod": {
+            "year": 2019,
+            "season": "Spring",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    },
+    {
+      "id": "alexander-jackson",
+      "name": "Alexander Jackson",
+      "relationships": [
+        {
+          "type": "completed-degree",
+          "degree": [
+            "MS"
+          ],
+          "sourceText": "Alexander Jackson, M.S., Spring 2019",
+          "completedPeriod": {
+            "year": 2019,
+            "season": "Spring",
+            "precision": "season"
+          }
+        }
+      ],
+      "portrait": null,
+      "bio": null,
+      "links": [],
+      "source": "CV / Research training and advising"
+    }
+  ],
+  "cohorts": [
+    {
+      "program": "REU",
+      "year": 2025,
+      "people": [
+        "Caden Davis",
+        "Jackson Miller",
+        "William Echols",
+        "Jesus Lopez",
+        "Natalie Anderson",
+        "Aiden Crawford",
+        "Abhinav Sairam",
+        "Kenzie Markley"
+      ]
+    },
+    {
+      "program": "REU",
+      "year": 2024,
+      "people": [
+        "Neel Shah",
+        "Matt Lamborne",
+        "Joseph Couzens",
+        "John Maxwell",
+        "Ayhum Asfour",
+        "Emily Pham",
+        "Jakob Fick",
+        "Johann Zhang",
+        "Vishnu Arun"
+      ]
+    },
+    {
+      "program": "REU",
+      "year": 2023,
+      "people": [
+        "Ben McIntire",
+        "Abdullahi Ayantayo",
+        "Dylan Nojadera",
+        "Brianna Abam",
+        "Lilyan Groat",
+        "Brian Yang",
+        "Emma Lewis",
+        "Daniel Grenier",
+        "Carson Swain",
+        "Aditya Khowal",
+        "Zachary Bazile"
+      ]
+    },
+    {
+      "program": "IRES",
+      "year": 2025,
+      "people": [
+        "Andrew Ziets",
+        "Gregory Seaton",
+        "Sriram Loganathan",
+        "Ashiwinameera Selvakumar",
+        "Siddharth Baasri"
+      ]
+    },
+    {
+      "program": "IRES",
+      "year": 2024,
+      "people": [
+        "Ben McIntire",
+        "Siddarth Tummala",
+        "Ryan Brophy",
+        "Abhinav Sairam",
+        "Snowbird Rubio",
+        "Faisal Shaikh",
+        "Rishi Jain"
+      ]
+    },
+    {
+      "program": "IRES",
+      "year": 2023,
+      "people": [
+        "Charan Govarthanaraj",
+        "Vishnu Arun",
+        "Prashish Lamsal",
+        "Nikhil Vyas"
+      ]
+    }
+  ],
+  "undergraduateRecord": "MU Students: Luke Richey (In Progress), Thomas Willerth (IE honors, 2025), Matt Floyd (IE, 2025), Stephen Swingle (IE honors, 2024), Marc Rosner (Marketing, 2024), Sienna Schreiber (IE, 2023), Erik Starrenburg (IE, 2023), Mikey Joyce (EECS, 2022), Emily Pagel (IE, 2020), Trenton Grimshaw (IE, 2020), Grace Floyd (IE, 2020), Jacob Beeth (IE, 2020), John Tocco (IE, 2019), Alex Stone (IE, 2019), Dustin Smith (IE, 2018), Joshua Zack (IE, 2018), Abdulah Sibalo (Economics, 2018)",
+  "teaching": [
+    {
+      "id": "course-1",
+      "code": "ISE 4370/7370",
+      "title": "Service Systems Engineering and Management",
+      "context": [
+        "University of Missouri, Columbia, MO",
+        "Department of Industrial and Manufacturing Systems Engineering"
+      ],
+      "terms": [
+        "Fall 2017",
+        "Spring 2020",
+        "Fall 2022",
+        "Fall 2024",
+        "Fall 2026"
+      ],
+      "description": null,
+      "links": []
+    },
+    {
+      "id": "course-2",
+      "code": "ISE 4410/7410",
+      "title": "Data Engineering and Predictive Modeling",
+      "context": [
+        "University of Missouri, Columbia, MO",
+        "Department of Industrial and Manufacturing Systems Engineering"
+      ],
+      "terms": [
+        "Fall 2018",
+        "Fall 2019",
+        "Fall 2020",
+        "Fall 2021",
+        "Fall 2022",
+        "Fall 2023",
+        "Fall 2024",
+        "Fall 2025",
+        "Fall 2026"
+      ],
+      "description": null,
+      "links": []
+    },
+    {
+      "id": "course-3",
+      "code": "ISE 4280/7280",
+      "title": "Systems Simulation",
+      "context": [
+        "University of Missouri, Columbia, MO",
+        "Department of Industrial and Manufacturing Systems Engineering"
+      ],
+      "terms": [
+        "Fall 2018",
+        "Fall 2019"
+      ],
+      "description": null,
+      "links": []
+    },
+    {
+      "id": "course-4",
+      "code": "ISE 4280/7280",
+      "title": "Systems Simulation Laboratory",
+      "context": [
+        "University of Missouri, Columbia, MO",
+        "Department of Industrial and Manufacturing Systems Engineering"
+      ],
+      "terms": [
+        "Fall 2018",
+        "Fall 2019"
+      ],
+      "description": null,
+      "links": []
+    },
+    {
+      "id": "course-5",
+      "code": "ISE 4610/7610",
+      "title": "Quality Engineering and Analytics (formerly Engineering Quality Control)",
+      "context": [
+        "University of Missouri, Columbia, MO",
+        "Department of Industrial and Manufacturing Systems Engineering"
+      ],
+      "terms": [
+        "Spring 2021",
+        "Spring 2022",
+        "Spring 2023",
+        "Spring 2024",
+        "Spring 2025"
+      ],
+      "description": null,
+      "links": []
+    },
+    {
+      "id": "course-6",
+      "code": "ISE 8410",
+      "title": "Advanced Analytics with Engineering Applications",
+      "context": [
+        "University of Missouri, Columbia, MO",
+        "Department of Industrial and Manufacturing Systems Engineering"
+      ],
+      "terms": [
+        "Fall 2021",
+        "Fall 2023",
+        "Fall 2025"
+      ],
+      "description": null,
+      "links": []
+    },
+    {
+      "id": "course-7",
+      "code": "MRKTNG 4910/7910",
+      "title": "Data Analytics and Machine Learning for Business",
+      "context": [
+        "University of Missouri, Columbia, MO",
+        "Department of Marketing"
+      ],
+      "terms": [
+        "Spring 2018",
+        "Spring 2019",
+        "Spring 2020",
+        "Fall 2020",
+        "Fall 2021",
+        "Fall 2022",
+        "Spring 2024"
+      ],
+      "description": null,
+      "links": []
+    },
+    {
+      "id": "course-8",
+      "code": "MRKTNG 8810",
+      "title": "Python for Marketing Analytics",
+      "context": [
+        "University of Missouri, Columbia, MO",
+        "Department of Marketing"
+      ],
+      "terms": [
+        "Spring 2020",
+        "Spring 2021",
+        "Spring 2022",
+        "Spring 2023",
+        "Spring 2024",
+        "Fall 2024"
+      ],
+      "description": null,
+      "links": []
+    },
+    {
+      "id": "course-9",
+      "code": "MRKTNG 8800",
+      "title": "R for Marketing Analytics",
+      "context": [
+        "University of Missouri, Columbia, MO",
+        "Department of Marketing"
+      ],
+      "terms": [
+        "Fall 2024"
+      ],
+      "description": null,
+      "links": []
+    },
+    {
+      "id": "course-10",
+      "code": "ACCTCY 8401",
+      "title": "Analytics for Supply Chain Management (Co-taught with Dr. Rajendran)",
+      "context": [
+        "University of Missouri, Columbia, MO",
+        "Department of Accounting"
+      ],
+      "terms": [
+        "Fall 2020",
+        "Fall 2021"
+      ],
+      "description": null,
+      "links": []
+    },
+    {
+      "id": "course-11",
+      "code": "IE 460",
+      "title": "Service Systems Engineering",
+      "context": [
+        "Pennsylvania State University, University Park, PA",
+        "Department of Industrial and Manufacturing Engineering"
+      ],
+      "terms": [
+        "Fall 2015"
+      ],
+      "description": null,
+      "links": []
+    }
+  ],
+  "additionalEducation": [
+    {
+      "institution": "University of Passau",
+      "course": "Data Engineering and Predictive Modeling",
+      "period": "Summer 2019"
+    },
+    {
+      "institution": "Indian Institute of Management Tiruchirappalli",
+      "course": "Text Analytics for Business Application",
+      "format": "3-day workshop",
+      "years": [
+        2020,
+        2021,
+        2022
+      ]
+    }
+  ],
+  "service": [
+    {
+      "text": "Participation in State-Regional-National-and International Professional Associations:",
+      "links": []
+    },
+    {
+      "text": "Ph.D. Thesis Evaluation Member, Indian Maritime University, 2025",
+      "links": []
+    },
+    {
+      "text": "Immediate Past President, OR Division, IISE 2024-2025",
+      "links": []
+    },
+    {
+      "text": "Senior Member, INFORMS, 2024-Present",
+      "links": []
+    },
+    {
+      "text": "President, OR Division, IISE, 2023-2024",
+      "links": []
+    },
+    {
+      "text": "Conference Chair, IISE Regional Conference (Region: US South Central), 2023",
+      "links": []
+    },
+    {
+      "text": "Ph.D. Thesis Evaluation Member, IIT Madras, 2022, 2024",
+      "links": []
+    },
+    {
+      "text": "President-elect, OR Division, IISE, 2022-2023",
+      "links": []
+    },
+    {
+      "text": "Director, OR Division, IISE, 2020-2022",
+      "links": []
+    },
+    {
+      "text": "Chair, Operations Research Undergraduate Student Competition, IISE, 2022",
+      "links": []
+    },
+    {
+      "text": "Chair, Operations Research Teaching Award, IISE, 2022",
+      "links": []
+    },
+    {
+      "text": "Judge, IISE Doctoral Colloquium Poster Competition, 2020",
+      "links": []
+    },
+    {
+      "text": "Judge, IISE Operations Research Division Undergraduate Student Paper Competition, 2020",
+      "links": []
+    },
+    {
+      "text": "Organization and Chairmanship of Technical Sessions, Workshops And Conferences",
+      "links": []
+    },
+    {
+      "text": "Program Chair, 2027 IISE Annual Conference, 2026-27",
+      "links": []
+    },
+    {
+      "text": "Lead Chair and Co-organizer, Operations Research Track, IISE Annual Conference, 2022",
+      "links": []
+    },
+    {
+      "text": "Co-Chair and Co-organizer, Operations Research Track, IISE Annual Conference, 2021",
+      "links": []
+    },
+    {
+      "text": "Invited Session Organizations",
+      "links": []
+    },
+    {
+      "text": "Chair and Organizer for a session titled “Optimization of Logistics Operations for Autonomous Drones and Collaborative Robots”, Phoenix, AZ, Oct 15-18, 2023.",
+      "links": []
+    },
+    {
+      "text": "Chair and Organizer for a session titled “Empowering Smarter Healthcare Decisions Using Operations Research and Data Analytics” at the INFORMS Annual Meeting, Seattle, WA, October 20-24, 2019.",
+      "links": []
+    },
+    {
+      "text": "Chair and Organizer for a session titled “Operations Research and Analytics for Healthcare” at INFORMS Annual Meeting, Houston, TX, October 22-25, 2017.",
+      "links": []
+    },
+    {
+      "text": "Chair and Organizer for a session titled “Advanced Applications in Healthcare” at IISE Annual Conference, Pittsburgh, PA, May 19-22, 2017.",
+      "links": []
+    },
+    {
+      "text": "Chair and Organizer for a session titled “Healthcare Modeling” at the INFORMS Annual Meeting, Nashville, TN, November 13-16, 2016.",
+      "links": []
+    },
+    {
+      "text": "Editorial",
+      "links": []
+    },
+    {
+      "text": "Editorial Board Member, Scientific Reports (Nature Portfolio Journal) (IF: 3.8), 2025 –",
+      "links": []
+    },
+    {
+      "text": "Editorial Board Member, Transportation Research Part E: Logistics and Transportation Review (IF: 10.6, CiteScore: 14.7, Ranked in 97th percentile by Scopus), 2024 – Present",
+      "links": []
+    },
+    {
+      "text": "Editorial Board Member, BMC Medical Informatics and Decision Making (IF: 3.9, CiteScore: 5.8), 2024 - Present",
+      "links": []
+    },
+    {
+      "text": "Topic Editor, Sustainability Journal (IF: 3.9, CiteScore: 5.8), 2021 - Present",
+      "links": []
+    },
+    {
+      "text": "Academic Editor, Journal of Healthcare Engineering, May 2021 – May 2023",
+      "links": []
+    },
+    {
+      "text": "Lead Editor, Supply Chain Management in Manufacturing and Service Systems – Advanced Analytics for Smarter Decisions, Springer (2021)",
+      "links": []
+    },
+    {
+      "text": "Editorial Assistant, Service Systems Engineering and Management. by Ravindran, A., Griffin, P.M., and Prabhu, V., CRC Press.",
+      "links": []
+    },
+    {
+      "text": "Editorial Assistant, Multiple Criteria Decision Making in Supply Chain Management. (2016). Ravindran, A. (Ed.), CRC Press.",
+      "links": []
+    },
+    {
+      "text": "Ad-hoc Journal Reviewer for 30+ journals",
+      "links": []
+    },
+    {
+      "text": "• Artificial Intelligence• ACM Journal on Autonomous Transportation Systems • Big Data            • Benchmarking: An International Journal • BMJ Open • Expert Systems with Applications               • Case Studies on Transport Policy • Computers and Industrial Engineering • Computers and Operations Research • Data Science & Management • European Journal of Industrial Engineering • Energies • Health Systems • IISE Transactions on Healthcare Systems Engineering • INFORMS Journal on Applied Analytics • INFORMS Journal on Computing • International Journal of Environmental Research and Public Health • International Journal of Forecasting • International Journal of Production Economics • International Journal of Production Research • Journal of Intelligent Manufacturing • Journal of Evaluation in Clinical Practice • Patient Preference and Adherence • Naval Research Logistics • Production and Operations Management • Omega                • Operational Research • Risk Analysis • Transportation • Transportmetrica A: Transport Science • Transportation Research Interdisciplinary Perspectives • Transportation Research Part C: Emerging Technologies • Transportation Research Part E: Logistics and Transportation Review      • Transportation Science • npJ Digital Medicine • Networks and Spatial Economics",
+      "links": []
+    },
+    {
+      "text": "Departmental Service",
+      "links": []
+    },
+    {
+      "text": "Chair, ISE Cross-curriculum Case Study Design Committee, 2025-2026",
+      "links": []
+    },
+    {
+      "text": "Member, ISE Faculty Search Committee, 2021, 2023, 2024",
+      "links": []
+    },
+    {
+      "text": "Chair, ISE Ph.D. Qualifying Exam Committee, 2023-Present",
+      "links": []
+    },
+    {
+      "text": "Faculty Advisor, MU IISE Student Chapter, 2021-Present",
+      "links": []
+    },
+    {
+      "text": "Member, Search Committee of Preparing Future Faculty (PFF) Postdoctoral  Fellowship program, 2020-2021",
+      "links": []
+    },
+    {
+      "text": "Member, IMSE Ph.D. Qualifying Exam Committee, 2021-2023",
+      "links": []
+    },
+    {
+      "text": "Participated in Management Department’s faculty candidate interviews, 2020",
+      "links": []
+    },
+    {
+      "text": "Member, Course Planning Committee, Department of Industrial and Manufacturing Systems Engineering, University of Missouri – Columbia, 2019 - Present",
+      "links": []
+    },
+    {
+      "text": "Member, Curriculum Development Committee, Department of Industrial and Manufacturing Systems Engineering, University of Missouri – Columbia, 2017 - Present",
+      "links": []
+    },
+    {
+      "text": "Member, Marketing Analytics Committee, Department of Marketing, University of Missouri – Columbia, 2017 – Present",
+      "links": []
+    },
+    {
+      "text": "Participated in Marketing Department’s faculty candidate interviews, 2018 and 2019",
+      "links": []
+    },
+    {
+      "text": "Participated as a guest speaker in IMSE graduate seminar, 2017-2019",
+      "links": []
+    },
+    {
+      "text": "Vice President, INFORMS: Penn State Chapter, Department of Industrial and Manufacturing Systems Engineering, Pennsylvania State University, 2015-2017",
+      "links": []
+    },
+    {
+      "text": "Manager, Service Engineering and Applied Optimization lab, Department of Industrial and Manufacturing Systems Engineering, Pennsylvania State University, 2014-2017",
+      "links": []
+    },
+    {
+      "text": "Division/College Service",
+      "links": []
+    },
+    {
+      "text": "Member, AI Integration Committee, College of Engineering, University of Missouri, 2026",
+      "links": []
+    },
+    {
+      "text": "College P&T Committee, University of Missouri, 2025-Present",
+      "links": []
+    },
+    {
+      "text": "Member, Mizzou Forward Engineering Advisory Committee, 2025-2026",
+      "links": []
+    },
+    {
+      "text": "Research Policies Committee, University of Missouri, 2025",
+      "links": []
+    },
+    {
+      "text": "Panelist, NSF Funding Tips & Tricks Panel for Engineering Faculty, 2024",
+      "links": []
+    },
+    {
+      "text": "Planning and Organizing Member, Undergraduate Business Analytics competition, Trulaske College of Business, University of Missouri, 2021",
+      "links": []
+    },
+    {
+      "text": "Member, CoE Annual Lectureship Committee, University of Missouri, 2019-2025",
+      "links": []
+    },
+    {
+      "text": "Member, Global Supply Chain Management Certificate Advisory Committee, College of Engineering and College of Business, 2018-present",
+      "links": []
+    },
+    {
+      "text": "Participated in Trulaske College of Business faculty candidate interviews, 2019-2020",
+      "links": []
+    },
+    {
+      "text": "Service to MU Campus",
+      "links": []
+    },
+    {
+      "text": "AI Faculty Fellow, Teaching for Learning Center, University of Missouri, 2026-27",
+      "links": []
+    },
+    {
+      "text": "Member, Graduate School's Strategic Plan Steering Subcommittee, 2026",
+      "links": []
+    },
+    {
+      "text": "Core member of Graduate Certificate for Quantum Information and Computing committee, 2025-2026",
+      "links": []
+    },
+    {
+      "text": "Led the operations team that conducted a process reengineering study of the MU Emergency Department to reduce overcrowding and patient waiting time",
+      "links": []
+    },
+    {
+      "text": "Advised a group of graduate students in a six-sigma based process improvement study for improving service responsiveness at MU Campus Dining Services",
+      "links": []
+    },
+    {
+      "text": "Service to the UM System",
+      "links": []
+    },
+    {
+      "text": "Participated in UM Faculty Scholars, 2019-2020 Cohort",
+      "links": []
+    }
+  ],
+  "recognition": [
+    {
+      "text": "Research Recognition",
+      "links": []
+    },
+    {
+      "text": "AI Fellow, Teaching for Learning Center (T4LC), University of Missouri, 2026-27",
+      "links": []
+    },
+    {
+      "text": "Distinguished Young Alumnus Award, Alumni Association, CEG, 2026",
+      "links": []
+    },
+    {
+      "text": "1st Place, 2026 IISE DAIS Mobile/Web App Competition — Pyam Oveys, Sharan Srinivas, and James Noble",
+      "links": [],
+      "source": "User confirmation, September 24, 2026"
+    },
+    {
+      "text": "Stanford–Elsevier Top 2% Scientists Worldwide, 2024",
+      "links": []
+    },
+    {
+      "text": "Outstanding ISE Faculty Award, University of Missouri, 2024",
+      "links": []
+    },
+    {
+      "text": "Outstanding IMSE Hall of Fame Faculty Award, University of Missouri, 2022",
+      "links": []
+    },
+    {
+      "text": "Best Paper Finalist, INFORMS Data Mining Competition, 2020",
+      "links": []
+    },
+    {
+      "text": "Winemiller Award for Research Excellence, University of Missouri, 2018, 2020",
+      "links": []
+    },
+    {
+      "text": "Bloss Faculty Enhancement Award, 2019",
+      "links": []
+    },
+    {
+      "text": "Koopman Prize, INFORMS, 2016 (for outstanding publication in military OR)",
+      "links": []
+    },
+    {
+      "text": "Best Paper Award, International Symposium (India), 2015",
+      "links": []
+    },
+    {
+      "text": "Teaching Recognition",
+      "links": []
+    },
+    {
+      "text": "John L. Imhoff Global Excellence Award for Industrial Engineering Education, ASEE, 2026",
+      "links": []
+    },
+    {
+      "text": "Outstanding Senior Faculty Teaching Award, University of Missouri, 2026",
+      "links": []
+    },
+    {
+      "text": "Outstanding Junior Faculty Teaching Award, University of Missouri, 2023",
+      "links": []
+    },
+    {
+      "text": "Outstanding Professor (Student Voted), University of Missouri, 2023, 2024, 2025, 2026",
+      "links": []
+    },
+    {
+      "text": "University of Missouri Faculty Scholar, 2019",
+      "links": []
+    },
+    {
+      "text": "Early Career and Academic Honors",
+      "links": []
+    },
+    {
+      "text": "Distinguished Graduate Fellowship, Pennsylvania State University, 2016–2017",
+      "links": []
+    },
+    {
+      "text": "Service Enterprise Engineering Fellowship, 2015",
+      "links": []
+    }
+  ],
+  "patents": [
+    {
+      "id": "patent-1",
+      "citation": "Srinivas, S., and Yu, S. (2023) “Warehouse Database Management System for Managing a Warehouse With A Human-Autonomous Mobile Robot Order Picking System and Associated Method of Use”, Provisional Patent (US Patent Application Serial No. 63/578,087)",
+      "status": "Provisional patent application as recorded in CV",
+      "currentLegalStatus": null
+    },
+    {
+      "id": "patent-2",
+      "citation": "Srinivas, S., Salama, M. and Alizadeh, A. (2022) “Route Planning Algorithm for Hybrid-Drone Parcel Delivery”, Provisional Patent (US Patent Application Serial No. 63/375,442)",
+      "status": "Provisional patent application as recorded in CV",
+      "currentLegalStatus": null
+    }
+  ],
+  "media": [
+    {
+      "text": "“Accelerating disaster-response logistics”,  MU Engineering News Release, 2026",
+      "links": [
+        "https://engineering.missouri.edu/2026/accelerating-disaster-response-logistics/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Optimizing warehouse execution through human-robot collaboration”, MU Engineering News Release, 2026",
+      "links": [
+        "https://engineering.missouri.edu/2026/optimizing-warehouse-execution-through-human-robot-collaboration/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Reimagining delivery from the road to the sky”, MU Engineering News Release, 2026",
+      "links": [
+        "https://engineering.missouri.edu/2026/reimagining-delivery-from-the-road-to-the-sky/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Mizzou Engineering honors outstanding faculty, staff, students and alumni”, MU Engineering News Release, 2026",
+      "links": [
+        "https://engineering.missouri.edu/2026/mizzou-engineering-honors-outstanding-faculty-staff-students-and-alumni-2/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Mizzou Engineering faculty to lead global research on human-robot collaboration“, MU Engineering News Release, 2025",
+      "links": [
+        "https://engineering.missouri.edu/2025/mizzou-engineering-faculty-to-lead-global-research-on-human-robot-collaboration/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Mizzou Engineering faculty among top 2% of world scientists“, MU Engineering News Release, 2025",
+      "links": [
+        "https://engineering.missouri.edu/2025/mizzou-engineering-faculty-among-top-2-of-world-scientists/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Students apply AI to real-world challenges in Mizzou summer program“, MU Engineering News Release, 2025",
+      "links": [
+        "https://engineering.missouri.edu/2025/students-apply-ai-to-real-world-challenges-in-mizzou-summer-program/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Hands-on learning with emerging technology“, MU Engineering News Release, 2025",
+      "links": [
+        "https://engineering.missouri.edu/2025/hands-on-learning-with-emerging-technology/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Staying one step ahead of cyberattackers”, MU Engineering News Release, 2025",
+      "links": [
+        "https://engineering.missouri.edu/2025/one-step-ahead-of-cyber-attackers/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Mizzou Engineers Develop Advanced Solutions for Port of Alaska Operations”, MU Engineering News Release, 2024.",
+      "links": [
+        "https://engineering.missouri.edu/2024/mizzou-engineers-develop-advanced-solutions-for-port-of-alaska-operations/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Mizzou Engineering paving the way in transformative last-mile logistics innovation”, MU Engineering News Release, 2024.",
+      "links": [
+        "https://engineering.missouri.edu/2024/mizzou-engineering-paving-the-way-in-transformative-last-mile-logistics-innovation/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Reporting on AI? Mizzou has the experts you need”, MU Engineering News Release, 2024.",
+      "links": [
+        "https://engineering.missouri.edu/2024/reporting-on-ai-mizzou-has-the-experts-you-need/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Mizzou Engineering student places third in global research competitions, MU Engineering News Release, 2024.",
+      "links": [
+        "https://engineering.missouri.edu/2024/mizzou-engineering-student-places-third-in-global-research-competitions/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Mizzou Engineering hosts four NSF REU sites in critical research areas\", MU Engineering News Release, 2024.",
+      "links": [
+        "https://engineering.missouri.edu/2024/mizzou-engineering-hosts-four-nsf-reu-sites-in-critical-research-areas/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Ph.D. student earns first in poster competition at CELDi research symposium”, MU Engineering News Release, 2024.",
+      "links": [
+        "https://engineering.missouri.edu/2024/ph-d-student-earns-first-in-poster-competition-at-celdi-research-symposium/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Engineering student takes first at IISE Regional Conference Paper Competition”, MU Engineering News Release, 2024.",
+      "links": [
+        "https://engineering.missouri.edu/2024/engineering-student-takes-first-at-iise-regional-conference-paper-competition/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Engineering Team Working with Port of Alaska, Stakeholders to Assess Operations, Develop Interactive Portal”, MU Engineering News Release, 2023.",
+      "links": [
+        "https://engineering.missouri.edu/2023/engineering-team-working-with-port-of-alaska-stakeholders-to-assess-operations-develop-interactive-portal/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Faculty, Staff, Students Recognized for Outstanding Contributions, Performance”, MU Engineering News Release, 2023.",
+      "links": [
+        "https://engineering.missouri.edu/2023/faculty-staff-students-recognized-for-outstanding-contributions-performance/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Industrial Engineering Students Take Honors at CELDi Research Symposium”, MU Engineering News Release, 2023",
+      "links": [
+        "https://engineering.missouri.edu/2023/industrial-engineering-students-take-honors-at-celdi-research-symposium/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“IISE Conference at Mizzou Showcases Work of Industrial Engineering Students”, MU Engineering News, 2023.",
+      "links": [
+        "https://engineering.missouri.edu/2023/iise-conference-at-mizzou-showcases-work-of-industrial-engineering-students/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“REU: Students Study Perspective Analytics For AI-Enabled Operations Engineering”, MU Engineering News Release, 2023.",
+      "links": [
+        "https://engineering.missouri.edu/2023/reu-students-study-perspective-analytics-for-ai-enabled-operations-engineering/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“MU professor uses AI algorithm to improve airline customer service with 11 recommendations”, Columbia Tribune, 2023.",
+      "links": [
+        "https://www.columbiatribune.com/story/news/education/campus/2023/03/30/improving-airline-customer-service-using-mu-developed-ai-algorithm/70061894007/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Mizzou Team Developing AI-Based Tool To Predict Trends In Steel Prices”, MU Engineering Press Release, 2023.",
+      "links": [
+        "https://engineering.missouri.edu/2023/mizzou-team-developing-ai-based-tool-to-predict-trends-in-steel-prices/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“11 ways to improve airlines for customers”, Show Me Mizzou News Release, 2023.",
+      "links": [
+        "https://showme.missouri.edu/2023/11-ways-to-improve-airlines-for-customers/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "New MU study shapes understanding of adaptive clothing customer needs”, Show Me Mizzou News Release, 2023.",
+      "links": [
+        "https://showme.missouri.edu/2023/new-mu-study-shapes-understanding-of-adaptive-clothing-customer-needs/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“MU Professor Looking to Make Autonomous Robots More Efficient”, Missourinet – a statewide commercial network that provides news for 70+ radio stations in Missouri, 2022.",
+      "links": [
+        "https://www.missourinet.com/2022/12/23/mu-professor-looking-to-make-autonomous-robots-more-efficient/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“UM Extension, MU College of Engineering offering technology training”, Columbia Tribune, 2022.",
+      "links": [
+        "https://www.columbiatribune.com/story/news/education/campus/2022/06/28/um-extension-mu-college-engineering-offering-technology-training/7700748001/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“New Program Allows Missourians to Hone their Digital Skills for Today's Workplace”, MU Engineering Press Release, 2022.",
+      "links": [
+        "https://engineering.missouri.edu/2022/new-program-allows-missourians-to-hone-their-digital-skills-for-todays-workplace/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "University of Missouri study: Teens with positive outlooks may be at reduced risk for heart disease, Columbia Tribune, 2022.",
+      "links": [
+        "https://www.columbiatribune.com/story/news/education/campus/2022/03/03/teens-positive-outlooks-may-reduced-risk-heart-disease/9341582002/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Making “transport” robots smarter”, Show Me Mizzou News Release, 2022.",
+      "links": [
+        "https://showme.missouri.edu/2022/making-transport-robots-smarter/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Adolescent Psychological Well-Being Tied to Adult Risk of Cardiovascular Disease, Study Finds”, Show Me Mizzou News Release, 2022.",
+      "links": [
+        "https://showme.missouri.edu/2022/adolescent-psychological-well-being-tied-to-adult-risk-of-cardiovascular-disease-study-finds/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Engineering Team Develops Last-Mile Delivery Platform”, MU Engineering News, 2022.",
+      "links": [
+        "https://engineering.missouri.edu/2022/engineering-team-develops-last-mile-delivery-platform-with-help-from-i-corps/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Industrial Engineers Analyze Insurance Industry”, MU Engineering News, 2022.",
+      "links": [
+        "https://engineering.missouri.edu/2022/industrial-engineers-analyze-perceptions-of-insurance-industry/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "“Mizzou Engineers edit book on supply chain analytics”, MU Engineering Press Release, 2021.",
+      "links": [
+        "https://engineering.missouri.edu/2021/mizzou-engineers-edit-book-on-supply-chain-analytics/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Research work featured among Top 10 Stories of 2021 at MU College of Engineering",
+      "links": [
+        "https://engineering.missouri.edu/2021/12/robots-plastics-and-cows-top-10-research-stories-of-2021/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Truck, drone collaboration could optimize package delivery”, MU Engineering News, 2021",
+      "links": [
+        "https://engineering.missouri.edu/2021/07/truck-drone-collaboration-could-optimize-package-delivery/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Smart appointment system could decrease patient wait time”, MU Engineering News, 2021.",
+      "links": [
+        "https://engineering.missouri.edu/2021/07/smart-appointment-system-could-decrease-patient-wait-time/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Machine learning to predict demand for air taxi services”, MU Engineering News, 2021.",
+      "links": [
+        "https://engineering.missouri.edu/2021/09/research-team-uses-new-york-city-taxi-data-machine-learning-to-predict-demand-for-air-taxi-services/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Mizzou Engineer’s model will help manufacturers optimize process”, MU Engineering News Release, 2021.",
+      "links": [
+        "https://engineering.missouri.edu/2021/11/when-to-replace-cutting-tools-mizzou-engineers-model-will-help-manufacturers-optimize-process/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Mizzou Engineers edit book on supply chain analytics”, MU Engineering News, 2021.",
+      "links": [
+        "https://engineering.missouri.edu/2021/11/mizzou-engineers-edit-book-on-supply-chain-analytics/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Enhancing University Dining Service Performance using Process Re-engineering, ISE Magazine, July 2020.",
+      "links": [
+        "https://www.iise.org/iemagazine/2020-07/html/case-study/case-study.html"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Depressive Symptoms In Adolescence Increase The Risk For Obesity And High BP Decades Later In Adulthood, Science Trends, Nov 2018.",
+      "links": [
+        "https://sciencetrends.com/depressive-symptoms-in-adolescence-increase-the-risk-for-obesity-and-high-bp-decades-later-in-adulthood/"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "Get Your Truckers Moving, ISE Magazine, September 2018 issue.",
+      "links": [
+        "http://www.iise.org/ISEMagazine/details.aspx?id=47414"
+      ],
+      "verifiedOnline": false
+    },
+    {
+      "text": "The Doctor Will See You…But When?, BingU News, November 2017.",
+      "links": [
+        "https://www.binghamton.edu/news/story/898/the-doctor-will-see-you.-.-.-but-when"
+      ],
+      "verifiedOnline": false
+    }
+  ],
+  "metrics": [
+    {
+      "id": "external-funding",
+      "value": "$4M+",
+      "label": "externally funded research",
+      "asOf": "2026-09-24",
+      "showOnHome": true
+    },
+    {
+      "id": "journal-publications",
+      "value": "50",
+      "label": "peer-reviewed journal publications",
+      "asOf": "2026-09-24",
+      "showOnHome": true
+    },
+    {
+      "id": "citations",
+      "value": "3,000+",
+      "label": "citations",
+      "snapshotValue": 3019,
+      "asOf": "2026-09-24",
+      "showOnHome": true
+    },
+    {
+      "id": "mentoring",
+      "value": "13 PhD · 14 MS · 50+ undergraduate",
+      "label": "students mentored",
+      "categories": [
+        {
+          "degree": "PhD",
+          "value": 13
+        },
+        {
+          "degree": "MS",
+          "value": 14
+        },
+        {
+          "degree": "undergraduate",
+          "value": "50+"
+        }
+      ],
+      "asOf": "2026-09-24",
+      "showOnHome": true,
+      "note": "Categories may overlap; do not sum into a unique-person total."
+    }
+  ],
+  "navigation": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Research",
+      "/research/"
+    ],
+    [
+      "Research Group",
+      "/research-group/"
+    ],
+    [
+      "Teaching & Education",
+      "/teaching-education/"
+    ],
+    [
+      "Leadership & Service",
+      "/leadership-service/"
+    ],
+    [
+      "News",
+      "/news/"
+    ]
+  ],
+  "researchAreas": [
+    {
+      "id": "logistics",
+      "title": "Resilient Supply Chains & Logistics",
+      "active": true,
+      "portfolioEmphasis": "primary"
+    },
+    {
+      "id": "autonomy",
+      "title": "Autonomous & Human-Robot Operations",
+      "active": true,
+      "portfolioEmphasis": "primary"
+    },
+    {
+      "id": "aviation",
+      "title": "Advanced Mobility & Logistics Systems",
+      "active": true,
+      "portfolioEmphasis": "primary"
+    },
+    {
+      "id": "service-healthcare",
+      "title": "Service Systems Engineering & Management",
+      "active": true,
+      "portfolioEmphasis": "active"
+    }
+  ],
+  "methods": [
+    "Optimization",
+    "Simulation",
+    "Machine Learning",
+    "Stochastic Methods",
+    "Metaheuristics",
+    "Prescriptive Analytics"
+  ],
+  "appointments": [
+    {
+      "title": "Associate Professor",
+      "unit": "Industrial & Systems Engineering",
+      "start": "2024-09",
+      "end": null,
+      "current": true
+    },
+    {
+      "title": "Director of Graduate Studies",
+      "unit": "Industrial & Systems Engineering",
+      "start": "2023-07",
+      "end": null,
+      "current": true
+    },
+    {
+      "title": "Affiliate Faculty",
+      "unit": "Quantum Innovation Center",
+      "start": "2025-07",
+      "end": null,
+      "current": true
+    },
+    {
+      "title": "Core Faculty",
+      "unit": "Institute for Data Science and Informatics",
+      "start": "2021-03",
+      "end": null,
+      "current": true
+    },
+    {
+      "title": "Associate Professor",
+      "unit": "Marketing",
+      "start": "2024-09",
+      "end": "2025-12",
+      "current": false
+    }
+  ],
+  "newsCandidates": [
+    {
+      "id": "news-2026-dais",
+      "date": "2026",
+      "datePrecision": "year",
+      "category": "Award",
+      "title": "1st Place in the 2026 IISE DAIS Mobile/Web App Competition: Pyam Oveys, Sharan Srinivas, and James Noble.",
+      "source": "User-confirmed public result, September 24, 2026",
+      "status": "approved",
+      "image": null,
+      "links": [],
+      "featured": true
+    },
+    {
+      "id": "news-2026-asee",
+      "date": "2026",
+      "datePrecision": "year",
+      "category": "Award",
+      "title": "John L. Imhoff Global Excellence Award for Industrial Engineering Education",
+      "source": "CV: Awards and Recognition",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2026-teaching",
+      "date": "2026",
+      "datePrecision": "year",
+      "category": "Award",
+      "title": "University of Missouri Outstanding Senior Faculty Teaching Award",
+      "source": "CV: Awards and Recognition",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2026-alumnus",
+      "date": "2026",
+      "datePrecision": "year",
+      "category": "Award",
+      "title": "Distinguished Young Alumnus, College of Engineering Guindy",
+      "source": "CV: Awards and Recognition",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2026-fellow",
+      "date": "2026",
+      "datePrecision": "year",
+      "category": "Appointment",
+      "title": "AI Faculty Fellow, Teaching for Learning Center (2026–27)",
+      "source": "CV: Service and Recognition",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2026-chair",
+      "date": "2026",
+      "datePrecision": "year",
+      "category": "Appointment",
+      "title": "Program Chair for the 2027 IISE Annual Conference (2026–27)",
+      "source": "CV: Professional Service",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2026-freight",
+      "date": "2026-03",
+      "datePrecision": "month",
+      "dateBasis": "award-start-not-announcement",
+      "category": "Grant",
+      "title": "Anchorage resilient freight transportation project begins",
+      "projectId": "project-01",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2026-commodity",
+      "date": "2026-04",
+      "datePrecision": "month",
+      "dateBasis": "award-start-not-announcement",
+      "category": "Grant",
+      "title": "Risk-aware commodity pricing decision-support project begins",
+      "projectId": "project-02",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2026-phd",
+      "date": "2026",
+      "datePrecision": "season",
+      "season": "Summer",
+      "category": "Student achievement",
+      "title": "Paul Antonacci completes Ph.D.",
+      "source": "CV: Ph.D. students graduated",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2025-phd",
+      "date": "2025",
+      "datePrecision": "season",
+      "season": "Fall",
+      "category": "Student achievement",
+      "title": "Arash Alizadeh completes Ph.D.",
+      "source": "CV: Ph.D. students graduated",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2025-ires",
+      "date": "2025-09",
+      "datePrecision": "month",
+      "dateBasis": "award-start-not-announcement",
+      "category": "Grant",
+      "title": "NSF IRES project on collaborative human–mobile robot operations begins",
+      "projectId": "project-03",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2025-quantum",
+      "date": "2025-07",
+      "datePrecision": "month",
+      "category": "Appointment",
+      "title": "Affiliate faculty appointment at the Quantum Innovation Center",
+      "source": "CV: Appointments",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2025-llm",
+      "date": "2025-04",
+      "datePrecision": "month",
+      "dateBasis": "award-start-not-announcement",
+      "category": "Grant",
+      "title": "LLM-enabled steel-market analytics project begins",
+      "projectId": "project-05",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    },
+    {
+      "id": "news-2025-editorial",
+      "date": "2025",
+      "datePrecision": "year",
+      "category": "Appointment",
+      "title": "Editorial board appointment at Scientific Reports",
+      "source": "CV: Editorial Service",
+      "status": "merge-with-existing-archive",
+      "image": null,
+      "links": [],
+      "featured": false,
+      "legacyMatch": "April 2025 Scientific Reports appointment"
+    },
+    {
+      "id": "news-2026-paper",
+      "date": "2026",
+      "datePrecision": "year",
+      "category": "Publication",
+      "title": "Electric truck–drone routing research published in Transportation Research Part E",
+      "publicationId": "journal-01",
+      "status": "ready-for-editorial-review",
+      "image": null,
+      "links": [],
+      "featured": false
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Industrial Engineering & Operations Research",
+      "institution": "The Pennsylvania State University",
+      "year": 2017
+    },
+    {
+      "degree": "MEng",
+      "field": "Industrial Engineering & Operations Research",
+      "institution": "The Pennsylvania State University",
+      "year": 2015
+    },
+    {
+      "degree": "MS",
+      "field": "Industrial and Systems Engineering",
+      "institution": "Binghamton University, State University of New York",
+      "year": 2013
+    },
+    {
+      "degree": "BE",
+      "field": "Industrial Engineering",
+      "institution": "College of Engineering, Guindy, Anna University",
+      "year": 2011
+    }
+  ],
+  "projectPresentation": {
+    "featuredCount": 7,
+    "archive": "All 23 externally funded records in a compact complete archive",
+    "status": "Interior project-page implementation deferred"
+  }
+}

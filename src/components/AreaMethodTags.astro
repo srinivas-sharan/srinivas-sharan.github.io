@@ -1,0 +1,11 @@
+---
+interface Props { tags: string[]; }
+const {tags} = Astro.props;
+---
+<ul class="area-method-tags" aria-label="Supporting methods">
+ {tags.map(tag=><li>{tag}</li>)}
+</ul>
+<style>
+ .area-method-tags { list-style:none; display:flex; flex-wrap:wrap; gap:.35rem; padding:0; margin:0 0 .85rem; }
+ .area-method-tags li { background:#f1f0e9; border:1px solid #dedbd0; color:#555750; padding:.2rem .5rem; font-size:13px; line-height:1.4; border-radius:3px; }
+</style>

@@ -1,0 +1,21 @@
+---
+import ResearchScene from '../../../components/ResearchScene.astro';
+import ResearchLayout from '../../../layouts/ResearchLayout.astro';
+import ResearchCitation from '../../../components/ResearchCitation.astro';
+import {areaCapabilities,capabilityName} from '../../../data/capabilities';
+import {researchAreas,projects,publications,researchers} from '../../../data/research';
+---
+<ResearchLayout title="Research Areas" description="Four connected research areas in logistics, advanced mobility, autonomous and human-robot operations, and intelligent production and service systems.">
+<header class="container research-hero"><h1>Research Areas</h1><p>OptiDec combines operations research, analytics, simulation, and AI to study decisions across complex operational systems.</p><p class="research-note">Projects and publications may connect multiple research areas. Primary classification reflects the operational problem being addressed.</p><nav class="area-anchor-nav" aria-label="Research area sections">{researchAreas.map((a,i)=><a href={`#${a.id}`}><span>0{i+1}</span>{a.title}</a>)}</nav></header>
+{researchAreas.map((area,i)=>{
+ const selectedProjectIds:Record<string,string[]>={logistics:['project-01','project-13'],aviation:['project-12','project-15'],autonomy:['project-03','project-07'],'service-healthcare':['project-02','project-05','project-19']};
+ const areaProjects=selectedProjectIds[area.id].map(id=>projects.find(p=>p.id===id)!);
+ const people=researchers.filter(p=>p.areaIds.includes(area.id));
+ return <section class:list={['section','research-area-detail',{'research-neutral':i%2===0}]} id={area.id} aria-labelledby={`title-${area.id}`}><div class="container">
+  <div class="research-area-intro"><ResearchScene area={area.id} /><div><span class="research-index">0{i+1}</span><h2 id={`title-${area.id}`}>{area.title}</h2><p>{area.description}</p><h3>Key Research Themes</h3><dl class="area-themes">{area.themes.map(([title,terms])=><div><dt>{title}</dt><dd>{terms}</dd></div>)}</dl><h3>Technical Capabilities</h3><ul class="research-tags">{(areaCapabilities[area.id]??[]).map(id=><li><a href={`/research/projects/?area=${area.id}&capability=${id}`}>{capabilityName(id)}</a></li>)}</ul></div></div>
+  <div class="area-evidence"><div><h3>Selected Projects</h3><ul class="area-project-list">{areaProjects.map(p=><li><a href={`/research/projects/#${p.id}`}>{p.title}</a><span>{p.sponsor}{p.dates&&` · ${p.dates}`}</span></li>)}</ul><a class="text-link" href={`/research/projects/?area=${area.id}`}>Explore projects →</a>
+  {people.length>0&&<div class="area-researchers"><h3>Researchers Connected to This Area</h3><ul>{people.map(p=><li><a href={`/research/group/#${p.id}`}>{p.name}</a><span>{p.current?'Current Researcher':p.completions.some(c=>c.degree==='PhD')?'PhD Alumnus':'MS Alumnus'}</span></li>)}</ul></div>}</div>
+  <div><h3>Selected Publications</h3>{area.selectedPublicationIds.map(id=><ResearchCitation compact publication={publications.find(p=>p.id===id)!}/>)}<a class="text-link area-publications-link" href={`/research/publications/?area=${area.id}`}>View all publications in this area →</a></div></div>
+ </div></section>
+})}
+</ResearchLayout>

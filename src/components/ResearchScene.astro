@@ -1,0 +1,168 @@
+---
+import { getImage } from 'astro:assets';
+import warehouseWorkflow from '../assets/photos/Warehouse Automation Workflow.png';
+import mobilityWorkflow from '../assets/photos/Area2.png';
+import logisticsWorkflow from '../assets/photos/Area1.png';
+import productionServiceWorkflow from '../assets/photos/Connected Manufacturing and Care Workflows.png';
+interface Props { area: string; }
+const {area}=Astro.props;
+const warehouseImage = area === 'autonomy' ? await getImage({src:warehouseWorkflow, format:'webp', quality:95}) : null;
+const mobilityImage = area === 'aviation' ? await getImage({src:mobilityWorkflow, format:'webp', quality:95}) : null;
+const logisticsImage = area === 'logistics' ? await getImage({src:logisticsWorkflow, format:'webp', quality:95}) : null;
+const productionServiceImage = area === 'service-healthcare' ? await getImage({src:productionServiceWorkflow, format:'webp', quality:95}) : null;
+const descriptions:Record<string,string>={
+ logistics:'Weighted freight flows connect a seven-node network. A disrupted central arc is bypassed by a gold route through an alternate hub; gray flows show routine operations.',
+ aviation:'One depot and eight customers form an asymmetric routing network. A solid truck tour visits five customers. Three dashed gold and slate drone sorties serve off-route customers with customer-to-customer launch and rendezvous, including a shared recovery and relaunch stop. A shaded flight-sensitive region and faint alternative connections show routing constraints.',
+ autonomy:'A human picker transfers a parcel from an open warehouse rack onto the load deck of a transport AMR. A gold picking trajectory connects the rack to the shared loading task, and a curved slate route leads the loaded AMR toward a drop-off bay.',
+ 'service-healthcare':'Operational observations feed a forecast with an uncertainty band, constrained resource allocations, and performance observations. A curved feedback path closes the decision loop.'
+};
+---
+{area === 'autonomy' ? (
+ <svg class="area-illustration research-scene" viewBox="50 155 1350 790" role="img" aria-label="A warehouse picker loads a parcel onto an autonomous mobile robot beside picking racks; a curved route connects the transport operation to a planning terminal.">
+  <image href={warehouseImage!.src} width="1448" height="1086" />
+ </svg>
+) : area === 'aviation' ? (
+ <svg class="area-illustration research-scene" viewBox="20 160 1410 735" role="img" aria-label="Coordinated truck and drone delivery: a curved ground route connects delivery locations while dashed gold aerial routes link the truck, parcel-carrying drone, and destination.">
+  <image href={mobilityImage!.src} width="1448" height="1086" />
+ </svg>
+) : area === 'logistics' ? (
+ <svg class="area-illustration research-scene" viewBox="0 145 1536 810" role="img" aria-label="A multimodal freight network connects a port, rail transport, distribution center, and delivery destination. A disrupted bridge and constrained zone are bypassed by an alternate freight route.">
+  <image href={logisticsImage!.src} width="1536" height="1024" />
+ </svg>
+) : area === 'service-healthcare' ? (
+ <svg class="area-illustration research-scene" viewBox="0 175 1448 760" role="img" aria-label="Connected manufacturing and healthcare operations: production forecasting and scheduling accompany an additive manufacturing system, while appointment and resource scheduling support a healthcare reception and patient workflow.">
+  <image href={productionServiceImage!.src} width="1448" height="1086" />
+ </svg>
+) : (
+<svg class="area-illustration research-scene" viewBox="0 0 600 400" role="img" aria-label={descriptions[area]}>
+ <rect class="paper" width="600" height="400" rx="8"/>
+ <g class="system">
+ {area==='logistics'&&<>
+  <path class="region" d="M67 100Q111 38 220 70T340 92Q372 150 329 218T171 326Q75 323 62 230T67 100Z"/>
+  <path class="flow broad" d="M91 194C126 174 138 104 205 90M91 194C129 225 143 285 223 306M205 90C302 38 362 80 414 113M223 306C329 344 407 319 510 247"/>
+  <path class="flow" d="M205 90C204 161 253 207 305 194M223 306C252 284 303 256 305 194M305 194C372 167 440 176 510 247M414 113C458 149 461 206 510 247M91 194C141 164 237 158 305 194"/>
+  <path class="alternative" d="M305 194C333 114 329 56 365 59C398 59 409 79 414 113"/>
+  <path class="disrupted" d="M305 194C341 206 382 179 414 113"/>
+  <path class="paper" d="m353 151 33 14-17 35-32-15z"/>
+  <path class="break" d="m350 168 23 12m-19-22 9 32"/>
+  <path class="selected broad" d="M91 194C132 219 144 285 223 306C281 307 337 292 361 263C389 229 367 142 414 113"/>
+  <path class="selected" d="M414 113C460 147 460 206 510 247"/>
+  {[[91,194,11],[205,90,9],[223,306,11],[305,194,8],[414,113,11],[510,247,12],[361,263,7]].map(([x,y,r])=><g><circle class="halo" cx={x} cy={y} r={r+7}/><circle class="node" cx={x} cy={y} r={r}/></g>)}
+  <path class="direction" d="m145 257 13 6-1-14m235-109-9-12-5 12"/>
+ </>}
+ {area==='aviation'&&<>
+  <path class="restricted" d="M338 132Q373 111 405 139L426 189Q395 216 355 192Z"/>
+  <path class="hatch" d="m350 140 27 52m-6-62 31 66m-10-58 23 47"/>
+  <path class="mobility-truck" d="M300 235Q232 287 178 266Q177 199 222 155Q246 118 283 77Q367 55 450 108Q492 195 450 294Q365 315 300 235Z"/>
+  <path class="mobility-sortie sortie-gold" d="M178 266C109 291 57 223 77 172C95 124 167 117 222 155"/>
+  <path class="mobility-sortie sortie-slate" d="M222 155C163 163 117 115 139 68C164 22 229 33 283 77"/>
+  <path class="mobility-sortie sortie-gold" d="M450 108C524 97 558 150 536 204C524 241 479 268 450 294"/>
+  <path class="alternative" d="M222 155Q286 177 300 235M283 77Q363 156 450 294"/>
+  <path class="truck-direction" d="m238 272-13 1 7-11m-49-56 6-11 4 12m39-100 12-7-2 13m105-54 13 3-11 7m101 128-2 13-8-10m-78 114-13-4 11-6"/>
+  <path class="sortie-direction gold-direction" d="m98 260-11-6 12-4m57-125 13 2-11 8m379 36-2 13-8-10m-41 78-12 7 4-13"/>
+  <path class="sortie-direction slate-direction" d="m165 144-12-7 12-3m49-99 13 3-11 7"/>
+  {[[178,266],[222,155],[283,77],[450,108],[450,294]].map(([x,y])=><g><circle class="mobility-halo" cx={x} cy={y} r="17"/><circle class="mobility-customer" cx={x} cy={y} r="10"/></g>)}
+  <circle class="mobility-customer drone-customer-gold" cx="77" cy="172" r="11"/>
+  <circle class="mobility-customer drone-customer-slate" cx="139" cy="68" r="11"/>
+  <circle class="mobility-customer drone-customer-gold" cx="536" cy="204" r="11"/>
+  <rect class="depot-halo" x="280" y="215" width="40" height="40" rx="5"/>
+  <rect class="mobility-depot" x="288" y="223" width="24" height="24" rx="1"/>
+ </>}
+ {area==='service-healthcare'&&<>
+  <path class="loop" d="M141 142C182 70 232 70 283 92M413 111C512 131 531 184 491 241M420 296C334 341 262 332 220 290M111 260C60 216 58 180 102 140"/>
+  <path class="selected" d="M413 111C502 130 524 174 501 220"/>
+  <path class="direction" d="m494 207 7 14 10-11"/>
+  <path class="aerial-direction" d="m84 180 4-15 11 9"/>
+  <g class="observations">
+   <path class="axis" d="M74 71v74h108"/>
+   <path class="flow" d="M83 127Q99 130 105 106T135 111T176 86"/>
+   {[[83,127],[94,132],[105,106],[120,99],[135,111],[150,116],[164,99],[176,86]].map(([x,y])=><circle class="sample" cx={x} cy={y} r="3.5"/>)}
+  </g>
+  <g class="forecast">
+   <path class="axis" d="M239 54v100h192"/>
+   <path class="confidence" d="M296 103Q323 66 343 83T387 64L420 43V129Q401 148 375 126T337 124T296 116Z"/>
+   <path class="flow" d="M245 128Q266 113 278 120T296 108"/>
+   <path class="selected" d="M296 108Q324 88 343 103T385 93T420 87"/>
+   <path class="alternative" d="M296 60v84"/>
+  </g>
+  <g class="allocation">
+   <rect class="schedule-region" x="346" y="219" width="191" height="104" rx="6"/>
+   <path class="axis" d="M359 246h166M359 278h166M359 308h166"/>
+   <rect class="resource" x="363" y="235" width="47" height="15" rx="2"/><rect class="resource-muted" x="457" y="235" width="58" height="15" rx="2"/>
+   <rect class="resource-muted" x="384" y="267" width="40" height="15" rx="2"/><rect class="resource" x="463" y="298" width="55" height="15" rx="2"/>
+   <path class="constraint" d="M442 228v83"/>
+  </g>
+  <g class="performance">
+   <path class="axis" d="M85 225v87h147"/>
+   <path class="alternative" d="M93 294Q127 269 161 271T229 251"/>
+   <path class="selected" d="M93 294C112 280 127 282 146 259S195 251 228 231"/>
+   <circle class="node" cx="228" cy="231" r="5"/>
+  </g>
+ </>}
+ </g>
+</svg>
+)}
+<style>
+.research-scene { display:block; width:100%; height:auto; aspect-ratio:3/2; }
+.paper { fill:#f8f6ef; stroke:none; }
+.system { fill:none; stroke:#4b5355; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.region { fill:#e9e9e130; stroke:#d9d9d0; stroke-width:1.2; }
+.flow { stroke:#747f82; stroke-width:2.4; }.broad { stroke-width:4.5; }
+.selected { stroke:#ad8434; stroke-width:3.8; }.selected.broad { stroke-width:5; }
+.alternative { stroke:#a8afb0; stroke-width:1.6; stroke-dasharray:5 7; }
+.disrupted { stroke:#858a89; stroke-width:2; stroke-dasharray:3 5; }.break { stroke:#5a6263; stroke-width:2; }
+.node { fill:#fdfbf5; stroke:#535f63; stroke-width:2; }.halo { fill:#f4ead6; stroke:#d2b67d; stroke-width:1; }
+.direction { stroke:#ad8434; stroke-width:2.5; }.aerial-direction { stroke:#667e8a; stroke-width:2.5; }
+.spatial { stroke:#d6d9d4; stroke-width:1.1; }.restricted { fill:#bfc8cd30; stroke:#9ba9b1; stroke-width:1.2; stroke-dasharray:4 5; }.hatch { stroke:#c3c9c9; stroke-width:1; }
+.aerial { stroke:#657d8a; stroke-width:3; stroke-dasharray:7 6; }.solid { stroke-dasharray:none; }
+.infrastructure { stroke:#b28a3b; stroke-width:2; fill:none; }.tick { stroke:#b28a3b; stroke-width:2.5; }
+.zone { fill:#d2d8d837; stroke:#bec7c7; stroke-width:1.3; }.zone-detail { stroke:#d1d5d2; stroke-width:1; }
+.assignment { stroke:#c2bcaa; stroke-width:1.2; stroke-dasharray:2 6; }
+.task { fill:#fffaf0; stroke:#77858b; stroke-width:1.6; }
+.event-ring { fill:none; stroke:#dbca9f; stroke-width:1.2; }.event-arc { stroke:#ad8434; stroke-width:3; }
+.human { fill:#fff9ec; stroke:#ad8434; stroke-width:2.8; }.human-core { fill:#ad8434; stroke:none; }
+.amr { fill:#e9eef0; stroke:#657d8a; stroke-width:2.8; }.amr-core { fill:#657d8a; stroke:none; }
+.loop { stroke:#a3afb1; stroke-width:2; }.axis { stroke:#c8cecb; stroke-width:1.2; }
+.sample { fill:#637680; stroke:#f8f6ef; stroke-width:1; }
+.confidence { fill:#d2b06c40; stroke:none; }
+.schedule-region { fill:#fffdf64d; stroke:#d9d1bf; stroke-width:1; }
+.resource { fill:#c4a361; stroke:#ab873b; stroke-width:1; }.resource-muted { fill:#a8b7bf80; stroke:#81949e; stroke-width:1; }
+.constraint { stroke:#8c9697; stroke-width:1.3; stroke-dasharray:3 4; }
+.pick-floor { fill:#eeede6; stroke:none; }
+.pick-guide { stroke:#d8dad4; stroke-width:1; }
+.pick-drop { fill:#e5e9e7; stroke:#94a3a7; stroke-width:1.5; }
+.pick-drop-detail { stroke:#aab5b5; stroke-width:1; }
+.pick-transport { stroke:#667e8a; stroke-width:3.5; }
+.pick-rack-back { fill:#e9ece8; stroke:#c1c9c7; stroke-width:1; }
+.pick-rack { stroke:#687478; stroke-width:3; }
+.pick-stock { fill:#ded9ca; stroke:#a49f90; stroke-width:1.3; }
+.pick-stock-detail { stroke:#aaa08a; stroke-width:2; }
+.pick-slot { stroke:#bca66e; stroke-width:1.5; stroke-dasharray:3 4; }
+.pick-transfer { stroke:#ad8434; stroke-width:2; stroke-dasharray:5 6; }
+.pick-task { fill:#faf4e4; stroke:#ad8434; stroke-width:2; }
+.picker-trouser,.picker-shoe { fill:#414c50; stroke:#414c50; stroke-width:1.3; }
+.picker-neck,.picker-head,.picker-hand { fill:#d9c8af; stroke:#aa9984; stroke-width:1; }
+.picker-hair { fill:#394448; stroke:none; }
+.picker-shirt,.picker-arm,.picker-arm-back { fill:#7d8e96; stroke:#52656e; stroke-width:1.3; }
+.picker-shirt-seam { stroke:#5e727c; stroke-width:1.2; }
+.pick-grounding { fill:#d9dcd5; stroke:none; }
+.robot-wheel { fill:#394448; stroke:none; }
+.robot-chassis { fill:#d8dedd; stroke:#526168; stroke-width:1.8; }
+.robot-front { fill:#e9ece6; stroke:#526168; stroke-width:1.5; }
+.robot-deck { fill:#7e8c90; stroke:#526168; stroke-width:1.8; }
+.robot-band { stroke:#b4944c; stroke-width:3; }
+.robot-sensor { fill:#394448; stroke:none; }
+.pick-parcel { fill:#d7b86f; stroke:#a38440; stroke-width:1.4; }
+.pick-parcel-edge { stroke:#a38440; stroke-width:1.2; }
+.pick-contact { stroke:#c5ae72; stroke-width:1.5; }
+.mobility-truck { stroke:#414c50; stroke-width:3.5; }
+.mobility-sortie { stroke-width:3; stroke-dasharray:8 6; }
+.sortie-gold { stroke:#ad8434; }.sortie-slate { stroke:#657d8a; }
+.truck-direction { stroke:#414c50; stroke-width:2.4; }
+.sortie-direction { stroke-width:2.2; }.gold-direction { stroke:#ad8434; }.slate-direction { stroke:#657d8a; }
+.mobility-halo { fill:#f2e8d3; stroke:#d6c29a; stroke-width:1; }
+.mobility-customer { fill:#fffdf6; stroke:#414c50; stroke-width:2; }
+.drone-customer-gold { stroke:#ad8434; }.drone-customer-slate { stroke:#657d8a; }
+.depot-halo { fill:#ece9df; stroke:#d1cdc1; stroke-width:1; }
+.mobility-depot { fill:#414c50; stroke:#414c50; }
+</style>

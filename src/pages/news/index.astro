@@ -1,0 +1,93 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import NewsItem from "../../components/NewsItem.astro";
+import { news } from "../../data/content";
+const years = [...new Set(news.map(item => item.year))].sort((a, b) => Number(b) - Number(a));
+const categories = [
+  ["all", "All"], ["awards", "Awards"], ["grants", "Grants"],
+  ["publications", "Publications"], ["leadership", "Leadership & Appointments"], ["students", "Students"],
+];
+---
+
+<BaseLayout title="News" description="Research, grant, publication, award, appointment, and student milestones from the existing archive.">
+  <header class="container news-heading">
+    <h1>News &amp; Updates</h1>
+    <div class="news-filters" hidden>
+      <div class="category-filters" role="group" aria-label="Filter news by category">
+        {categories.map(([value, label]) => <button type="button" data-filter={value} aria-pressed={value === "all" ? "true" : "false"} aria-controls="news-results">{label}</button>)}
+      </div>
+      <label class="year-filter" for="news-year">Year
+        <select id="news-year" aria-controls="news-results">
+          <option value="all">All years</option>
+          {years.map(year => <option value={year}>{year}</option>)}
+        </select>
+      </label>
+    </div>
+    <p class="filter-status" role="status" aria-live="polite" aria-atomic="true"></p>
+  </header>
+  <section class="section news-archive">
+    <div class="container"><div class="news-list" id="news-results">{news.map((item) => <NewsItem item={item} linkPublicationTitle showRecognitionImage={item.date==='November 2024'&&item.title==='Received the Outstanding ISE Faculty Award for research, teaching, and service.'}/>)}</div><p id="news-empty" hidden>No news matches these filters. Try another category or year.</p></div>
+  </section>
+</BaseLayout>
+<style>
+  .news-heading { padding-top:clamp(2.5rem,5vw,4rem); }
+  .news-heading h1 { font-size:clamp(2.25rem,4vw,3.5rem); margin:0; }
+  .news-archive { padding-top:2rem; }
+  .news-filters { display:flex; align-items:center; flex-wrap:wrap; gap:1rem 1.5rem; margin-top:1.75rem; }
+  .news-filters[hidden], #news-empty[hidden] { display:none; }
+  .category-filters { display:flex; gap:.4rem; overflow-x:auto; max-width:100%; padding:4px; }
+  .category-filters button, .year-filter select { font:inherit; font-size:.875rem; color:var(--ink-950); background:var(--paper); border:1px solid var(--line); padding:.5rem .75rem; border-radius:3px; }
+  .category-filters button { white-space:nowrap; cursor:pointer; }
+  .category-filters button:hover { background:var(--paper-warm); }
+  .category-filters button[aria-pressed="true"] { background:var(--gold-100); border-color:var(--gold-600); }
+  .year-filter { display:flex; align-items:center; gap:.6rem; font-size:.875rem; }
+  .filter-status { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+  .news-archive :global(.news-item[hidden]) { display:none; }
+  @media print { .news-filters, .filter-status { display:none; } }
+</style>
+<script>
+  const controls = document.querySelector<HTMLElement>(".news-filters");
+  const yearSelect = document.querySelector<HTMLSelectElement>("#news-year");
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>(".category-filters button")];
+  const entries = [...document.querySelectorAll<HTMLElement>("#news-results .news-item")];
+  const categoryTypes: Record<string, string[]> = {
+    all: [], awards: ["award"], grants: ["grant"], publications: ["publication"],
+    leadership: ["leadership", "appointment"], students: ["student"],
+  };
+  let category = "all";
+  if (controls && yearSelect) {
+    const apply = () => {
+      let count = 0;
+      for (const entry of entries) {
+        const matches = (category === "all" || categoryTypes[category].includes(entry.dataset.newsCategory ?? ""))
+          && (yearSelect.value === "all" || entry.dataset.newsYear === yearSelect.value);
+        // Dates and year labels are inside each entry, so hidden entries leave no orphan headings.
+        entry.hidden = !matches;
+        if (matches) count++;
+      }
+      for (const button of buttons) button.setAttribute("aria-pressed", String(button.dataset.filter === category));
+      document.querySelector<HTMLElement>("#news-empty")!.hidden = count !== 0;
+      document.querySelector<HTMLElement>(".filter-status")!.textContent = `${count} news ${count === 1 ? "entry" : "entries"} shown.`;
+    };
+    const readUrl = () => {
+      const params = new URLSearchParams(location.search);
+      const requested = params.get("category") ?? "all";
+      category = Object.hasOwn(categoryTypes, requested) ? requested : "all";
+      const year = params.get("year") ?? "all";
+      yearSelect.value = [...yearSelect.options].some(option => option.value === year) ? year : "all";
+      apply();
+    };
+    const updateUrl = () => {
+      const url = new URL(location.href);
+      category === "all" ? url.searchParams.delete("category") : url.searchParams.set("category", category);
+      yearSelect.value === "all" ? url.searchParams.delete("year") : url.searchParams.set("year", yearSelect.value);
+      history.replaceState(null, "", url);
+      apply();
+    };
+    for (const button of buttons) button.addEventListener("click", () => { category = button.dataset.filter!; updateUrl(); });
+    yearSelect.addEventListener("change", updateUrl);
+    window.addEventListener("popstate", readUrl);
+    readUrl();
+    controls.hidden = false;
+  }
+</script>

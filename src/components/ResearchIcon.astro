@@ -1,0 +1,15 @@
+---
+interface Props {kind:string}
+const {kind}=Astro.props;
+const paths:Record<string,string>={
+ optimization:'M7 8L16 5L25 12L20 25L7 23L7 8M7 8L20 25M16 5L7 23M7 23L25 12',
+ algorithms:'M6 12A11 11 0 0 1 26 10M26 5V10H21M26 20A11 11 0 0 1 6 22M6 27V22H11M11 17L16 12L21 17M16 12V23',
+ ai:'M6 7L15 5L21 11M6 7L8 18L16 15M15 5L16 15M8 18L6 26M22 22L28 28',
+ simulation:'M4 5H28V24H4ZM10 28H22M16 24V28M4 10H28M8 19H12V14H17V20H23V15',
+ autonomy:'M8 8L24 8L24 24L8 24ZM8 8L16 16L24 8M8 24L16 16L24 24',
+ emerging:'M8 6H24V26H8ZM8 6L24 26M24 6L8 26M8 16H24M16 6V26',
+ translation:'M5 6H17V26H5ZM9 11H13M9 16H13M9 21H13M17 16H28M23 11L28 16L23 21',
+};
+const nodes:Record<string,number[][]>={optimization:[[7,8],[16,5],[25,12],[20,25],[7,23]],ai:[[6,7],[15,5],[8,18],[6,26]],autonomy:[[8,8],[24,8],[16,16],[8,24],[24,24]],emerging:[[8,6],[24,6],[8,26],[24,26],[16,16]]};
+---
+<svg class="research-outline-icon" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d={paths[kind]}/>{nodes[kind]?.map(([cx,cy])=><circle cx={cx} cy={cy} r="2.5" fill="var(--paper)"/>)}{kind==='ai'&&<circle cx="20" cy="19" r="6"/>}</svg>

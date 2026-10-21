@@ -1,0 +1,19 @@
+---
+interface Props {
+  eyebrow: string;
+  title: string;
+  description?: string;
+  align?: "split" | "stack";
+}
+
+const { eyebrow, title, description, align = "split" } = Astro.props;
+---
+
+<header class:list={["section-header", `section-header--${align}`]}>
+  <p class="eyebrow"><span></span>{eyebrow}</p>
+  <div>
+    <h2>{title}</h2>
+    {description && <p class="lead">{description}</p>}
+    <slot />
+  </div>
+</header>

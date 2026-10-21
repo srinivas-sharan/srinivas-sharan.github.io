@@ -1,0 +1,9 @@
+---
+import {sponsors} from '../data/research';
+---
+<section class="section research-neutral" aria-labelledby="sponsor-title"><div class="container">
+  <div class="research-section-heading"><div><h2 id="sponsor-title">Selected Research Sponsors</h2><p>Federal, state, and industry sponsors supporting research, student training, and applied research projects.</p></div><button type="button" class="sponsor-pause" aria-pressed="false" hidden>Pause logos</button></div>
+  <div class="sponsor-viewport" tabindex="0" role="region" aria-label="Research sponsor logos — scroll horizontally to explore" data-sponsor-viewport>
+    <div class="sponsor-track"><div class="sponsor-set" data-sponsor-set>{sponsors.map(s=><span class="sponsor-logo" tabindex="0" title={s.name}><img src={`/images/sponsors/${s.id}.png`} alt={s.name} style={`height:${Math.round(s.height*1.25)}px`} loading="eager" draggable="false" /></span>)}</div></div>
+  </div>
+</div></section>
